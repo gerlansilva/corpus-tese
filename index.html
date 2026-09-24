@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Corpus público de produção acadêmica em Educação Estatística, com acervos de Celi Espasandin Lopes e Carmen Batanero.">
+  <meta name="theme-color" content="#173f3a">
+  <title>Corpus de Educação Estatística</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#celi" aria-label="Corpus de Educação Estatística — início">
+      <span class="brand-mark" aria-hidden="true">CE</span>
+      <span><strong>Corpus de Educação Estatística</strong><small>Acervo público de pesquisa</small></span>
+    </a>
+    <nav class="header-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a class="button button-light" href="https://drive.google.com/drive/u/1/folders/1Uoo__hF1pQZLnjTbGXhtgmLQYPRkWO_Z" target="_blank" rel="noopener">Abrir acervo ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">CORPUS DE ANÁLISE · TESE</p>
+        <h1>Produções que ajudam a contar a história da <em>Educação Estatística</em></h1>
+        <p class="hero-lede">Um acervo bibliográfico aberto, navegável e documentado para apoiar análises acadêmicas e permitir o acesso público às fontes.</p>
+      </div>
+      <div class="hero-note" aria-label="Escopo atual do corpus">
+        <span class="pulse"></span>
+        <div><small>Escopo atual</small><strong id="hero-scope">54 documentos · 2008–2026</strong></div>
+      </div>
+    </section>
+
+    <section class="researcher-switcher" aria-labelledby="researcher-heading">
+      <div class="section-intro compact">
+        <p class="eyebrow">PESQUISADORAS</p>
+        <h2 id="researcher-heading">Explore o corpus por autora</h2>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Pesquisadoras">
+        <button class="tab active" id="tab-celi" role="tab" aria-selected="true" aria-controls="panel-celi" data-tab="celi">
+          <span class="avatar avatar-celi">CL</span><span><strong>Celi Espasandin Lopes</strong><small>54 registros disponíveis</small></span><span class="tab-arrow">→</span>
+        </button>
+        <button class="tab" id="tab-batanero" role="tab" aria-selected="false" aria-controls="panel-batanero" data-tab="batanero">
+          <span class="avatar avatar-batanero">CB</span><span><strong>Carmen Batanero</strong><small>Acervo em preparação</small></span><span class="tab-arrow">→</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="panel-celi" class="tab-panel" role="tabpanel" aria-labelledby="tab-celi">
+      <div class="profile-band">
+        <div>
+          <p class="eyebrow inverse">CORPUS DISPONÍVEL</p>
+          <h2>Celi Espasandin Lopes</h2>
+          <p>Produção acadêmica indexada em Educação Estatística, com metadados bibliográficos e acesso aos documentos reunidos no Google Drive.</p>
+        </div>
+        <a class="button button-cream" href="https://drive.google.com/drive/folders/1NnnJaJWZ50ekHwBLvjfpeUwnaRTneLCU" target="_blank" rel="noopener">Ver pasta da Celi ↗</a>
+      </div>
+
+      <div class="stats-grid" id="stats" aria-label="Indicadores do corpus"></div>
+
+      <section class="analysis-grid" aria-label="Visão geral do corpus">
+        <article class="panel timeline-panel">
+          <div class="panel-heading"><div><p class="eyebrow">DISTRIBUIÇÃO TEMPORAL</p><h3>Publicações por ano</h3></div><span class="legend-dot">documentos</span></div>
+          <div id="timeline" class="timeline" role="img" aria-label="Gráfico de publicações por ano"></div>
+        </article>
+        <article class="panel keywords-panel">
+          <div class="panel-heading"><div><p class="eyebrow">RECORRÊNCIAS</p><h3>Palavras-chave frequentes</h3></div></div>
+          <div id="top-keywords" class="keyword-cloud"></div>
+          <p class="hint">Selecione um termo para aplicá-lo à busca.</p>
+        </article>
+      </section>
+
+      <section class="metadata-section" aria-labelledby="metadata-heading">
+        <div class="section-intro split">
+          <div><p class="eyebrow">TRANSPARÊNCIA DOS DADOS</p><h2 id="metadata-heading">Metadados presentes</h2><p>O painel mostra quantos registros possuem valor em cada campo. Campos vazios permanecem documentados no conjunto original.</p></div>
+          <div class="metadata-summary"><strong id="present-fields">35</strong><span>de 54 campos<br>com algum valor</span></div>
+        </div>
+        <div class="metadata-controls">
+          <button class="chip active" data-meta-filter="present">Com dados</button>
+          <button class="chip" data-meta-filter="all">Todos os campos</button>
+          <button class="chip" data-meta-filter="empty">Sem dados</button>
+        </div>
+        <div id="metadata-grid" class="metadata-grid"></div>
+      </section>
+
+      <section class="collection-section" aria-labelledby="collection-heading">
+        <div class="section-intro split">
+          <div><p class="eyebrow">COLEÇÃO</p><h2 id="collection-heading">Consulte os documentos</h2><p>A busca percorre títulos, autores, resumos, palavras-chave, afiliações, países e referências.</p></div>
+          <button id="download-csv" class="button button-outline" type="button">Baixar resultados (.csv)</button>
+        </div>
+        <div class="search-panel">
+          <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar no corpus</span><input id="search" type="search" placeholder="Busque por tema, autora, IES, país ou referência…" autocomplete="off"></label>
+          <div class="filters">
+            <label>Ano<select id="year-filter"><option value="">Todos</option></select></label>
+            <label>Idioma<select id="language-filter"><option value="">Todos</option></select></label>
+            <label>Ordenar<select id="sort-filter"><option value="year-desc">Mais recentes</option><option value="year-asc">Mais antigos</option><option value="citations-desc">Mais citados</option><option value="title">Título A–Z</option></select></label>
+          </div>
+        </div>
+        <div class="results-bar"><strong id="result-count">54 documentos</strong><button id="clear-filters" class="text-button" type="button">Limpar filtros</button></div>
+        <div id="record-list" class="record-list" aria-live="polite"></div>
+        <nav id="pagination" class="pagination" aria-label="Paginação dos documentos"></nav>
+      </section>
+    </section>
+
+    <section id="panel-batanero" class="tab-panel" role="tabpanel" aria-labelledby="tab-batanero" hidden>
+      <div class="empty-state">
+        <span class="avatar avatar-batanero large">CB</span>
+        <p class="eyebrow">ESTRUTURA PREPARADA</p>
+        <h2>Carmen Batanero</h2>
+        <p>Esta aba já está pronta para receber os registros, metadados e documentos da pesquisadora. Nenhum dado foi publicado aqui ainda.</p>
+        <div class="empty-facts"><span><strong>0</strong> registros</span><span><strong>—</strong> período</span><span><strong>—</strong> metadados</span></div>
+        <a class="button button-dark" href="https://drive.google.com/drive/folders/1iszV8NUTX3wjd9xIirN2YOZyZv9MmNp3" target="_blank" rel="noopener">Abrir pasta da Batanero ↗</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+      <div><p class="eyebrow inverse">SOBRE O PROJETO</p><h2>Um corpus aberto, verificável e reutilizável</h2></div>
+      <div class="about-copy">
+        <p>O site organiza o material de pesquisa da tese em uma interface pública. Cada registro preserva os metadados da base fornecida e, quando disponível, oferece acesso ao texto armazenado no acervo.</p>
+        <dl><div><dt>Fonte bibliográfica</dt><dd>Arquivo consolidado com registros originários do OpenAlex</dd></div><div><dt>Documentos</dt><dd>Google Drive · 54 arquivos na coleção Celi</dd></div><div><dt>Atualização</dt><dd>24 de setembro de 2026</dd></div></dl>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="brand footer-brand"><span class="brand-mark">CE</span><span><strong>Corpus de Educação Estatística</strong><small>Projeto de pesquisa acadêmica</small></span></div><p>Dados para consulta e análise científica.</p></footer>
+
+  <template id="record-template">
+    <article class="record-card">
+      <div class="record-year"></div>
+      <div class="record-body">
+        <div class="record-topline"><span class="record-source"></span><span class="record-citations"></span></div>
+        <h3 class="record-title"></h3>
+        <p class="record-authors"></p>
+        <div class="record-tags"></div>
+        <div class="record-actions"><button class="details-toggle text-button" type="button" aria-expanded="false">Ver resumo e metadados</button><div class="record-links"></div></div>
+        <div class="record-details" hidden></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="data/celi.js"></script>
+  <script src="data/batanero.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
