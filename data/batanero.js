@@ -1,0 +1,1 @@
+window.CORPUS_BATANERO = {"meta":{"title":"Corpus Carmen Batanero","researcher":"Carmen Batanero","records":0,"driveFolder":"https://drive.google.com/drive/folders/1iszV8NUTX3wjd9xIirN2YOZyZv9MmNp3","updated":"2026-09-24","fields":[]},"records":[]};
