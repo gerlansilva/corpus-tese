@@ -1,22 +1,33 @@
 (() => {
   "use strict";
-  const records = window.CORPUS_CELI.records || [];
-  const state = { query: "", year: "", language: "", sort: "year-desc", page: 1, perPage: 10 };
+
+  const datasets = {
+    celi: window.CORPUS_CELI || { meta: {}, records: [] },
+    batanero: window.CORPUS_BATANERO || { meta: {}, records: [] }
+  };
+  const states = Object.fromEntries(Object.keys(datasets).map(name => [name, {
+    query: "", year: "", language: "", sort: "year-desc", page: 1, perPage: 10
+  }]));
   const $ = (selector, root = document) => root.querySelector(selector);
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
-  const esc = (value = "") => String(value).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
-  const normalize = (value = "") => String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const esc = (value = "") => String(value).replace(/[&<>'"]/g, char => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
+  })[char]);
+  const normalize = (value = "") => String(value).normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "").toLowerCase();
   const plural = (n, singular, pluralForm) => `${n.toLocaleString("pt-BR")} ${n === 1 ? singular : pluralForm}`;
 
   function setupTabs() {
-    const tabs = $$("[data-tab]");
+    const tabs = $$('[data-tab]');
     const activate = (name, changeHash = true) => {
       tabs.forEach(tab => {
         const selected = tab.dataset.tab === name;
         tab.classList.toggle("active", selected);
-        tab.setAttribute("aria-selected", selected);
+        tab.setAttribute("aria-selected", String(selected));
         $(`#panel-${tab.dataset.tab}`).hidden = !selected;
       });
+      const driveLink = $("#header-drive-link");
+      if (driveLink && datasets[name]?.meta?.driveFolder) driveLink.href = datasets[name].meta.driveFolder;
       if (changeHash) history.replaceState(null, "", `#${name}`);
     };
     tabs.forEach(tab => {
@@ -30,31 +41,64 @@
         activate(next.dataset.tab);
       });
     });
-    if (["#celi", "#batanero"].includes(location.hash)) activate(location.hash.slice(1), false);
+    const initial = ["#celi", "#batanero"].includes(location.hash) ? location.hash.slice(1) : "celi";
+    activate(initial, false);
   }
 
-  function setupFilters() {
-    const years = [...new Set(records.map(r => r.year))].sort((a, b) => b - a);
-    const languages = [...new Set(records.map(r => r.language).filter(Boolean))].sort();
-    $("#year-filter").insertAdjacentHTML("beforeend", years.map(y => `<option>${y}</option>`).join(""));
-    $("#language-filter").insertAdjacentHTML("beforeend", languages.map(language => `<option value="${esc(language)}">${language === "Portuguese" ? "Português" : language === "English" ? "Inglês" : esc(language)}</option>`).join(""));
+  function elements(name) {
+    const root = $(`[data-collection="${name}"]`);
+    return {
+      root,
+      search: $('[data-role="search"]', root),
+      year: $('[data-role="year"]', root),
+      language: $('[data-role="language"]', root),
+      languageWrap: $('[data-role="language-wrap"]', root),
+      sort: $('[data-role="sort"]', root),
+      clear: $('[data-role="clear"]', root),
+      download: $('[data-role="download"]', root),
+      count: $('[data-role="result-count"]', root),
+      list: $('[data-role="record-list"]', root),
+      pagination: $('[data-role="pagination"]', root)
+    };
+  }
+
+  function setupCollection(name) {
+    const data = datasets[name];
+    const ui = elements(name);
+    const state = states[name];
+    const years = [...new Set(data.records.map(record => record.year).filter(Boolean))].sort((a, b) => b - a);
+    const languages = [...new Set(data.records.map(record => record.language).filter(Boolean))].sort();
+    ui.year.insertAdjacentHTML("beforeend", years.map(year => `<option>${year}</option>`).join(""));
+    ui.language.insertAdjacentHTML("beforeend", languages.map(language =>
+      `<option value="${esc(language)}">${language === "Portuguese" ? "Português" : language === "English" ? "Inglês" : esc(language)}</option>`
+    ).join(""));
+    if (!languages.length) {
+      ui.languageWrap.hidden = true;
+      $(".filters", ui.root).classList.add("filters-two");
+    }
+
     let timer;
-    $("#search").addEventListener("input", event => {
+    ui.search.addEventListener("input", event => {
       clearTimeout(timer);
-      timer = setTimeout(() => { state.query = event.target.value.trim(); state.page = 1; render(); }, 120);
+      timer = setTimeout(() => {
+        state.query = event.target.value.trim();
+        state.page = 1;
+        render(name);
+      }, 120);
     });
-    $("#year-filter").addEventListener("change", event => { state.year = event.target.value; state.page = 1; render(); });
-    $("#language-filter").addEventListener("change", event => { state.language = event.target.value; state.page = 1; render(); });
-    $("#sort-filter").addEventListener("change", event => { state.sort = event.target.value; state.page = 1; render(); });
-    $("#clear-filters").addEventListener("click", () => {
+    ui.year.addEventListener("change", event => { state.year = event.target.value; state.page = 1; render(name); });
+    ui.language.addEventListener("change", event => { state.language = event.target.value; state.page = 1; render(name); });
+    ui.sort.addEventListener("change", event => { state.sort = event.target.value; state.page = 1; render(name); });
+    ui.clear.addEventListener("click", () => {
       Object.assign(state, { query: "", year: "", language: "", sort: "year-desc", page: 1 });
-      $("#search").value = "";
-      $("#year-filter").value = "";
-      $("#language-filter").value = "";
-      $("#sort-filter").value = "year-desc";
-      render();
+      ui.search.value = "";
+      ui.year.value = "";
+      ui.language.value = "";
+      ui.sort.value = "year-desc";
+      render(name);
     });
-    $("#download-csv").addEventListener("click", downloadCSV);
+    ui.download.addEventListener("click", () => downloadCSV(name));
+    render(name);
   }
 
   function searchable(record) {
@@ -67,17 +111,19 @@
     ].join(" "));
   }
 
-  function filtered() {
+  function filtered(name) {
+    const state = states[name];
     const needle = normalize(state.query);
-    const result = records.filter(record =>
+    const result = datasets[name].records.filter(record =>
       (!needle || searchable(record).includes(needle)) &&
       (!state.year || String(record.year) === state.year) &&
       (!state.language || record.language === state.language)
     );
+    const citationValue = record => Number.isFinite(record.citations) ? record.citations : -1;
     const sorts = {
       "year-desc": (a, b) => b.year - a.year || a.title.localeCompare(b.title),
       "year-asc": (a, b) => a.year - b.year || a.title.localeCompare(b.title),
-      "citations-desc": (a, b) => b.citations - a.citations || b.year - a.year,
+      "citations-desc": (a, b) => citationValue(b) - citationValue(a) || b.year - a.year,
       "title": (a, b) => a.title.localeCompare(b.title)
     };
     return result.sort(sorts[state.sort]);
@@ -86,31 +132,43 @@
   function detailHTML(record) {
     const translated = record.titlePortuguese && normalize(record.titlePortuguese) !== normalize(record.title)
       ? `<h4>Título em português</h4><p>${esc(record.titlePortuguese)}</p>` : "";
-    const references = record.references.length
+    const metadata = [
+      ["Afiliação / IES", (record.affiliations || []).join("; ")],
+      ["País(es)", (record.countries || []).join("; ") || record.countryFirstAuthor],
+      ["Idioma", record.language],
+      ["Tipo", record.documentType],
+      ["DOI", record.doi],
+      ["Acesso", record.openAccess]
+    ].filter(([, value]) => value);
+    const metadataHTML = metadata.length
+      ? `<h4>Metadados</h4><div class="details-grid">${metadata.map(([label, value]) =>
+          `<p><span class="detail-label">${esc(label)}</span>${esc(value)}</p>`
+        ).join("")}</div>` : "";
+    const references = (record.references || []).length
       ? `<h4>Referências (${record.references.length})</h4><ol class="references-list">${record.references.map(ref => `<li>${esc(ref)}</li>`).join("")}</ol>` : "";
-    return `${translated}<h4>Resumo</h4><p>${esc(record.abstract || "Não informado.")}</p>
-      <h4>Metadados</h4><div class="details-grid">
-        <p><span class="detail-label">Afiliação / IES</span>${esc(record.affiliations.join("; ") || "Não informada")}</p>
-        <p><span class="detail-label">País(es)</span>${esc(record.countries.join("; ") || record.countryFirstAuthor || "Não informado")}</p>
-        <p><span class="detail-label">Idioma</span>${esc(record.language || "Não informado")}</p>
-        <p><span class="detail-label">Tipo</span>${esc(record.documentType || "Não informado")}</p>
-        <p><span class="detail-label">DOI</span>${esc(record.doi || "Não informado")}</p>
-        <p><span class="detail-label">Acesso</span>${esc(record.openAccess || "Não informado")}</p>
-      </div>${record.dataQualityNote ? `<h4>Nota de qualidade</h4><p>${esc(record.dataQualityNote)}</p>` : ""}${references}`;
+    return `${translated}<h4>Resumo</h4><p>${esc(record.abstract || "Não informado.")}</p>${metadataHTML}` +
+      `${record.dataQualityNote ? `<h4>Nota de qualidade</h4><p>${esc(record.dataQualityNote)}</p>` : ""}${references}`;
   }
 
   function recordNode(record) {
     const node = $("#record-template").content.cloneNode(true);
     $(".record-year", node).textContent = record.year;
     $(".record-source", node).textContent = record.sourceTitle;
-    $(".record-citations", node).textContent = plural(record.citations, "citação", "citações");
+    $(".record-citations", node).textContent = Number.isFinite(record.citations)
+      ? plural(record.citations, "citação", "citações") : "Citações não informadas";
     $(".record-title", node).textContent = record.title;
-    $(".record-authors", node).textContent = record.authorFullNames.join("; ") || record.authors.join("; ");
-    $(".record-tags", node).innerHTML = (record.authorKeywords || []).slice(0, 3).map(tag => `<span class="tag">${esc(tag)}</span>`).join("");
+    $(".record-authors", node).textContent = (record.authorFullNames || []).join("; ") || (record.authors || []).join("; ");
+    $(".record-tags", node).innerHTML = (record.authorKeywords || []).slice(0, 3)
+      .map(tag => `<span class="tag">${esc(tag)}</span>`).join("");
     const links = $(".record-links", node);
-    if (record.doi) links.insertAdjacentHTML("beforeend", `<a href="https://doi.org/${esc(record.doi)}" target="_blank" rel="noopener">DOI ↗</a>`);
-    if (record.link) links.insertAdjacentHTML("beforeend", `<a href="${esc(record.link)}" target="_blank" rel="noopener">Fonte ↗</a>`);
-    if (record.drive?.url) links.insertAdjacentHTML("beforeend", `<a href="${esc(record.drive.url)}" target="_blank" rel="noopener">PDF ↗</a>`);
+    const doiUrl = record.doi ? `https://doi.org/${record.doi}` : "";
+    if (doiUrl) links.insertAdjacentHTML("beforeend", `<a href="${esc(doiUrl)}" target="_blank" rel="noopener">DOI ↗</a>`);
+    if (record.link && normalize(record.link) !== normalize(doiUrl)) {
+      links.insertAdjacentHTML("beforeend", `<a href="${esc(record.link)}" target="_blank" rel="noopener">Fonte ↗</a>`);
+    }
+    if (record.drive?.url) {
+      links.insertAdjacentHTML("beforeend", `<a href="${esc(record.drive.url)}" target="_blank" rel="noopener">${esc(record.drive.label || "PDF")} ↗</a>`);
+    }
     const toggle = $(".details-toggle", node);
     const details = $(".record-details", node);
     toggle.addEventListener("click", () => {
@@ -126,46 +184,57 @@
     return node;
   }
 
-  function render() {
-    const results = filtered();
+  function render(name) {
+    const state = states[name];
+    const ui = elements(name);
+    const results = filtered(name);
     const pages = Math.max(1, Math.ceil(results.length / state.perPage));
     if (state.page > pages) state.page = pages;
     const visible = results.slice((state.page - 1) * state.perPage, state.page * state.perPage);
-    $("#result-count").textContent = plural(results.length, "documento", "documentos");
-    const list = $("#record-list");
-    list.innerHTML = "";
-    if (!visible.length) list.innerHTML = '<div class="empty-message">Nenhum documento encontrado.</div>';
-    else visible.forEach(record => list.append(recordNode(record)));
-    const nav = $("#pagination");
-    nav.innerHTML = "";
+    ui.count.textContent = plural(results.length, "artigo", "artigos");
+    ui.list.innerHTML = "";
+    if (!visible.length) ui.list.innerHTML = '<div class="empty-message">Nenhum artigo encontrado.</div>';
+    else visible.forEach(record => ui.list.append(recordNode(record)));
+    ui.pagination.innerHTML = "";
     if (pages > 1) {
-      for (let i = 1; i <= pages; i++) {
+      for (let page = 1; page <= pages; page++) {
         const button = document.createElement("button");
-        button.className = `page-button${i === state.page ? " active" : ""}`;
+        button.className = `page-button${page === state.page ? " active" : ""}`;
         button.type = "button";
-        button.textContent = i;
-        button.setAttribute("aria-label", `Página ${i}`);
-        button.addEventListener("click", () => { state.page = i; render(); $(".results-head").scrollIntoView({ behavior: "smooth" }); });
-        nav.append(button);
+        button.textContent = page;
+        button.setAttribute("aria-label", `Página ${page}`);
+        button.addEventListener("click", () => {
+          state.page = page;
+          render(name);
+          $(".results-head", ui.root).scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        ui.pagination.append(button);
       }
     }
   }
 
-  function downloadCSV() {
-    const rows = filtered();
-    const header = ["Ano","Título","Título em português","Autores","IES / afiliações","Países","Palavras-chave","Resumo","Referências","DOI","Link","PDF","Citações"];
-    const body = rows.map(r => [r.year,r.title,r.titlePortuguese,r.authorFullNames.join("; "),r.affiliations.join("; "),r.countries.join("; "),r.authorKeywords.join("; "),r.abstract,r.references.join("; "),r.doi,r.link,r.drive?.url || "",r.citations]);
+  function downloadCSV(name) {
+    const rows = filtered(name);
+    const header = ["Ano", "Título", "Título em português", "Autores", "IES / afiliações", "Países", "Palavras-chave", "Resumo", "Referências", "DOI", "Link", "Drive", "Citações"];
+    const body = rows.map(record => [
+      record.year, record.title, record.titlePortuguese,
+      (record.authorFullNames || []).join("; "), (record.affiliations || []).join("; "),
+      (record.countries || []).join("; "), (record.authorKeywords || []).join("; "),
+      record.abstract, (record.references || []).join("; "), record.doi, record.link,
+      record.drive?.url || "", Number.isFinite(record.citations) ? record.citations : ""
+    ]);
     const quote = value => `"${String(value ?? "").replace(/"/g, '""')}"`;
-    const blob = new Blob(["\ufeff" + [header, ...body].map(row => row.map(quote).join(";")).join("\n")], { type: "text/csv;charset=utf-8" });
+    const blob = new Blob(["\ufeff" + [header, ...body].map(row => row.map(quote).join(";")).join("\n")], {
+      type: "text/csv;charset=utf-8"
+    });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "corpus-celi-resultados.csv";
+    link.download = `corpus-${name}-resultados.csv`;
     link.click();
     URL.revokeObjectURL(url);
   }
 
+  Object.keys(datasets).forEach(setupCollection);
   setupTabs();
-  setupFilters();
-  render();
 })();

@@ -1,6 +1,6 @@
 # Corpus de Educação Estatística
 
-Site estático para consulta pública do corpus de análise da tese, organizado em duas áreas: **Celi Espasandin Lopes** e **Carmen Batanero**. Nesta versão, o conjunto da Celi contém 54 registros e 54 documentos; a área da Batanero está preparada, mas ainda vazia.
+Site estático para consulta pública do corpus de análise da tese, organizado em duas áreas: **Celi Espasandin Lopes** e **Carmen Batanero**. Esta versão reúne 204 artigos: 54 da Celi e 150 da Batanero.
 
 ## Conteúdo do projeto
 
@@ -8,7 +8,7 @@ Site estático para consulta pública do corpus de análise da tese, organizado 
 - `styles.css` — identidade visual e layout responsivo;
 - `app.js` — busca, filtros, paginação, visualizações e exportação CSV;
 - `data/celi.js` e `data/celi.json` — corpus da Celi;
-- `data/batanero.js` — estrutura vazia para o próximo conjunto;
+- `data/batanero.js` e `data/batanero.json` — corpus da Batanero;
 - `data/drive-files.json` — referências dos 54 PDFs no Google Drive;
 - `_headers` — cabeçalhos de segurança e cache para Cloudflare Pages.
 
@@ -28,11 +28,11 @@ Também é possível ativar o GitHub Pages em **Settings → Pages → Deploy fr
 
 ## Atualizar os dados
 
-O arquivo `data/celi.json` mantém a versão legível e completa do conjunto; `data/celi.js` é a versão carregada pelo site. Ao substituir os registros, mantenha as duas versões sincronizadas. A interface calcula automaticamente totais, período, citações, cobertura dos metadados e frequências de palavras-chave.
+Os arquivos `data/celi.json` e `data/batanero.json` mantêm as versões legíveis dos conjuntos; os arquivos `.js` correspondentes são carregados pelo site. Ao substituir registros, mantenha as duas versões sincronizadas. A interface calcula automaticamente totais, períodos e filtros de cada coleção.
 
 ## Metadados
 
-O conjunto fornecido possui 54 campos. Nesta versão, 35 campos têm pelo menos um valor e 19 estão vazios em todos os registros. A interface permite alternar entre **Com dados**, **Todos os campos** e **Sem dados**, exibindo a cobertura de cada campo.
+O conjunto da Celi possui 54 campos, dos quais 35 têm pelo menos um valor. O conjunto da Batanero possui 15 campos presentes: autores, nomes completos, título, ano, periódico, DOI, afiliações, autores com afiliações, resumo, palavras-chave, referências, país, citações, conferência do registro e situação das palavras-chave. Na coleção da Batanero, 74 artigos têm DOI, 145 têm contagem de citações e 149 informam país.
 
 ## Uso local
 
