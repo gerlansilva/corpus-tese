@@ -2,22 +2,22 @@
   "meta": {
     "title": "Corpus Carmen Batanero",
     "researcher": "Carmen Batanero",
-    "records": 150,
+    "records": 147,
     "yearRange": [
       1992,
       2026
     ],
-    "driveFiles": 51,
-    "updated": "2026-09-28",
-    "sourceFile": "bat_final_atualizado.tsv",
+    "driveFiles": 147,
+    "updated": "2026-09-29",
+    "sourceFile": "bat_artigos_revistas_revisado.tsv",
     "driveFolder": "https://drive.google.com/drive/folders/1Y36_FnWyQ5jaA55ClzihuZWesFWoAKB7",
     "fields": [
       {
         "name": "Authors",
         "label": "Autores (abreviado)",
         "category": "Autoria e afiliação",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -25,8 +25,8 @@
         "name": "Author full names",
         "label": "Autores (nomes completos)",
         "category": "Autoria e afiliação",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -34,8 +34,8 @@
         "name": "Title",
         "label": "Título",
         "category": "Conteúdo",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -43,8 +43,8 @@
         "name": "Year",
         "label": "Ano",
         "category": "Publicação",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -52,8 +52,8 @@
         "name": "Source title",
         "label": "Periódico / fonte",
         "category": "Publicação",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -61,17 +61,17 @@
         "name": "DOI",
         "label": "DOI",
         "category": "Identificação e acesso",
-        "populated": 74,
-        "total": 150,
-        "coverage": 49.3,
+        "populated": 76,
+        "total": 147,
+        "coverage": 51.7,
         "status": "presente"
       },
       {
         "name": "Affiliations",
         "label": "Afiliações / IES",
         "category": "Autoria e afiliação",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -79,8 +79,8 @@
         "name": "Authors with affiliations",
         "label": "Autores com afiliações",
         "category": "Autoria e afiliação",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -88,8 +88,8 @@
         "name": "Abstract",
         "label": "Resumo",
         "category": "Conteúdo",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -97,8 +97,8 @@
         "name": "Author Keywords",
         "label": "Palavras-chave",
         "category": "Conteúdo",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -106,8 +106,8 @@
         "name": "References",
         "label": "Referências",
         "category": "Conteúdo",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -115,8 +115,8 @@
         "name": "Country",
         "label": "País",
         "category": "Autoria e afiliação",
-        "populated": 149,
-        "total": 150,
+        "populated": 146,
+        "total": 147,
         "coverage": 99.3,
         "status": "presente"
       },
@@ -124,17 +124,17 @@
         "name": "Cited by",
         "label": "Citações",
         "category": "Impacto",
-        "populated": 145,
-        "total": 150,
-        "coverage": 96.7,
+        "populated": 141,
+        "total": 147,
+        "coverage": 95.9,
         "status": "presente"
       },
       {
         "name": "Match confidence",
         "label": "Conferência do registro",
         "category": "Controle dos dados",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       },
@@ -142,8 +142,8 @@
         "name": "Keyword status",
         "label": "Situação das palavras-chave",
         "category": "Controle dos dados",
-        "populated": 150,
-        "total": 150,
+        "populated": 147,
+        "total": 147,
         "coverage": 100,
         "status": "presente"
       }
@@ -213,7 +213,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1992_-_El_analisis_de_datos_como_util_y_objeto_de_la_didactica_de_la_matematica_-_W2778423445.md",
+        "url": "https://drive.google.com/file/d/1r4xsNBXR37ORfF7oBrJa87F6TDzT5xKM/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-002",
@@ -248,8 +253,8 @@
       ],
       "sourceTitle": "International Journal of Mathematical Education in Science and Technology",
       "citations": 171,
-      "doi": "10.1080/020739940250406",
-      "link": "https://doi.org/10.1080/020739940250406",
+      "doi": "10.1080/0020739940250406",
+      "link": "https://doi.org/10.1080/0020739940250406",
       "abstract": "This paper surveys the research regarding the specific errors, difficulties, and cognitive obstacles students encounter when learning elementary statistical concepts beyond mere probability. The authors emphasize that educators must move past instrumental understanding - or simple computational rule-following - to foster a relational understanding of the logic underlying data analysis. Key themes include the struggle to view the arithmetic mean as a representative value rather than just a calculation, the misinterpretation of statistical significance, and the reliance on judgmental heuristics that lead to overconfidence in small samples.",
       "authorKeywords": [
         "Elementary statistical concepts",
@@ -347,7 +352,7 @@
         "title": "1994_-_Errors_and_difficulties_in_understanding_elementary_statistical_concepts_-_W2018898645.md",
         "url": "https://drive.google.com/file/d/1SVAHxEEl6rMasF49PjOm58X659JFKzIt/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
@@ -420,7 +425,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1995_-_Concepciones_iniciales_sobre_la_asociacion_estadistica_-_W1957671372.md",
+        "url": "https://drive.google.com/file/d/1LjvSADQ4LDPm42Wthj3n-tjLNW2AX1YR/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
       "id": "batanero-004",
@@ -491,7 +501,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1998_-_Randomness__its_meanings_and_educational_implications_-_W2068769036.md",
+        "url": "https://drive.google.com/file/d/177sTsRvuxHnTLkXEGMUTu8daqdEaUgXu/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
       "id": "batanero-005",
@@ -561,7 +576,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1996_-_Interpretacion_de_enunciados_de_probabilidad_en_terminos_frecuenciales_por_alumnos_de_Bachill.md",
+        "url": "https://drive.google.com/file/d/1T-MelVBWVCcEc3jy-QoWB_qOrnjYefug/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-006",
@@ -593,8 +613,8 @@
       ],
       "sourceTitle": "Journal for Research in Mathematics Education",
       "citations": 85,
-      "doi": "10.2307/749598",
-      "link": "https://doi.org/10.2307/749598",
+      "doi": "10.5951/jresematheduc.27.2.0151",
+      "link": "https://doi.org/10.5951/jresematheduc.27.2.0151",
       "abstract": "This study investigates how pre-university students intuitively interpret statistical association within contingency tables before receiving formal instruction. The researchers identified three primary misconceptions that hinder mathematical reasoning: a determinist conception, where students only recognize relationships that lack exceptions; a unidirectional conception, where they fail to perceive inverse or negative associations; and a localist conception, where judgments are based on isolated cells rather than the entire dataset. By classifying student strategies through the lens of \"theorems in action,\" the authors demonstrate that while some students can intuitively apply correct probabilistic logic, many are swayed by prior beliefs and table dimensions.",
       "authorKeywords": [
         "Contingency tables",
@@ -626,7 +646,7 @@
         "title": "1996_-_Intuitive_Strategies_and_Preconceptions_about_Association_in_Contingency_Tables_-_W2028611599.md",
         "url": "https://drive.google.com/file/d/1HpulK-zUtGKP0CdOSTL9OPce99pjdMje/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
@@ -679,7 +699,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1997_-_Aprendizaje_y_ensenanza_del_contraste_de_hipotesis_concepciones_y_errores_-_W1596214378.md",
+        "url": "https://drive.google.com/file/d/16Iowxk_aSilLW39DgtVHIaG6B9GLt7lk/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-008",
@@ -748,7 +773,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1997_-_Conceptos_activados_en_el_contraste_de_hipotesis_estadisticas_y_su_comprension_por_estudiante.md",
+        "url": "https://drive.google.com/file/d/1F4-U3X_X3FoDsXItDPWg53nzFW36zqge/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
       "id": "batanero-009",
@@ -828,7 +858,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1998_-_Heuristicas_y_sesgos_en_el_razonamiento_probabilistico_de_los_estudiantes_de_secundaria_-_W15.md",
+        "url": "https://drive.google.com/file/d/1DMKZleZz__ZUq4W0yi6OXM5vw5wi5qYT/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-010",
@@ -856,8 +891,8 @@
       ],
       "sourceTitle": "International Journal of Mathematical Education in Science and Technology",
       "citations": 41,
-      "doi": "10.1080/020739980290111",
-      "link": "https://doi.org/10.1080/020739980290111",
+      "doi": "10.1080/0020739980290111",
+      "link": "https://doi.org/10.1080/0020739980290111",
       "abstract": "An analysis of the different meanings associated with randomness throughout its historical evolution, and a summary of research concerning the subjective perception of randomness by children and adolescents is presented. Finally some teaching suggestions are included to help students to gradually understand the characteristics of random phenomena.",
       "authorKeywords": [
         "Randomness",
@@ -909,7 +944,7 @@
         "title": "1998_-_Randomness__its_meanings_and_educational_implications_-_W2068769036.md",
         "url": "https://drive.google.com/file/d/177sTsRvuxHnTLkXEGMUTu8daqdEaUgXu/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
@@ -963,7 +998,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1998_-_Recursos_para_la_educacion_estadistica_en_Internet_-_W194903898.md",
+        "url": "https://drive.google.com/file/d/1wfM8948UeyLBnXxE9OfUndZjU_vdBVIP/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
       "id": "batanero-012",
@@ -1029,7 +1069,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "1999_-_Concepciones_sobre_distribuciones_aleatorias_planas_en_alumnos_de_secundaria_-_W179488836.md",
+        "url": "https://drive.google.com/file/d/1BakDMpi63I2WQLb7fZ4GB1Q7SANDwFdN/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-013",
@@ -1110,7 +1155,7 @@
         "title": "1999_-_The_Meaning_of_Randomness_for_Secondary_School_Students_-_W2114700963.md",
         "url": "https://drive.google.com/file/d/1jgl2sPEhx-X-O8vWA7pVUUkFvwum187e/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
@@ -1211,7 +1256,7 @@
         "title": "2000_-_Controversies_Around_the_Role_of_Statistical_Tests_in_Experimental_Research_-_W2033519061.md",
         "url": "https://drive.google.com/file/d/1PtEYqEI2B627Wu25s3y-ovU-nEuDNewy/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
@@ -1278,7 +1323,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2000_-_Significado_y_comprension_de_las_medidas_de_posicion_central_-_W149064108.md",
+        "url": "https://drive.google.com/file/d/1d9SqGLgqHAK7ScwOEvxEDi0VwFK5l9GT/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-016",
@@ -1367,7 +1417,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2000_-_Un_estudio_experimental_de_la_estimacion_de_la_correlacion_a_partir_de_diferentes_representac.md",
+        "url": "https://drive.google.com/file/d/1mIyDql0UekOWKcq-55Ee1oAfFnErHBjk/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-017",
@@ -1439,7 +1494,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2001_-_Concepciones_de_los_alumnos_de_secundaria_sobre_los_modelos_probabilisticos_en_las_secuencias.md",
+        "url": "https://drive.google.com/file/d/13UYmRnxnVDGLl6UTIwTOyEZLF0YcrakS/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
       "id": "batanero-018",
@@ -1501,7 +1561,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2001_-_El_lenguaje_probabilistico_en_los_libros_de_texto_-_W1559836307.md",
+        "url": "https://drive.google.com/file/d/1YsG8KD-gRm82Q0wTDwbZQMis7tQVG-5m/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-019",
@@ -1584,7 +1649,12 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2002_-_Analisis_de_las_actitudes_y_conocimientos_estadisticos_elementales_en_la_formacion_del_profes.md",
+        "url": "https://drive.google.com/file/d/1doWyx9UV9UqN1vVVeV8e4b0zxY3G7Qr0/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
       "id": "batanero-020",
@@ -1605,8 +1675,8 @@
       ],
       "sourceTitle": "International Statistical Review",
       "citations": 10,
-      "doi": "10.1111/j.1751-5823.2002.tb00348.x",
-      "link": "https://doi.org/10.1111/j.1751-5823.2002.tb00348.x",
+      "doi": "10.1111/j.1751-5823.2002.tb00340.x",
+      "link": "https://doi.org/10.1111/j.1751-5823.2002.tb00340.x",
       "abstract": "In this academic critique, Carmen Batanero evaluates Iddo Gal's framework for statistical literacy, acknowledging its significance as a macro-level model for defining the competencies citizens need to interpret data. While supporting Gal's initiative, Batanero argues that effective education requires more detailed micro-level models to address the complex cognitive hurdles and misconceptions students face with specific concepts like the arithmetic mean. She introduces a multi-dimensional theoretical structure involving problems, representations, procedures, definitions, and arguments to analyze mathematical meaning construction.",
       "authorKeywords": [
         "Statistical literacy",
@@ -1646,68 +1716,11 @@
         "title": "2002_-_Discussion_The_Role_of_Models_in_Understanding_and_Improving_Statistical_Literacy_-_W20057874.md",
         "url": "https://drive.google.com/file/d/1B-SUSmbKc1OsJwve2kc8FSmI8wItzAiR/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
       "id": "batanero-021",
-      "title": "ICOTS-6: Developing a statistically literate society",
-      "titlePortuguese": "",
-      "year": 2002,
-      "authors": [
-        "Ottaviani M.G.",
-        "Phillips B.",
-        "Ben-Zvi D."
-      ],
-      "authorFullNames": [
-        "Ottaviani, Maria Gabriella",
-        "Phillips, Brian",
-        "Ben-Zvi, Dani"
-      ],
-      "affiliations": [
-        "University of Rome La Sapienza, Rome, Italy",
-        "Swinburne University of Technology, Melbourne, Australia",
-        "University of Haifa, Haifa, Israel"
-      ],
-      "authorsWithAffiliations": [
-        "Ottaviani, Maria Gabriella, University of Rome La Sapienza, Rome, Italy",
-        "Phillips, Brian, Swinburne University of Technology, Melbourne, Australia",
-        "Ben-Zvi, Dani, University of Haifa, Haifa, Israel"
-      ],
-      "sourceTitle": "Statistics Education Research Journal",
-      "citations": 2,
-      "doi": "",
-      "link": "",
-      "abstract": "This report summarizes the proceedings of the Sixth International Conference on Teaching Statistics (ICOTS-6), an event held in 2002 that focused on the global mission of developing a statistically literate society. The text details the organizational success of the gathering in Cape Town, highlighting the shift toward refereed scientific papers and the release of electronic proceedings to improve the quality of research in the field. Key themes include the integration of technology in the classroom, the necessity of training teachers to meet new curriculum standards, and the practical application of statistics in government, healthcare, and industry.",
-      "authorKeywords": [
-        "ICOTS-6",
-        "Statistical literacy",
-        "Statistics education",
-        "Teacher preparation",
-        "Educational technology"
-      ],
-      "indexKeywords": [],
-      "references": [
-        "Manuel, T., Opening address at ICOTS-6, (2002) Developing a Statistically Literate Society",
-        "Ottaviani, M.G., 1982-2002: From the past towards the future, (2002) Proceedings of ICOTS-6",
-        "Volmink, J., The importance of numeracy and statistical literacy, (2002) Proceedings of ICOTS-6",
-        "Watson, J.M., Doing research in statistics education: more than just data, (2002) Proceedings of ICOTS-6",
-        "Holmes, P., Teaching, learning and assessment: complementary or conflicting categories for school statistics?, (2002) Proceedings of ICOTS-6",
-        "Cobb, G.W., What can cheap computing offer statistics literacy?, (2002) Proceedings of ICOTS-6",
-        "Murray, S., Gal, I., Preparing for diversity in statistics literacy: institutional and educational implications, (2002) Proceedings of ICOTS-6"
-      ],
-      "language": "",
-      "documentType": "Article",
-      "openAccess": "",
-      "countryFirstAuthor": "Italy",
-      "countries": [
-        "Italy"
-      ],
-      "dataQualityNote": "",
-      "drive": null
-    },
-    {
-      "id": "batanero-022",
       "title": "Design, implementation and analysis of a teaching sequence of the normal distribution in a university course",
       "titlePortuguese": "",
       "year": 2004,
@@ -1779,10 +1792,15 @@
         "Argentina"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2004_-_Diseno__implementacion_y_analisis_de_una_secuencia_de_ensenanza_de_la_distribucion_normal_en_.md",
+        "url": "https://drive.google.com/file/d/1unLGiOc254AfyS-uzmETvdM13DH5FY2M/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-023",
+      "id": "batanero-022",
       "title": "Training teachers to teach probability",
       "titlePortuguese": "",
       "year": 2004,
@@ -1859,11 +1877,11 @@
         "title": "2004_-_Training_Teachers_to_Teach_Probability_-_W1606479027.md",
         "url": "https://drive.google.com/file/d/1E0yxHiKPYd6WxVvy0MydFwG9DV2KS8oP/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-024",
+      "id": "batanero-023",
       "title": "A comparative study of attitudes toward statistics in pre-service and in-service teachers",
       "titlePortuguese": "",
       "year": 2004,
@@ -1937,10 +1955,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2004_-_Un_estudio_comparado_de_las_actitudes_hacia_la_estadistica_en_profesores_en_formacion_y_en_ej.md",
+        "url": "https://drive.google.com/file/d/1Ro9LEOoIp-nTonS4Yod5BQpgYEYhhYR8/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-025",
+      "id": "batanero-024",
       "title": "Primary and secondary school students' ideas about randomness",
       "titlePortuguese": "",
       "year": 2005,
@@ -2008,10 +2031,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2005_-_Ideas_del_alumnado_de_primaria_y_secundaria_sobre_aleatoriedad_-_W1528690997.md",
+        "url": "https://drive.google.com/file/d/1Kp2AKCPr_JWZdU10JtoADcHHxN7H64_t/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-026",
+      "id": "batanero-025",
       "title": "Analysis of the construction process of a questionnaire on conditional probability",
       "titlePortuguese": "",
       "year": 2006,
@@ -2031,7 +2059,7 @@
         "Díaz Batanero, Carmen, Universidad de Huelva, Huelva, Spain",
         "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain"
       ],
-      "sourceTitle": "Revista Digital Matemática Educativa",
+      "sourceTitle": "Educação Matemática Pesquisa",
       "citations": 4,
       "doi": "",
       "link": "",
@@ -2063,10 +2091,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2006_-_Analisis_del_proceso_de_construccion_de_un_cuestionario_sobre_probabilidad_condicional_-_W176.md",
+        "url": "https://drive.google.com/file/d/18YZoqo3SxaxSBA9B1IzyEcB22XiOVLFh/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-027",
+      "id": "batanero-026",
       "title": "How Bayesian methods can contribute to research in psychology and education",
       "titlePortuguese": "",
       "year": 2006,
@@ -2170,33 +2203,41 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2006_-_Como_puede_el_Metodo_Bayesiano_contribuir_a_la_investigacion_en_Psicologia_y_Educacion_-_W168.md",
+        "url": "https://drive.google.com/file/d/1loRvps5tnpbTkhObH9w3RmvE2hjdtPnP/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-028",
+      "id": "batanero-027",
       "title": "A decade of research by the statistics, probability and combinatorics group of the SEIEM",
       "titlePortuguese": "",
       "year": 2006,
       "authors": [
-        "Batanero Bernabeu C.",
-        "Godino J.D.",
-        "Estepa Castro A."
+        "Cañizares M.J.",
+        "Estepa A.",
+        "Batanero C.",
+        "Vallecillos A."
       ],
       "authorFullNames": [
-        "Batanero Bernabeu, Carmen",
-        "Godino, Juan D.",
-        "Estepa Castro, Antonio"
+        "Cañizares Castellanos, María Jesús",
+        "Estepa Castro, Antonio",
+        "Batanero, Carmen",
+        "Vallecillos Jiménez, Angustias"
       ],
       "affiliations": [
         "Universidad de Granada, Granada, Spain",
         "Universidad de Jaén, Jaén, Spain"
       ],
       "authorsWithAffiliations": [
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain",
-        "Godino, Juan D., Universidad de Granada, Granada, Spain",
-        "Estepa Castro, Antonio, Universidad de Jaén, Jaén, Spain"
+        "Cañizares Castellanos, María Jesús, Universidad de Granada, Granada, Spain",
+        "Estepa Castro, Antonio, Universidad de Jaén, Jaén, Spain",
+        "Batanero, Carmen, Universidad de Granada, Granada, Spain",
+        "Vallecillos Jiménez, Angustias, Universidad de Granada, Granada, Spain"
       ],
-      "sourceTitle": "Investigación en Educación Matemática X",
+      "sourceTitle": "Tarbiya: Revista de Investigación e Innovación Educativa",
       "citations": 0,
       "doi": "",
       "link": "",
@@ -2227,10 +2268,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2006_-_Una_decada_de_investigaciones_del_grupo_de_estadistica__probabilidad_y_combinatoria_de_la_SEI.md",
+        "url": "https://drive.google.com/file/d/1BuHBobOwDRwcSO6hVfvsO8IxDcnw-77n/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-029",
+      "id": "batanero-028",
       "title": "Difficulties in understanding the normal approximation to the binomial distribution",
       "titlePortuguese": "",
       "year": 2007,
@@ -2289,10 +2335,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2007_-_Dificultades_de_comprension_de_la_aproximacion_normal_a_la_distribucion_binomial_-_W162745736.md",
+        "url": "https://drive.google.com/file/d/1l9_7ibl6myqj3cXYw8uzgUQiiDTi5pGO/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-030",
+      "id": "batanero-029",
       "title": "Frequent errors in data analysis in education and psychology",
       "titlePortuguese": "",
       "year": 2008,
@@ -2386,10 +2437,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2008_-_ERRORES_FRECUENTES_EN_EL_ANALISIS_DE_DATOS_EN_EDUCACION_Y_PSICOLOGIA_-_W1603069214.md",
+        "url": "https://drive.google.com/file/d/1tTEHhcDNbzOeVgx7oLtMQAZVW2jrF6qX/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-031",
+      "id": "batanero-030",
       "title": "Meaning of the Central Limit Theorem in university probability and statistics textbooks",
       "titlePortuguese": "",
       "year": 2008,
@@ -2409,7 +2465,7 @@
         "Alvarado Martínez, Hugo, Universidad Católica de la Santísima Concepción, Concepción, Chile",
         "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain"
       ],
-      "sourceTitle": "Revista Latinoamericana de Investigación en Matemática Educativa",
+      "sourceTitle": "Estudios Pedagógicos",
       "citations": 17,
       "doi": "",
       "link": "",
@@ -2442,10 +2498,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2008_-_SIGNIFICADO_DEL_TEOREMA_CENTRAL_DEL_LIMITE_EN_TEXTOS_UNIVERSITARIOS_DE_PROBABILIDAD_Y_ESTADIS.md",
+        "url": "https://drive.google.com/file/d/1qL4JKjlLq3ay-cg6njIlXcjSV3wExc60/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-032",
+      "id": "batanero-031",
       "title": "The language of statistical graphs",
       "titlePortuguese": "",
       "year": 2009,
@@ -2516,13 +2577,18 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2009_-_El_lenguaje_de_los_graficos_estadisticos_-_W2612582892.md",
+        "url": "https://drive.google.com/file/d/1pqeBWz0Td08OfZRzc4ZxVs4IFgvuUSuf/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-033",
+      "id": "batanero-032",
       "title": "Influence of age and mathematical performance on the equiprobability bias",
       "titlePortuguese": "",
-      "year": 2009,
+      "year": 2001,
       "authors": [
         "Cañizares M.J.",
         "Batanero Bernabeu C.",
@@ -2583,10 +2649,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2009_-_Influencia_de_la_Edad_y_Rendimiento_Matematico_Sobre_el_Sesgo_de_Equiprobabilidad_Influence_o.md",
+        "url": "https://drive.google.com/file/d/1_z1gGVwDCl6Paw34zu-v8rPymP2aEwph/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-034",
+      "id": "batanero-033",
       "title": "Simulation as a modeling tool in probability",
       "titlePortuguese": "",
       "year": 2009,
@@ -2650,10 +2721,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2009_-_LA_SIMULACION_COMO_INSTRUMENTO_DE_MODELIZACION_EN_PROBABILIDAD_-_W1522071343.md",
+        "url": "https://drive.google.com/file/d/1PwZqTIoIBiSMp50rZNN6zBJGD_ErqXJS/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-035",
+      "id": "batanero-034",
       "title": "Students' semiotic conflicts in the concept of median",
       "titlePortuguese": "",
       "year": 2009,
@@ -2715,11 +2791,11 @@
         "title": "2009_-_STUDENTS__SEMIOTIC_CONFLICTS_IN_THE_CONCEPT_OF_MEDIAN_-_W4206084150.md",
         "url": "https://drive.google.com/file/d/1TM5WhOTlJs4tsnmF1nZLEBf6DEbAPIGZ/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-036",
+      "id": "batanero-035",
       "title": "University Students' Knowledge and Biases in Conditional Probability Reasoning",
       "titlePortuguese": "",
       "year": 2009,
@@ -2800,11 +2876,11 @@
         "title": "2009_-_University_Students__Knowledge_and_Biases_in_Conditional_Probability_Reasoning_-_W2529926055.md",
         "url": "https://drive.google.com/file/d/1zvnkkqZoIAXQeOifIj3EK33KSAGnrKdw/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-037",
+      "id": "batanero-036",
       "title": "Analysis of the semiotic complexity of statistical graphs produced by prospective primary school teachers",
       "titlePortuguese": "",
       "year": 2010,
@@ -2863,40 +2939,48 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2010_-_Analisis_de_la_complejidad_semiotica_de_los_graficos_producidos_por_futuros_profesores_de_edu.md",
+        "url": "https://drive.google.com/file/d/1eVF2beXf3BAFRnhGIv5vXN6_skBlr7kC/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-038",
+      "id": "batanero-037",
       "title": "Evaluation of prospective teachers' errors in constructing statistical graphs",
       "titlePortuguese": "",
-      "year": 2010,
+      "year": 2016,
       "authors": [
         "Arteaga P.",
-        "Batanero Bernabeu C."
+        "Batanero C.",
+        "Contreras J.M.",
+        "Cañadas G."
       ],
       "authorFullNames": [
         "Arteaga, Pedro",
-        "Batanero Bernabeu, Carmen"
+        "Batanero, Carmen",
+        "Contreras, José Miguel",
+        "Cañadas, Gustavo"
       ],
       "affiliations": [
         "Universidad de Granada, Granada, Spain"
       ],
       "authorsWithAffiliations": [
         "Arteaga, Pedro, Universidad de Granada, Granada, Spain",
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain"
+        "Batanero, Carmen, Universidad de Granada, Granada, Spain",
+        "Contreras, José Miguel, Universidad de Granada, Granada, Spain",
+        "Cañadas, Gustavo, Universidad de Granada, Granada, Spain"
       ],
-      "sourceTitle": "SEIEM - Investigación en Educación Matemática XIV",
+      "sourceTitle": "Revista Latinoamericana de Investigación en Matemática Educativa (RELIME)",
       "citations": 5,
-      "doi": "",
-      "link": "",
-      "abstract": "This academic study investigates the statistical literacy of 207 future primary school teachers by analyzing their ability to construct elementary graphs during an open-ended data project. The researchers identified that less than half of the participants could produce entirely correct visualizations, frequently encountering semiotic conflicts where their personal interpretations of mathematical signs diverged from institutional standards. Key errors included a lack of number sense in scale construction, confusion between frequencies and variables, and the uncritical use of software like Excel, which often exacerbated mistakes rather than preventing them.",
+      "doi": "10.12802/relime.13.1911",
+      "link": "https://doi.org/10.12802/relime.13.1911",
+      "abstract": "In this paper we analyze the graphs produced by 207 pre-service primary school teachers when solving an open-ended task in which they should compare three pairs of distributions. The graphs produced are classified according whether they are correct or not, and according to the kind of error in case of an incorrect graph. The analysis allows us to explain some of these errors in terms of semiotic conflicts. Results suggest the semiotic conflicts are related to knowledge of conventions in building the graphs, selecting the graphs, number sense and conceptual misunderstanding. The influence of using computers on the errors produced is also analyzed.",
       "authorKeywords": [
-        "Statistical graphics",
-        "Graph construction",
-        "Prospective primary teachers",
-        "Semiotic conflicts",
-        "Number sense",
-        "Teacher education"
+        "Elementary statistical graphs",
+        "Errors in building graphs",
+        "Teacher training"
       ],
       "indexKeywords": [],
       "references": [
@@ -2918,30 +3002,38 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2010_-_Evaluacion_de_errores_de_futuros_profesores_en_la_construccion_de_graficos_estadisticos_-_W15.md",
+        "url": "https://drive.google.com/file/d/1BlnMGaeSajlPOFUdL55okmtqG7thXo2F/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-039",
+      "id": "batanero-038",
       "title": "Teaching Independence and Conditional Probability",
       "titlePortuguese": "",
       "year": 2010,
       "authors": [
-        "Batanero Bernabeu C.",
-        "Díaz C."
+        "Díaz C.",
+        "Batanero C.",
+        "Contreras J.M."
       ],
       "authorFullNames": [
-        "Batanero Bernabeu, Carmen",
-        "Díaz Batanero, Carmen"
+        "Díaz, Carmen",
+        "Batanero, Carmen",
+        "Contreras, José Miguel"
       ],
       "affiliations": [
         "Universidad de Granada, Granada, Spain",
         "Universidad de Huelva, Huelva, Spain"
       ],
       "authorsWithAffiliations": [
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain",
-        "Díaz Batanero, Carmen, Universidad de Huelva, Huelva, Spain"
+        "Díaz, Carmen, Universidad de Huelva, Huelva, Spain",
+        "Batanero, Carmen, Universidad de Granada, Granada, Spain",
+        "Contreras, José Miguel, Universidad de Granada, Granada, Spain"
       ],
-      "sourceTitle": "Boletín de la Red de Investigación en Educación Matemática",
+      "sourceTitle": "BEIO - Boletín de Estadística e Investigación Operativa",
       "citations": 12,
       "doi": "",
       "link": "",
@@ -2980,11 +3072,11 @@
         "title": "2010_-_Teaching_Independence_and_Conditional_Probability_-_W48564678.md",
         "url": "https://drive.google.com/file/d/17WNyjzcNczpIIKs2rKA9fJWc9W5RwUsS/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-040",
+      "id": "batanero-039",
       "title": "Training teachers to teach statistics: what can we learn from research?",
       "titlePortuguese": "",
       "year": 2010,
@@ -3079,11 +3171,11 @@
         "title": "2010_-_Training_teachers_to_teach_statistics_what_can_we_learn_from_research_-_W1566515002.md",
         "url": "https://drive.google.com/file/d/1EI3vq9UkTjccTna_KaPlZmoFR1lAz6xH/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-041",
+      "id": "batanero-040",
       "title": "Difficulties in the formulation of statistical hypotheses by psychology students",
       "titlePortuguese": "",
       "year": 2011,
@@ -3159,10 +3251,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2011_-_Dificultades_en_la_formulacion_de_hipotesis_estadisticas_por_estudiantes_de_Psicologia_-_W233.md",
+        "url": "https://drive.google.com/file/d/1VZWa7wc7j1xSyWc055RRi8BtOhb_nQOL/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-042",
+      "id": "batanero-041",
       "title": "The statistics curriculum in compulsory education",
       "titlePortuguese": "",
       "year": 2011,
@@ -3245,43 +3342,47 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2011_-_EL_CURRICULO_DE_ESTADISTICA_EN_LA_ENSENANZA_OBLIGATORIA_-_W1513393227.md",
+        "url": "https://drive.google.com/file/d/12BLk7sCneQ3tKu8Da1I2wbD7waixKo6G/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-043",
+      "id": "batanero-042",
       "title": "Experiences and suggestions for the probabilistic training of teachers",
       "titlePortuguese": "",
       "year": 2011,
       "authors": [
-        "Batanero Bernabeu C.",
-        "Cañizares M.J.",
-        "Godino J.D."
+        "Batanero C.",
+        "Contreras J.M.",
+        "Díaz C."
       ],
       "authorFullNames": [
-        "Batanero Bernabeu, Carmen",
-        "Cañizares Castellanos, María Jesús",
-        "Godino, Juan D."
+        "Batanero, Carmen",
+        "Contreras, José Miguel",
+        "Díaz, Carmen"
       ],
       "affiliations": [
-        "Universidad de Granada, Granada, Spain"
+        "Universidad de Granada, Granada, Spain",
+        "Universidad de Huelva, Huelva, Spain"
       ],
       "authorsWithAffiliations": [
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain",
-        "Cañizares Castellanos, María Jesús, Universidad de Granada, Granada, Spain",
-        "Godino, Juan D., Universidad de Granada, Granada, Spain"
+        "Batanero, Carmen, Universidad de Granada, Granada, Spain",
+        "Contreras, José Miguel, Universidad de Granada, Granada, Spain",
+        "Díaz, Carmen, Universidad de Huelva, Huelva, Spain"
       ],
-      "sourceTitle": "Boletín de la Red de Investigación en Educación Matemática",
+      "sourceTitle": "Revista Paradigma",
       "citations": 6,
       "doi": "",
       "link": "",
-      "abstract": "This academic article examines the essential pedagogical and mathematical knowledge required for effectively teaching probability, noting that many instructors feel unprepared or harbor their own misconceptions. To bridge this gap, the authors propose using classical probabilistic paradoxes as dynamic educational tools to challenge intuitions and reveal the complex layers of stochastic reasoning. By utilizing a specific workshop based on Bertrand's paradox, the text demonstrates how surprising, counter-intuitive problems can trigger critical reflection on mathematical objects, student conflicts, and instructional phases.",
+      "abstract": "In this paper we analyze the content needed in the didactic preparation of teachers to teach probability. We also suggest the possibility that classical paradoxes of probability offer to organize didactic situations that can contribute to this education. We present an example used in our own courses and suggest different levels of didactic analysis of the same.",
       "authorKeywords": [
-        "Probability education",
-        "Teacher training",
-        "Probabilistic paradoxes",
-        "Bertrand's paradox",
-        "Pedagogical content knowledge",
-        "Constructivist approach"
+        "Teacher education",
+        "Components in teacher knowledge",
+        "Paradoxes as a didactic tool",
+        "Probability"
       ],
       "indexKeywords": [],
       "references": [
@@ -3334,10 +3435,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2011_-_Experiencias_y_sugerencias_para_la_formacion_probabilistica_de_los_profesores_-_W1930946951.md",
+        "url": "https://drive.google.com/file/d/1A89XfjT6Bksn7CF9tSPyUg07zsZdHbpl/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-044",
+      "id": "batanero-043",
       "title": "Number sense and statistical graphs in teacher education",
       "titlePortuguese": "",
       "year": 2011,
@@ -3403,10 +3509,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2011_-_Sentido_numerico_y_graficos_estadisticos_en_la_formacion_de_profesores_-_W2737654114.md",
+        "url": "https://drive.google.com/file/d/1F75JAhhNQJOPpogzGagZTfo1usHoXiRm/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-045",
+      "id": "batanero-044",
       "title": "Strategies in the study of the association in contingency tables by psychology students",
       "titlePortuguese": "",
       "year": 2011,
@@ -3482,11 +3593,11 @@
         "title": "2011_-_Strategies_in_the_study_of_the_association_in_contingency_tables_by_psychology_students_-_W34.md",
         "url": "https://drive.google.com/file/d/1I0gI0IIjQig2q4C8Fw1Jk8tKeWug7E1_/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-046",
+      "id": "batanero-045",
       "title": "Coordination between Random Variable and Statistical Variable in the Execution of Informal Inferences by Pre-service Teachers",
       "titlePortuguese": "",
       "year": 2011,
@@ -3562,82 +3673,15 @@
         "Mexico"
       ],
       "dataQualityNote": "",
-      "drive": null
-    },
-    {
-      "id": "batanero-047",
-      "title": "CERME7 Working Group 5: Stochastic thinking",
-      "titlePortuguese": "",
-      "year": 2012,
-      "authors": [
-        "Pratt D.",
-        "Batanero Bernabeu C.",
-        "Biehler R.",
-        "Eichler A.",
-        "Meletiou-Mavrotheris M.",
-        "Paparistodemou E."
-      ],
-      "authorFullNames": [
-        "Pratt, Dave",
-        "Batanero Bernabeu, Carmen",
-        "Biehler, Rolf",
-        "Eichler, Andreas",
-        "Meletiou-Mavrotheris, Maria",
-        "Paparistodemou, Efi"
-      ],
-      "affiliations": [
-        "Institute of Education, University of London, London, United Kingdom",
-        "Universidad de Granada, Granada, Spain",
-        "Universität Paderborn, Paderborn, Germany",
-        "University of Education, Freiburg, Germany",
-        "European University, Nicosia, Cyprus",
-        "Ministry of Education, Nicosia, Cyprus"
-      ],
-      "authorsWithAffiliations": [
-        "Pratt, Dave, Institute of Education, University of London, London, UK",
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain",
-        "Biehler, Rolf, Universität Paderborn, Paderborn, Germany",
-        "Eichler, Andreas, University of Education, Freiburg, Germany",
-        "Meletiou-Mavrotheris, Maria, European University, Nicosia, Cyprus",
-        "Paparistodemou, Efi, Ministry of Education, Nicosia, Cyprus"
-      ],
-      "sourceTitle": "Research in Mathematics Education",
-      "citations": 0,
-      "doi": "10.1080/14794802.2012.694286",
-      "link": "https://doi.org/10.1080/14794802.2012.694286",
-      "abstract": "This report summarizes the collective findings of a specialized academic group focused on stochastic thinking, a discipline that blends the study of probability and statistics. The text highlights how modern technological tools are revolutionizing the classroom by allowing students to visualize complex data, though this shift necessitates new strategies for teacher education and assessment. A central theme of the research involves the role of context, questioning how \"real-world\" problems and student-led data collection can better engage learners and refine their intuitive understanding of randomness.",
-      "authorKeywords": [
-        "Stochastic thinking",
-        "Probability and statistics",
-        "Technological tools",
-        "Teacher education",
-        "Context in stochastics",
-        "Randomness"
-      ],
-      "indexKeywords": [],
-      "references": [
-        "Ainley, J., Pratt, D., Hansen, A., Connecting engagement and focus in pedagogic task design, (2006) British Educational Research Journal, 32 (1), pp. 23-38",
-        "Pratt, D., Noss, R., The micro-evolution of mathematical knowledge: The case of randomness, (2002) Journal of the Learning Sciences, 11 (4), pp. 453-488",
-        "Prediger, S., Do you want me to do it with probability or with my normal thinking? Horizontal and vertical views on the formation of stochastic conceptions, (2008) International Electronic Journal of Mathematics Education, 3 (3), pp. 126-154",
-        "Tuomi-Gröhn, T., Engeström, Y., Between School and Work: New Perspectives on Transfer and Boundary-Crossing, (2003) Pergamon"
-      ],
-      "language": "",
-      "documentType": "Article",
-      "openAccess": "",
-      "countryFirstAuthor": "United Kingdom",
-      "countries": [
-        "United Kingdom"
-      ],
-      "dataQualityNote": "",
       "drive": {
-        "title": "2012_-_CERME7_Working_Group_5_Stochastic_thinking_-_W2057043095.md",
-        "url": "https://drive.google.com/file/d/1mZ30okVBU7w4c_RgjZAoLbrivQT0Ys-2/view?usp=drivesdk",
+        "title": "2011_-_Vinculacion_de_la_Variable_Aleatoria_y_Estadistica_en_la_Realizacion_de_Inferencias_Informale.md",
+        "url": "https://drive.google.com/file/d/1r7swr7q5nIRJ8pKcSsEUHFBozHHadEmm/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 0.95
       }
     },
     {
-      "id": "batanero-048",
+      "id": "batanero-046",
       "title": "Understanding of Randomness by Prospective Primary School Teachers",
       "titlePortuguese": "",
       "year": 2012,
@@ -3721,10 +3765,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2012_-_Comprension_de_la_aleatoriedad_por_futuros_profesores_de_educacion_primaria_-_W3034895737.md",
+        "url": "https://drive.google.com/file/d/1xC2IABMhrnQcE9wRqUhmfJ4V0GfSoSz5/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-049",
+      "id": "batanero-047",
       "title": "The statistics curriculum: Reflections from an international perspective",
       "titlePortuguese": "",
       "year": 2012,
@@ -3800,10 +3849,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2012_-_El_curriculo_de_estadistica_-_W123652508.md",
+        "url": "https://drive.google.com/file/d/1oMIYHrx3-RMbgu09jCvhOtvsls1VazPH/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-050",
+      "id": "batanero-048",
       "title": "Assessing Prospective Secondary School Teachers' Biases in Conditional Probability Reasoning",
       "titlePortuguese": "",
       "year": 2012,
@@ -3831,8 +3885,8 @@
       ],
       "sourceTitle": "Bolema - Boletim de Educação Matemática",
       "citations": 15,
-      "doi": "10.1590/S0103-636X2012000400008",
-      "link": "https://doi.org/10.1590/S0103-636X2012000400008",
+      "doi": "10.1590/S0103-636X2012000400006",
+      "link": "https://doi.org/10.1590/S0103-636X2012000400006",
       "abstract": "In this paper we present a study aimed at assessing biases in conditional probability reasoning in prospective secondary school and high school mathematics teachers. We analyze responses to 7 items taken from the CPR (conditional probability reasoning) questionnaire in a sample of 196 last year mathematics students and prospective secondary teachers in Spain, finding a high incidence in both groups of time axis fallacy, transposed conditional, confusion between conditional and joint probability, base rate fallacy, and misconceptions on independence.",
       "authorKeywords": [
         "Biases. Conditional Probability. Prospective Secondary Teachers. Assessment"
@@ -3925,10 +3979,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2012_-_Evaluacion_de_sesgos_en_el_razonamiento_sobre_probabilidad_condicional_en_futuros_profesores_.md",
+        "url": "https://drive.google.com/file/d/1gBSqmXtSwlj8SLXJJ3o4v_2GKdjmM8g2/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-051",
+      "id": "batanero-049",
       "title": "Assessing prospective teachers' specialized knowledge of statistics through the analysis of a statistical project",
       "titlePortuguese": "",
       "year": 2012,
@@ -4030,10 +4089,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2012_-_Evaluacion_del_conocimiento_especializado_de_la_estadistica_en_futuros_profesores_mediante_el.md",
+        "url": "https://drive.google.com/file/d/1XOM-VD4jep2yJoIAUAamgL6rWITbHD-s/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-052",
+      "id": "batanero-050",
       "title": "Simpson's Paradox: Applications for the Probability Classroom",
       "titlePortuguese": "",
       "year": 2012,
@@ -4091,10 +4155,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2012_-_La_paradoja_de_Simpson_-_W2135848889.md",
+        "url": "https://drive.google.com/file/d/1EP-qcB4uFwA5Ygk0vMWD4Q5Fk5AnnQBR/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-053",
+      "id": "batanero-051",
       "title": "Psychology Students' Understanding of the Chi-squared Test",
       "titlePortuguese": "",
       "year": 2012,
@@ -4180,11 +4249,11 @@
         "title": "2012_-_Psychology_students__understanding_of_the_Chi-squared_test_-_W1935307942.md",
         "url": "https://drive.google.com/file/d/1gh0FrT5SjleYQwWFL6GIEIYsMNHbX3un/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-054",
+      "id": "batanero-052",
       "title": "Understanding Statistical Graphs: A Research Survey",
       "titlePortuguese": "",
       "year": 2012,
@@ -4273,11 +4342,11 @@
         "title": "2012_-_Understanding_Statistical_Graphs_A_Research_Survey_-_W2490893523.md",
         "url": "https://drive.google.com/file/d/1dlLVKYlemLC8pIHuDuLjU-SYKanzK64V/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-055",
+      "id": "batanero-053",
       "title": "Defining Probability and Conditional Probability: A Study with Prospective Teachers",
       "titlePortuguese": "",
       "year": 2013,
@@ -4349,10 +4418,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2013_-_Definicion_de_la_probabilidad_y_probabilidad_condicional_Un_estudio_con_futuros_profesores_De.md",
+        "url": "https://drive.google.com/file/d/18b9HA7zE-aaqL0gzuDyiX7EJmjL3I-ii/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-056",
+      "id": "batanero-054",
       "title": "The Language of Probability in Primary School Textbooks",
       "titlePortuguese": "",
       "year": 2013,
@@ -4427,10 +4501,15 @@
         "Colombia"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2013_-_El_lenguaje_de_probabilidad_en_los_libros_de_texto_de_Educacion_Primaria_-_W2306429079.md",
+        "url": "https://drive.google.com/file/d/1Vw5e63boxCJvvhw0xGG-Ent2dTUNwqjK/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-057",
+      "id": "batanero-055",
       "title": "The Boy or Girl Paradox: Applications for the Probability Classroom",
       "titlePortuguese": "",
       "year": 2013,
@@ -4520,10 +4599,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2013_-_La_paradoja_del_nino_o_nina_aplicaciones_para_la_clase_de_probabilidad_-_W2160081724.md",
+        "url": "https://drive.google.com/file/d/1bGM286LHBzcAyAs-FRjOrKIOrU8jBjMc/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-058",
+      "id": "batanero-056",
       "title": "Knowledge of Statistics and Students in Prospective School Teachers: An Exploratory Study",
       "titlePortuguese": "",
       "year": 2014,
@@ -4605,96 +4689,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2014_-_CONOCIMIENTO_DE_LA_ESTADISTICA_Y_LOS_ESTUDIANTES_EN_FUTUROS_PROFESORES_UN_ESTUDIO_EXPLORATORI.md",
+        "url": "https://drive.google.com/file/d/1zgX0egYREynyzi-zEApb1QQMIv1gcjLu/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-059",
-      "title": "From Data Analysis to Inference: Reflections on the Formation of Statistical Reasoning",
-      "titlePortuguese": "",
-      "year": 2014,
-      "authors": [
-        "Batanero Bernabeu C."
-      ],
-      "authorFullNames": [
-        "Batanero Bernabeu, Carmen"
-      ],
-      "affiliations": [
-        "Universidad de Granada, Granada, Spain"
-      ],
-      "authorsWithAffiliations": [
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain"
-      ],
-      "sourceTitle": "Conferencias Iberoamericanas de Educación Matemática (CIAEM)",
-      "citations": 0,
-      "doi": "",
-      "link": "",
-      "abstract": "Statistical inference is one of the most widely taught, yet worst understood and applied subjects at the university level. Recently, inference contents have been included in high school and even secondary education in some countries, giving rise to the need to find a didactic transposition accessible to non-university students. This paper summarizes common understanding difficulties of classical inference, suggesting the importance of progressively developing statistical reasoning before formal study. Alternative approaches to teaching inference based on simulation and exploratory data analysis are described.",
-      "authorKeywords": [
-        "statistical inference",
-        "difficulties",
-        "alternative approaches",
-        "non-university teaching"
-      ],
-      "indexKeywords": [],
-      "references": [
-        "Abelson, R. P. (1997). On the surprising longevity of flogged horses: Why there is a case for the significance test? Psychological Science, 8(1), 12-14.",
-        "Albert, J. (2000). Using a sample survey project to assess the teaching of statistical inference, Journal of Statistical Education, 8. On line: www.amstat.org/publications/jse/.",
-        "Albert, J. H., & Rossman, A. (2001). Workshop statistics. Discovery with data. A bayesian approach. Bowling Green. OH: Key College Publishing.",
-        "Artigue, M., Batanero, C., & Kent, P. (2007). Mathematics thinking and learning at post-secondary level. En F. Lester (Ed.), Second handbook of research on mathematics teaching and learning (pp. 1011- 1049). Greenwich, CT: Information Age Publishing, Inc., & National Council of Teachers of Mathematics.",
-        "Batanero, C. (2000). Controversies around significance tests. Mathematical Thinking and Learning, 2(1- 2), 75-98.",
-        "Batanero, C. y Díaz, C. (2006). Methodological and didactical controversies around statistical inference. Actes du 36iémes Journées de la Societé Française de Statistique. CD ROM. Paris: Societé Française de Statistique.",
-        "Batanero, C., Godino, J. D., Vallecillos, A., Green, D. R., & Holmes, P. (1994). Errors and difficulties in understanding elementary statistical concepts. International Journal of Mathematics Education in Science and Technology, 25(4), 527–547.",
-        "Birnbaum, I. (1982). Interpreting statistical significance. Teaching Statistics, 4, 24–27.",
-        "Borges, A., San Luis, C., Sánchez, J.A. y Cañadas, I. (2001). El juicio contra la hipótesis nula: muchos testigos y una sentencia virtuosa. Psicothema, 13 (1), 174-178.",
-        "Cabriá, S. (1994). Filosofía de la estadística. Valencia: Servicio de Publicaciones de la Universidad.",
-        "Castro-Sotos, A. E., Vanhoof, S., Noortgate, W. & Onghena, P. (2007). Students’ misconceptions of statistical inference: A review of the empirical evidence from research on statistics education. Educational Research Review, 2 98–113",
-        "Chance, B., delMas, R. C., & Garfield, J. (2004). Reasoning About Sampling Distributions. In D.Ben-Zvi and J. Garfield (eds.), The challenge of developing statistical literacy, reasoning and thinking (pp. 295-323). The Netherlands: Kluwer.",
-        "Chow, L. S. (1996). Statistical significance: Rationale, validity and utility. London: Sage.",
-        "Cumming, G., Williams, J., & Fidler, F. (2004). Replication, and researchers’ understanding of confidence intervals and standard error bars. Understanding Statistics, 3, 299-311.",
-        "Díaz, C. (2007). Introducción a la Inferencia Bayesiana. Granada: La autora.",
-        "Díaz, C., de la Fuente, I., & Batanero, C. (2008). Implications between learning outcomes in elementary Bayesian inference. In R. Gras (Ed.), Statistical implicative analysis: theory and applications (pp. 163-183). Springer. Studies in Computational Intelligence 127.",
-        "Eddy, D. M. (1982). Probabilistic reasoning in clinical medicine: Problems and opportunities. En D. Kahneman, P. Slovic y Tversky (Eds.), Judgement under uncertainty: Heuristics and biases. New York: Cambridge University Press.",
-        "Falk, R. (1986) Misconceptions of statistical significance, Journal of Structural Learning, 9, 83–96.",
-        "Falk, R., & Greenbaum, C. W. (1995) Significance tests die hard: The amazing persistence ofa probabilistic misconception, Theory and Psychology, 5 (1), 75-98.",
-        "Fidler, F. & Cumming, G. (2005, August). Teaching confidence intervals: problems and potential solutions. Trabajo presentado en la International Statistical Institute, 55th Session. Lisbon.",
-        "Fisher, R. A. (1935). The design of experiments. New York: Hafner Press.",
-        "Green, D. R. (1991). A longitudinal study of children’s probability concepts. En D. Vere-Jones (Ed.), Proceedings of the Third International Conference on Teaching Statistics (pp. 320-328). Voorburg: International Statistical Institute.",
-        "Hacking, I. (1990). The taming of chance. Cambridge, MA: Cambridge University Press.",
-        "Harlow, L. L., Mulaik, S. A., & Steiger, J. H. (1997). What if there were no significance tests? Mahwah, NJ: Lawrence Erlbaum.",
-        "Harradine, A., Batanero, C., & Rossman, A. (En prensa). Students and teachers’ knowledge of sampling and inference. En C. Batanero, G. Burrill, & C. Reading (Eds.), Teaching statistics in school mathematics. Challenges for teaching and teacher education. Springer.",
-        "Jones, G. A. y Thornton, C. A. (2005). An overview of research into the teaching and learning of probability. En G. A. Jones (Ed.), Exploring probability in school: Challenges for teaching and learning (pp. 65-92).. Dordrecht, The Netherlands: Kluwer Academic Publishers.",
-        "Kahneman, D., Slovic, P., & Tversky, A. (1982). Judgment under uncertainty: Heuristics and biases. New York: Cambridge University Press.",
-        "Krauss, S., & Wassner, K. (2002). How significance tests should be presented to avoid the typical misinterpretations. En B. Phillips (Ed.), Proceedings of the Sixth International Conference on Teaching Statistics. Cape Town, South Africa: International Association for Statistics Education. Online: www.stat.auckland.ac.nz/~iase/publications.",
-        "Lecoutre, B., & Lecoutre, M. P. (2001). Uses, abuses and misuses of significance tests in the scientific commumity: Won’t the Bayesian choice be unavoidable? International Statistical Review, 69(3)- 399-417.",
-        "Lee, P. M. (2004). Bayesian statistics. An introduction. York, UK: Arnold.",
-        "Liu, Y., & Thompson, P. W. (2009). Mathematics teachers' understandings of proto-hypothesis testing. Pedagogies, 4 (2), 126-138.",
-        "MEC (2007). Real Decreto 1467/2007, de 2 de noviembre, por el que se establece la estructura del bachillerato y se fijan sus enseñanzas mínimas (Royal Decreet establihing the estructure and content of the high school curriculum).",
-        "Moore, D. S. (1997). New pedagogy and new content: the case of statistics. International Statistical Review, 635, 123-165.",
-        "Morrison, D. E., y Henkel, R. E. (Eds.). (1970). The significance tests controversy. A reader. Chicago: Aldine.",
-        "National Council of Teachers of Mathematics. (2000). Principles and standards for school mathematics. Reston, VA: NCTM. Online: standards.nctm.org/.",
-        "Nisbett, R. & Ross, L. (1980). Human inference: Strategies and shortcomings of social judgments. Englewood Cliffs, NJ: Prentice Hall.",
-        "Rossman, A. (2008). Reasoning about informal statistical inference: One statistician’s view. Statistics Education Research Journal, 7(2), 5-19. Online: http://www.stat.auckland.ac.nz/serj.",
-        "O’Hagan, A. y Forster, J. (2004). Bayesian inference. Vol. 2B en Kendall’s Advanced Theory of Statistics. London: Arnold.",
-        "Popper, K. R. (1967). La lógica de la investigación científica. Madrid: Tecnos.",
-        "Rivadulla, A. (1991). Probabilidad e inferencia científica. Barcelona: Anthropos.",
-        "Rubin, A., Hammerman, J. K. L & Konold, C. (2006). Exploring informal inference with interactive visualization software. In B. Phillips (Ed.), Proceedings of the Sixth International Conference on Teaching Statistics. Cape Town, South Africa: International Association for Statistics Education. Online: www.stat.auckland.ac.nz/~iase/publications.",
-        "Saldanha. L., & Thompson, P. (2002) Conceptions of sample and their relationship to statistical inference. Educational Studies in Mathematics, 51, 257-270.",
-        "Sedlmeier, P. (1999). Improving statistical reasoning. Theoretical models and practical implications. Mahwah, NJ: Erlbaum.",
-        "Vallecillos, A. (1994). Estudio teórico-experimental de errores y concepciones sobre el contraste estadístico de hipótesis en estudiantes universitarios Tesis Doctoral. Universidad de Granada, España.",
-        "Vallecillos, A. (1999). Some empirical evidence on learning difficulties about testing hypotheses. Proceedings of the 52 session of the International Statistical Institute (Vol.2, pp. 201–204). Helsinki: International Statistical Institute."
-      ],
-      "language": "",
-      "documentType": "Article",
-      "openAccess": "",
-      "countryFirstAuthor": "Spain",
-      "countries": [
-        "Spain"
-      ],
-      "dataQualityNote": "",
-      "drive": null
-    },
-    {
-      "id": "batanero-060",
+      "id": "batanero-057",
       "title": "The sense of correlation and regression",
       "titlePortuguese": "",
       "year": 2014,
@@ -4753,10 +4756,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2014_-_El_sentido_de_la_correlacion_y_regresion_-_W40517616.md",
+        "url": "https://drive.google.com/file/d/1pjHKCUVM7CY0byG9-1FmcAJ_ROvSMuA_/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-061",
+      "id": "batanero-058",
       "title": "Statistics in compulsory education: Analysis of the Spanish curriculum",
       "titlePortuguese": "",
       "year": 2014,
@@ -4828,10 +4836,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2014_-_La_estadistica_en_la_educacion_obligatoria_Analisis_del_curriculo_espanol_-_W1835225784.md",
+        "url": "https://drive.google.com/file/d/1cUntENABcCCtn4scFMY2xM0Amw9Ya9Vg/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-062",
+      "id": "batanero-059",
       "title": "Probabilistic procedures in Spanish primary school mathematics textbooks",
       "titlePortuguese": "",
       "year": 2014,
@@ -4905,10 +4918,15 @@
         "Colombia"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2014_-_Procedimientos_probabilisticos_en_libros_de_texto_de_matematicas_para_educacion_primaria_en_E.md",
+        "url": "https://drive.google.com/file/d/1v1Lk5rDGKWidUb0wVDjQSx34sj9fyfPV/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-063",
+      "id": "batanero-060",
       "title": "Biases in Conditional Probability Reasoning and Implications for Teaching",
       "titlePortuguese": "",
       "year": 2014,
@@ -4933,8 +4951,8 @@
       ],
       "sourceTitle": "Revista Digital Matemática, Educación e Internet",
       "citations": 16,
-      "doi": "",
-      "link": "",
+      "doi": "10.18845/rdmei.v12i2.1673",
+      "link": "https://doi.org/10.18845/rdmei.v12i2.1673",
       "abstract": "In this paper we analyze some biases that are frequent in understanding conditional probability. We also present results from two assessment studies carried out with Psychology students and prospective secondary school mathematics teachers in Spain. We conclude with some reflections on the teaching of probability.",
       "authorKeywords": [
         "Conditional probability",
@@ -4971,10 +4989,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2014_-_Sesgos_en_el_Razonamiento_Sobre_Probabilidad_Condicional_e_Implicaciones_Para_la_Ensenanza_-_.md",
+        "url": "https://drive.google.com/file/d/1FawGAqS_fZPrqy1KTwuUEyN5t8xsDWHD/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-064",
+      "id": "batanero-061",
       "title": "Analysis of Statistical Graphics Introduced in Chilean Primary Education Textbooks",
       "titlePortuguese": "",
       "year": 2015,
@@ -5046,10 +5069,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2015_-_ANALISIS_DE_LOS_GRAFICOS_ESTADISTICOS_PRESENTADOS_EN_LIBROS_DE_TEXTO_DE_EDUCACION_PRIMARIA_CH.md",
+        "url": "https://drive.google.com/file/d/1ZI0DQ9-nOAFyilj2cVyQLeJeYn9K07yg/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-065",
+      "id": "batanero-062",
       "title": "Analysis of statistical graphs in Spanish primary education textbooks",
       "titlePortuguese": "",
       "year": 2015,
@@ -5127,10 +5155,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2015_-_Analisis_de_graficos_estadisticos_en_libros_de_texto_de_educacion_primaria_espanola_-_W229008.md",
+        "url": "https://drive.google.com/file/d/1lDDgIf31f4n3VCpuIlTEYQ5mb1OTej9p/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-066",
+      "id": "batanero-063",
       "title": "Prospective primary school teachers’ mathematical knowledge for teaching probability: an exploratory study",
       "titlePortuguese": "",
       "year": 2015,
@@ -5245,7 +5278,7 @@
       }
     },
     {
-      "id": "batanero-067",
+      "id": "batanero-064",
       "title": "Interpreting contingency tables",
       "titlePortuguese": "",
       "year": 2015,
@@ -5297,10 +5330,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2015_-_Interpretando_las_tablas_de_contingencia_-_W2471273468.md",
+        "url": "https://drive.google.com/file/d/1YkrhPdYtMrX440xSsi6GXKd6mBUXTjA9/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-068",
+      "id": "batanero-065",
       "title": "Technological Resources in Bidimensional Statistics in High School Textbooks",
       "titlePortuguese": "",
       "year": 2015,
@@ -5391,10 +5429,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2015_-_Los_recursos_tecnologicos_en_la_estadistica_bidimensional_en_los_textos_espanoles_de_bachille.md",
+        "url": "https://drive.google.com/file/d/1UzwgFkGXdqMAk_7aPodV8-cr3xeJfiRo/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-069",
+      "id": "batanero-066",
       "title": "Judgment of Association between Potential Factors and Associated Risk in 2x2 Tables: A Study with Psychology Students",
       "titlePortuguese": "",
       "year": 2015,
@@ -5490,7 +5533,7 @@
       }
     },
     {
-      "id": "batanero-070",
+      "id": "batanero-067",
       "title": "Prospective Teachers' Semiotic Conflicts in Computing Probabilities from a Two-Way Table",
       "titlePortuguese": "",
       "year": 2015,
@@ -5577,7 +5620,7 @@
       }
     },
     {
-      "id": "batanero-071",
+      "id": "batanero-068",
       "title": "Dispersion as a Curriculum Structuring Concept in Statistics and Probability",
       "titlePortuguese": "",
       "year": 2015,
@@ -5640,10 +5683,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2015_-_La_dispersion_como_elemento_estructurador_del_curriculo_de_estadistica_y_probabilidad_-_W2512.md",
+        "url": "https://drive.google.com/file/d/1i5aGe6owBKrF61-bvKoMyXTMwdOsYUtP/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-072",
+      "id": "batanero-069",
       "title": "Statistical Graphs Complexity and Reading Levels: A Study with Prospective Teachers",
       "titlePortuguese": "",
       "year": 2015,
@@ -5734,11 +5782,11 @@
         "title": "2015_-_Statistical_graphs_complexity_and_reading_levels_a_study_with_prospective_teachers_-_W1928837.md",
         "url": "https://drive.google.com/file/d/1gi6Wj22pJ_3q94HY3pAiLSc_p8WARU7_/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-073",
+      "id": "batanero-070",
       "title": "Assessing psychology students’ difficulties in elementary variance analysis",
       "titlePortuguese": "",
       "year": 2016,
@@ -5818,7 +5866,7 @@
       }
     },
     {
-      "id": "batanero-074",
+      "id": "batanero-071",
       "title": "Comparison of probabilities of events posed by explicit and implicit form",
       "titlePortuguese": "",
       "year": 2015,
@@ -5902,7 +5950,7 @@
       }
     },
     {
-      "id": "batanero-075",
+      "id": "batanero-072",
       "title": "Understanding the hypotheses in variance analysis by psychology students",
       "titlePortuguese": "",
       "year": 2016,
@@ -5975,10 +6023,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2016_-_Comprension_de_las_hipotesis_del_analisis_de_varianza_por_estudiantes_de_psicologia_Understan.md",
+        "url": "https://drive.google.com/file/d/1ecSZg25Y30WlvudWGcnKBpY1yHDG_wfi/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-076",
+      "id": "batanero-073",
       "title": "Developing a Questionnaire to Assess the Probability Content Knowledge of Prospective Primary School Teachers",
       "titlePortuguese": "",
       "year": 2016,
@@ -6057,10 +6110,15 @@
         "Colombia"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2016_-_DEVELOPING_A_QUESTIONNAIRE_TO_ASSESS_THE_PROBABILITY_CONTENT_KNOWLEDGE_OF_PROSPECTIVE_PRIMARY.md",
+        "url": "https://drive.google.com/file/d/1ikkMtqrqdGVroEd19OAAyGc7UyndcBuN/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-077",
+      "id": "batanero-074",
       "title": "Statistic graphs in primary education textbooks: a comparative study between Spain and Chile",
       "titlePortuguese": "",
       "year": 2016,
@@ -6152,7 +6210,7 @@
       }
     },
     {
-      "id": "batanero-078",
+      "id": "batanero-075",
       "title": "Statistical Inference Problems in the University Entrance Test in Andalucía",
       "titlePortuguese": "",
       "year": 2016,
@@ -6227,10 +6285,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2016_-_LA_INFERENCIA_ESTADISTICA_EN_LAS_PRUEBAS_DE_ACCESO_A_LA_UNIVERSIDAD_EN_ANDALUCIA_-_W253962710.md",
+        "url": "https://drive.google.com/file/d/13Dt6ITBe5156NoVrMm1otMpkFl19HOgG/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-079",
+      "id": "batanero-076",
       "title": "Interpretation of Summaries on Statistics Addressed to Prospective Teachers in Middle School",
       "titlePortuguese": "",
       "year": 2016,
@@ -6319,7 +6382,7 @@
       }
     },
     {
-      "id": "batanero-080",
+      "id": "batanero-077",
       "title": "Conditional Probability Reasoning in Risk Situations",
       "titlePortuguese": "",
       "year": 2016,
@@ -6383,10 +6446,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2016_-_Razonamiento_sobre_probabilidad_condicional_en_situaciones_de_riesgo_-_W2596050648.md",
+        "url": "https://drive.google.com/file/d/1BAWyHnJYh2z0mQCd0w1CWhciZZLRc96B/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-081",
+      "id": "batanero-078",
       "title": "Analysis of Concepts Linked to Correlation and Regression in High School Textbooks",
       "titlePortuguese": "",
       "year": 2017,
@@ -6477,7 +6545,7 @@
       }
     },
     {
-      "id": "batanero-082",
+      "id": "batanero-079",
       "title": "Research on statistical graphs in Primary Education: a literature review",
       "titlePortuguese": "",
       "year": 2017,
@@ -6501,8 +6569,8 @@
       ],
       "sourceTitle": "Revista Digital Matemática, Educación e Internet",
       "citations": 0,
-      "doi": "",
-      "link": "",
+      "doi": "10.18845/rdmei.v18i1.3255",
+      "link": "https://doi.org/10.18845/rdmei.v18i1.3255",
       "abstract": "This literature review examines the development of statistical literacy in primary education, focusing specifically on how young students read and construct graphs. The authors outline a theoretical framework that categorizes graph comprehension into levels ranging from literal data extraction to critical evaluation and prediction, while also defining levels of semiotic complexity in graph production. Through an analysis of various international studies, the text identifies persistent student difficulties, such as interpreting non-explicit frequencies and errors in scaling and labeling.",
       "authorKeywords": [
         "Statistical graphs",
@@ -6542,69 +6610,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2017_-_Investigaciones_sobre_graficos_estadisticos_en_Educacion_Primaria_revision_de_la_literatura_-.md",
+        "url": "https://drive.google.com/file/d/10Dq-xSxZhAVutJGC7D9BBO1mLRxoHonB/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-083",
-      "title": "Construction of a questionnaire to assess critical interpretation of statistical graphs",
-      "titlePortuguese": "",
-      "year": 2017,
-      "authors": [
-        "Arteaga P.",
-        "Batanero Bernabeu C.",
-        "Díaz-Levicoy D.",
-        "Gea M.M."
-      ],
-      "authorFullNames": [
-        "Arteaga, Pedro",
-        "Batanero Bernabeu, Carmen",
-        "Díaz-Levicoy, Danilo",
-        "Gea, María Magdalena"
-      ],
-      "affiliations": [
-        "Universidad de Granada, Granada, Spain"
-      ],
-      "authorsWithAffiliations": [
-        "Arteaga, Pedro, Universidad de Granada, Granada, Spain",
-        "Batanero Bernabeu, Carmen, Universidad de Granada, Granada, Spain",
-        "Díaz-Levicoy, Danilo, Universidad de Granada, Granada, Spain",
-        "Gea, María Magdalena, Universidad de Granada, Granada, Spain"
-      ],
-      "sourceTitle": "Investigación en Educación Matemática XXI (SEIEM)",
-      "citations": 0,
-      "doi": "",
-      "link": "",
-      "abstract": "This research paper details the development of a diagnostic tool designed to measure statistical literacy among future primary school educators, specifically focusing on their ability to critically interpret graphical data found in everyday media. The authors argue that while being able to decode visual information is a vital skill for modern citizens, many prospective teachers exhibit significant deficiencies in identifying biases, errors, or technical inaccuracies in elementary charts.",
-      "authorKeywords": [
-        "Statistical graphics",
-        "Critical interpretation",
-        "Questionnaire construction",
-        "Statistical literacy",
-        "Prospective teachers",
-        "Teacher education"
-      ],
-      "indexKeywords": [],
-      "references": [
-        "Aoyama, K. (2007). Investigating a hierarchy of students' interpretations of graphs. International Electronic Journal of Mathematics Education, 2(3), 298-320.",
-        "Arteaga, P. (2011). Evaluación de conocimientos sobre gráficos estadísticos y conocimientos didácticos de futuros profesores. Tesis Doctoral, Universidad de Granada.",
-        "Batanero, C., Arteaga, P., & Ruiz, B. (2010). Análisis de la complejidad semiótica de los gráficos producidos por futuros profesores de educación primaria en una tarea de comparación de dos variables estadísticas. Enseñanza de las Ciencias, 28(1), 141-154.",
-        "Curcio, F. R. (1989). Developing Graph Comprehension. Reston, VA: NCTM.",
-        "Friel, S., Curcio, F., & Bright, G. (2001). Making sense of graphs: Critical factors influencing comprehension and instructional implications. Journal for Research in Mathematics Education, 32(2), 124-158.",
-        "Gal, I. (2002). Adult's statistical literacy: Meaning, components, responsibilities. International Statistical Review, 70(1), 1-25.",
-        "Watson, J. M. (2006). Statistical Literacy at School: Growth and Goals. Mahwah, NJ: Lawrence Erlbaum."
-      ],
-      "language": "",
-      "documentType": "Article",
-      "openAccess": "",
-      "countryFirstAuthor": "Spain",
-      "countries": [
-        "Spain"
-      ],
-      "dataQualityNote": "",
-      "drive": null
-    },
-    {
-      "id": "batanero-084",
+      "id": "batanero-080",
       "title": "Do prospective teachers connect frequentist and classical approaches to probability?",
       "titlePortuguese": "",
       "year": 2017,
@@ -6669,10 +6683,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2017_-__Conectan_los_futuros_profesores_las_aproximaciones_frecuencial_y_clasica_de_la_probabilidad_.md",
+        "url": "https://drive.google.com/file/d/1OO4jZd8Flwxr0TlyM-jutkPpWWf3YMtG/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-085",
+      "id": "batanero-081",
       "title": "Mediational component for didactic-mathematical knowledge of Statistics in pre-service teachers: an exploratory assessment study",
       "titlePortuguese": "",
       "year": 2017,
@@ -6811,7 +6830,7 @@
       }
     },
     {
-      "id": "batanero-086",
+      "id": "batanero-082",
       "title": "Content knowledge of correlation and regression in prospective teachers",
       "titlePortuguese": "",
       "year": 2018,
@@ -6898,7 +6917,7 @@
       }
     },
     {
-      "id": "batanero-087",
+      "id": "batanero-083",
       "title": "Technological Knowledge of Correlation and Regression: An Exploratory Study with Prospective Teachers",
       "titlePortuguese": "",
       "year": 2018,
@@ -7009,7 +7028,7 @@
       }
     },
     {
-      "id": "batanero-088",
+      "id": "batanero-084",
       "title": "Chilean Basic Education Students’ Difficulties in Building Bars Graphs",
       "titlePortuguese": "",
       "year": 2018,
@@ -7090,10 +7109,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2018_-_Dificultades_de_los_estudiantes_chilenos_de_Educacion_Basica_en_la_construccion_de_diagramas_.md",
+        "url": "https://drive.google.com/file/d/105jN0PAVJDtK0Va01HsEV9kQAJTzVtmK/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-089",
+      "id": "batanero-085",
       "title": "Tree Diagram: An Intuitive Resource in Probability and Combinatorics",
       "titlePortuguese": "",
       "year": 2018,
@@ -7151,10 +7175,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2018_-_El_diagrama_de_arbol_un_recurso_intuitivo_en_Probabilidad_y_Combinatoria_-_W2968096805.md",
+        "url": "https://drive.google.com/file/d/1ANkkqyIYtrems2HD16e_7-vdk8LFPZE_/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-090",
+      "id": "batanero-086",
       "title": "Simulation in Probability and Statistics: potentialities and limitations",
       "titlePortuguese": "",
       "year": 2019,
@@ -7217,10 +7246,15 @@
         "Portugal"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2019_-_A_simulacao_em_Probabilidades_e_Estatistica_potencialidades_e_limitacoes_-_W2341356696.md",
+        "url": "https://drive.google.com/file/d/1S7uw_Rd5ZqZZl1D5MnJxgY3jw6pfh6ug/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-091",
+      "id": "batanero-087",
       "title": "Assessing Prospective Teachers' Affective Component Related to Working with Statistical Projects",
       "titlePortuguese": "",
       "year": 2019,
@@ -7310,7 +7344,7 @@
       }
     },
     {
-      "id": "batanero-092",
+      "id": "batanero-088",
       "title": "Do prospective teachers know their students' errors in statistical inference?",
       "titlePortuguese": "",
       "year": 2019,
@@ -7384,7 +7418,7 @@
       }
     },
     {
-      "id": "batanero-093",
+      "id": "batanero-089",
       "title": "Chilean Children’s Reading Levels of Statistical Graphs",
       "titlePortuguese": "",
       "year": 2019,
@@ -7463,7 +7497,7 @@
       }
     },
     {
-      "id": "batanero-094",
+      "id": "batanero-090",
       "title": "Sampling Distributions in Binomial Populations: Comprehension Difficulties by Secondary and High School Students",
       "titlePortuguese": "",
       "year": 2019,
@@ -7524,10 +7558,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2019_-_Distribuciones_muestrales_en_poblaciones_binomiales_dificultades_de_comprension_por_estudiant.md",
+        "url": "https://drive.google.com/file/d/1kaajSEVNBW8-1sSS2jTDuQoHrXyap2Ax/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-095",
+      "id": "batanero-091",
       "title": "The Cognitive Component of Didactic-Mathematical Knowledge of Teachers in Training on Correlation and Regression",
       "titlePortuguese": "",
       "year": 2019,
@@ -7660,10 +7699,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2019_-_La_componente_cognitiva_del_conocimiento_didactico-matematico_de_profesores_en_formacion_sobr.md",
+        "url": "https://drive.google.com/file/d/12XiAT1tx-bKNxMM5PATTOmamNdPk1ciL/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-096",
+      "id": "batanero-092",
       "title": "Reading the Stem and Leaf Diagram by Primary Education Chilean Students",
       "titlePortuguese": "",
       "year": 2019,
@@ -7737,10 +7781,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2019_-_Lectura_del_diagrama_de_tallo_y_hojas_por_estudiantes_chilenos_de_Educacion_Primaria_-_W29753.md",
+        "url": "https://drive.google.com/file/d/1atqQ832lqFaVXPT-7je5UCDRVevxgTCk/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-097",
+      "id": "batanero-093",
       "title": "Understanding Sampling: A Summary of the Research",
       "titlePortuguese": "",
       "year": 2019,
@@ -7793,11 +7842,11 @@
         "title": "2019_-_Understanding_Sampling_A_Summary_of_the_Research_-_W3015142847.md",
         "url": "https://drive.google.com/file/d/1kXoy2_RMyNQKullPz82FQciWUBDYleWk/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-098",
+      "id": "batanero-094",
       "title": "Analysis of the algebraic activity involved in working with statistical tables",
       "titlePortuguese": "",
       "year": 2020,
@@ -7844,10 +7893,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Analisis_de_la_actividad_algebraica_implicada_en_el_trabajo_con_las_tablas_estadisticas_-_W30.md",
+        "url": "https://drive.google.com/file/d/1u33DxEUyUKbhkWd-RMfIQJx5gCszEMDj/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-099",
+      "id": "batanero-095",
       "title": "Understanding of confidence intervals: A compared study with university and pre-university students",
       "titlePortuguese": "",
       "year": 2020,
@@ -7902,10 +7956,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_COMPRENSION_DEL_INTERVALO_DE_CONFIANZA_UN_ESTUDIO_COMPARADO_CON_ESTUDIANTES_UNIVERSITARIOS_Y_.md",
+        "url": "https://drive.google.com/file/d/1YlbSNG4XdFqPMNNv3XLaTcm3Vx8R3jQj/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-100",
+      "id": "batanero-096",
       "title": "Chilean Primary School Children’s Understanding of Statistical Graphs",
       "titlePortuguese": "",
       "year": 2020,
@@ -7975,11 +8034,11 @@
         "title": "2020_-_Chilean_Primary_School_Children_s_Understanding_of_Statistical_Graphs_-_W3091162187.md",
         "url": "https://drive.google.com/file/d/1-VfMzteCfQJZuW2i0rJcgT7XTqoCFK0s/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-101",
+      "id": "batanero-097",
       "title": "Comparing probabilities in urns: A study with primary school students",
       "titlePortuguese": "",
       "year": 2020,
@@ -8061,11 +8120,11 @@
         "title": "2020_-_Comparing_probabilities_in_urns_A_study_with_primary_school_students_-_W3124595308.md",
         "url": "https://drive.google.com/file/d/1WdPolQ-DI7eGwDfX3FDP4muury1fu-7b/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-102",
+      "id": "batanero-098",
       "title": "Secondary school students’ understanding of sample representativeness and variability",
       "titlePortuguese": "",
       "year": 2020,
@@ -8134,10 +8193,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Comprension_de_la_representatividad_y_variabilidad_muestral_por_estudiantes_de_Educacion_Secu.md",
+        "url": "https://drive.google.com/file/d/1iS8Y5id_TxqcnVcA4BFgU5ZQl4vO6Kki/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-103",
+      "id": "batanero-099",
       "title": "Prospective primary school teachers’ reading and building of a two-way tables",
       "titlePortuguese": "",
       "year": 2020,
@@ -8234,10 +8298,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Construccion_y_lectura_de_la_tabla_de_doble_entrada_por_profesores_de_Educacion_Primaria_en_f.md",
+        "url": "https://drive.google.com/file/d/1E5MtIoSCJiOPGAqDGjpZA3oiyWkBEW5s/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-104",
+      "id": "batanero-100",
       "title": "Difficulties in building confidence intervals by high school and psychology students",
       "titlePortuguese": "",
       "year": 2020,
@@ -8306,10 +8375,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_DIFICULTADES_EN_LA_CONSTRUCCION_DE_INTERVALOS_DE_CONFIANZA_POR_ESTUDIANTES_DE_BACHILLERATO_Y_.md",
+        "url": "https://drive.google.com/file/d/1SEOL0Op-DIzL9yKSWdbQpM9QGkzy07tV/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 0.95
+      }
     },
     {
-      "id": "batanero-105",
+      "id": "batanero-101",
       "title": "Order statistics and proportional reasoning",
       "titlePortuguese": "",
       "year": 2020,
@@ -8381,10 +8455,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Estadisticos_de_orden_y_razonamiento_proporcional_-_W3113096596.md",
+        "url": "https://drive.google.com/file/d/1JmLus9hd-87IdDzYHiM_TLmwNpUkPK3h/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-106",
+      "id": "batanero-102",
       "title": "Interval estimation: methodological approaches and understanding difficulties",
       "titlePortuguese": "",
       "year": 2020,
@@ -8492,11 +8571,11 @@
         "title": "2020_-_Interval_estimation_methodological_approaches_and_understanding_difficulties_-_W3171587971.md",
         "url": "https://drive.google.com/file/d/1YPfm4H6uQ-uPg3AXyg46bu8T6hc7zpmN/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-107",
+      "id": "batanero-103",
       "title": "Statistical Graphics in Primary School Textbooks in Costa Rica",
       "titlePortuguese": "",
       "year": 2020,
@@ -8593,10 +8672,15 @@
         "Costa Rica"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Los_Graficos_Estadisticos_en_los_Libros_de_Texto_de_Educacion_Primaria_en_Costa_Rica_-_W30168.md",
+        "url": "https://drive.google.com/file/d/1RtjxrEqZJW3OAlPLiIjJlZrRVtaIOZ2K/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-108",
+      "id": "batanero-104",
       "title": "High School Students' Reasoning in a Binomial Situation",
       "titlePortuguese": "",
       "year": 2020,
@@ -8667,10 +8751,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Razonamiento_de_estudiantes_de_bachillerato_ante_una_situacion_binomial_-_W3042082829.md",
+        "url": "https://drive.google.com/file/d/1JomzAvKOCR6FSDwNtOMlsjJlxgUVeCMt/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-109",
+      "id": "batanero-105",
       "title": "A Semiotic Analysis of the Statistical Table Object in Chilean Textbooks",
       "titlePortuguese": "",
       "year": 2020,
@@ -8740,10 +8829,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2020_-_Un_analisis_semiotico_del_objeto_tabla_estadistica_en_libros_de_texto_chilenos_-_W3001020629.md",
+        "url": "https://drive.google.com/file/d/1gysIGvMH431RDwLRKJj5U4V9qZewSj6x/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-110",
+      "id": "batanero-106",
       "title": "Ways in which high-school students understand the sampling distribution for proportions",
       "titlePortuguese": "",
       "year": 2020,
@@ -8835,47 +8929,42 @@
         "title": "2020_-_WAYS_IN_WHICH_HIGH-SCHOOL_STUDENTS_UNDERSTAND_THE_SAMPLING_DISTRIBUTION_FOR_PROPORTIONS_-_W31.md",
         "url": "https://drive.google.com/file/d/1RxcLQKfg2ll5JxRrY7aAuJ9hCzVSf0yp/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-111",
+      "id": "batanero-107",
       "title": "Algebraization Levels in the Study of Probability",
       "titlePortuguese": "",
-      "year": 2021,
+      "year": 2022,
       "authors": [
-        "Batanero Bernabeu C.",
-        "Gea M.M.",
-        "Godino J.D.",
-        "Giacomone B."
+        "Burgos M.",
+        "Batanero C.",
+        "Godino J.D."
       ],
       "authorFullNames": [
-        "Batanero Bernabeu, Carmen",
-        "Gea, María Magdalena",
-        "Godino, Juan D.",
-        "Giacomone, Belén"
+        "Burgos, María",
+        "Batanero, Carmen",
+        "Godino, Juan D."
       ],
       "affiliations": [
         "University of Granada, Granada, Spain"
       ],
       "authorsWithAffiliations": [
+        "Burgos, María, University of Granada, Granada, Spain",
         "Batanero, Carmen, University of Granada, Granada, Spain",
-        "Gea, María Magdalena, University of Granada, Granada, Spain",
-        "Godino, Juan D., University of Granada, Granada, Spain",
-        "Giacomone, Belén, University of Granada, Granada, Spain"
+        "Godino, Juan D., University of Granada, Granada, Spain"
       ],
       "sourceTitle": "Mathematics",
       "citations": 13,
-      "doi": "10.3390/math9141663",
-      "link": "https://doi.org/10.3390/math9141663",
-      "abstract": "Probability is a fundamental topic in mathematics education, and its study involves various levels of algebraic reasoning. Grounded in the Onto-Semiotic Approach (OSA) to mathematical cognition and instruction, this paper analyzes the algebraization levels involved in the study of probability across secondary education curricula. We describe the progression from informal arithmetic practices to higher levels of algebraic reasoning involving parameters, functional relationships, and axiomatic structures. The analysis provides criteria to guide teachers in sequencing probabilistic tasks according to students' algebraic reasoning capabilities.",
+      "doi": "10.3390/math10010091",
+      "link": "https://doi.org/10.3390/math10010091",
+      "abstract": "The paper aims to analyze how the different degrees of mathematical formalization can be worked in the study of probability at non-university educational levels. The model of algebraization levels for mathematical practices based on the onto-semiotic approach is applied to identify the different objects and processes involved in the resolution of a selection of probabilistic problems. As a result, we describe the possible progression from arithmetic and proto-algebraic levels of mathematical activity to higher levels of algebraization and formalization in the study of probability. The method of analysis developed can help to establish connections between intuitive/informal and progressively more formal approaches in the study of mathematics.",
       "authorKeywords": [
         "Probability",
-        "Algebraization levels",
-        "Onto-semiotic approach",
-        "Mathematics education",
-        "Secondary education",
-        "Random variables"
+        "Formalization",
+        "Fundamental stochastic ideas",
+        "Algebraization levels"
       ],
       "indexKeywords": [],
       "references": [
@@ -8901,11 +8990,11 @@
         "title": "2021_-_Algebraization_Levels_in_the_Study_of_Probability_-_W4200400663.md",
         "url": "https://drive.google.com/file/d/13awd7sfMjSKl6ey72Hvuhql5pXK4p-2G/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-112",
+      "id": "batanero-108",
       "title": "Semiotic Complexity of Statistical Tables in Chilean and Spanish Primary School Textbooks",
       "titlePortuguese": "",
       "year": 2021,
@@ -8964,10 +9053,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_Complejidad_semiotica_de_las_tablas_estadisticas_en_textos_escolares_chilenos_y_espanoles_de_.md",
+        "url": "https://drive.google.com/file/d/1LBXCvpZU-q2vAHHCWrQ9I9-xBkBONWur/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-113",
+      "id": "batanero-109",
       "title": "The Emergence of Probabilistic Reasoning in Early Childhood Education",
       "titlePortuguese": "",
       "year": 2021,
@@ -9028,10 +9122,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_El_inicio_del_razonamiento_probabilistico_en_educacion_infantil_-_W4200502110.md",
+        "url": "https://drive.google.com/file/d/1lGlX_MnZCOoSojCrli6xWGvV5CuDki25/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-114",
+      "id": "batanero-110",
       "title": "Reading Levels and Contexts in Activities on Statistical Tables in Chilean and Spanish Textbooks",
       "titlePortuguese": "",
       "year": 2021,
@@ -9101,46 +9200,47 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_Niveles_de_lectura_y_contextos_en_las_actividades_sobre_tablas_estadisticas_en_libros_de_text.md",
+        "url": "https://drive.google.com/file/d/1vgkwHVexB6hEpB-vMf1sJXjtq9Wh_N6P/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-115",
+      "id": "batanero-111",
       "title": "Primary School Students' Reading Levels of Line Graphs",
       "titlePortuguese": "",
       "year": 2021,
       "authors": [
-        "Díaz-Levicoy D.",
         "Arteaga P.",
-        "Batanero Bernabeu C.",
-        "Gea M.M."
+        "Díaz-Levicoy D.",
+        "Batanero C."
       ],
       "authorFullNames": [
-        "Díaz-Levicoy, Danilo",
         "Arteaga, Pedro",
-        "Batanero Bernabeu, Carmen",
-        "Gea, María Magdalena"
+        "Díaz-Levicoy, Danilo",
+        "Batanero, Carmen"
       ],
       "affiliations": [
-        "Universidad Católica del Maule, Talca, Chile",
-        "Universidad de Granada, Granada, Spain"
+        "Universidad de Granada, Granada, Spain",
+        "Universidad Católica del Maule, Talca, Chile"
       ],
       "authorsWithAffiliations": [
-        "Díaz-Levicoy, Danilo, Universidad Católica del Maule, Talca, Chile",
         "Arteaga, Pedro, Universidad de Granada, Granada, Spain",
-        "Batanero, Carmen, Universidad de Granada, Granada, Spain",
-        "Gea, María Magdalena, Universidad de Granada, Granada, Spain"
+        "Díaz-Levicoy, Danilo, Universidad Católica del Maule, Talca, Chile",
+        "Batanero, Carmen, Universidad de Granada, Granada, Spain"
       ],
-      "sourceTitle": "Educación Matemática",
+      "sourceTitle": "Statistics Education Research Journal",
       "citations": 0,
-      "doi": "10.24844/EM3301.07",
-      "link": "https://doi.org/10.24844/EM3301.07",
-      "abstract": "The aim of this research was to analyze the reading levels of line graphs shown by primary school Chilean students. A sample of 385 6th and 7th grade students completed a questionnaire with two tasks involving the reading and interpretation of line graphs. Results indicate that most students reach reading level 2 (reading between the data), while very few reach the upper critical level (reading behind the data). Common errors in reading scale axes and identifying variables are discussed.",
+      "doi": "10.52041/serj.v20i2.339",
+      "link": "https://doi.org/10.52041/serj.v20i2.339",
+      "abstract": "The aim of this research was to describe the errors conveyed and reading levels reached by 6th and 7th grade Chilean primary school children when working with line graphs. To achieve these objectives, we gave a questionnaire, previously validated by experts with two open-ended tasks, to a sample of 745 students from different Chilean cities. In the first task, we asked the children to read the title of the graph, describe the variables represented and perform a direct and inverse reading of a data value. In the second task, where we address the visual effect of a scale change in a representation, the students had to select the line graph most favourable for a candidate. Although both tasks were considered easy for the grade levels targeted, only some of the students achieved the highest reading level and many made occasional errors in the reading of the graphs.",
       "authorKeywords": [
-        "line graphs",
-        "primary education",
-        "reading levels",
-        "graph comprehension",
-        "Chilean students"
+        "Statistics education research",
+        "Line graphs",
+        "Reading levels",
+        "Primary school children"
       ],
       "indexKeywords": [],
       "references": [
@@ -9168,11 +9268,11 @@
         "title": "2021_-_PRIMARY_SCHOOL_STUDENTS__READING_LEVELS_OF_LINE_GRAPHS_-_W4200101730.md",
         "url": "https://drive.google.com/file/d/14bXvc_fF-_J415QG_rvWR1lRdbKpHLMD/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-116",
+      "id": "batanero-112",
       "title": "Prospective Mathematics Teachers Understanding of Classical and Frequentist Probability",
       "titlePortuguese": "",
       "year": 2021,
@@ -9367,11 +9467,11 @@
         "title": "2021_-_Prospective_Mathematics_Teachers_Understanding_of_Classical_and_Frequentist_Probability_-_W32.md",
         "url": "https://drive.google.com/file/d/16JPbHI9fvL8zRw1USgw6iql9JQQtKtYY/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-117",
+      "id": "batanero-113",
       "title": "Internet Resources to Study Order Statistics",
       "titlePortuguese": "",
       "year": 2021,
@@ -9475,10 +9575,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_Recursos_en_Internet_para_el_estudio_de_los_estadisticos_de_orden_-_W3176610699.md",
+        "url": "https://drive.google.com/file/d/1qogkuRW3cKa-Oml7AFv2ZUTRDEG2qaYA/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-118",
+      "id": "batanero-114",
       "title": "Statistical Sense and Analysis of Graphs Related to COVID-19",
       "titlePortuguese": "",
       "year": 2021,
@@ -9547,10 +9652,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_Sentido_estadistico_y_analisis_de_graficos_sobre_la_COVID-19_-_Sentido_estatistico_e_analise_.md",
+        "url": "https://drive.google.com/file/d/1bHyX6ehQ2I6QzEVXerkS1LkA8X8sfQeq/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-119",
+      "id": "batanero-115",
       "title": "Variables Characterizing Statistical Graphs and Related Tasks in Secondary Education Textbooks in Costa Rica",
       "titlePortuguese": "",
       "year": 2021,
@@ -9622,10 +9732,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_Variables_que_caracterizan_los_graficos_estadisticos_y_las_tareas_relacionadas_con_ellos_en_l.md",
+        "url": "https://drive.google.com/file/d/16wY5pgm3i6Lyiyqb3OR5mID7WK9yAk2m/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-120",
+      "id": "batanero-116",
       "title": "Meaning of the Statistical Table in Spanish Secondary Education Textbooks",
       "titlePortuguese": "",
       "year": 2021,
@@ -9788,10 +9903,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_Significado_de_la_tabla_estadistica_en_libros_de_texto_espanoles_de_educacion_secundaria_-_W4.md",
+        "url": "https://drive.google.com/file/d/15IOBCytXosd-c-EGQ9bKjLcD6f2qgoiw/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-121",
+      "id": "batanero-117",
       "title": "The PISA Context of Statistical Graphics in Basic Education Mathematics Textbooks in Costa Rica",
       "titlePortuguese": "",
       "year": 2022,
@@ -9864,10 +9984,15 @@
         "Costa Rica"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2022_-_El_contexto_PISA_de_los_graficos_estadisticos_en_los_libros_de_texto_de_matematicas_de_Educac.md",
+        "url": "https://drive.google.com/file/d/1FTVZxYv7euqz0M2kXUooHjT4H5L9GB5c/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-122",
+      "id": "batanero-118",
       "title": "Graph Sense and Its Relevance in Understanding the COVID Information",
       "titlePortuguese": "",
       "year": 2021,
@@ -9947,10 +10072,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2021_-_SENTIDO_GRAFICO_Y_SU_IMPORTANCIA_EN_LA_COMPRENSION_DE_LA_INFORMACION_SOBRE_LA_COVID_-_W319530.md",
+        "url": "https://drive.google.com/file/d/1SofMXtdVFhy_CZcS-s0u_76HPuY2_OLF/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-123",
+      "id": "batanero-119",
       "title": "High School Probabilistic Reasoning when Interpreting COVID-19 Data",
       "titlePortuguese": "",
       "year": 2022,
@@ -10025,10 +10155,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2022_-_Razonamiento_probabilistico_de_estudiantes_de_bachillerato_al_interpretar_datos_de_la_COVID-1.md",
+        "url": "https://drive.google.com/file/d/1shefGavXTg7erC60zaXz7yYyoO8MdL-d/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-124",
+      "id": "batanero-120",
       "title": "Statistical Tables in Spanish Primary School Textbooks",
       "titlePortuguese": "",
       "year": 2022,
@@ -10351,11 +10486,11 @@
         "title": "2022_-_Statistical_Tables_in_Spanish_Primary_School_Textbooks_-_W4290720674.md",
         "url": "https://drive.google.com/file/d/12rPEOdyfSGu1WnkQuXICIJ9iuyE2LMbk/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-125",
+      "id": "batanero-121",
       "title": "ANALYSING COSTA RICAN AND SPANISH STUDENTS’ COMPARISONS OF PROBABILITIES AND RATIOS",
       "titlePortuguese": "",
       "year": 2023,
@@ -10441,11 +10576,11 @@
         "title": "2023_-_ANALYSING_COSTA_RICAN_AND_SPANISH_STUDENTS__COMPARISONS_OF_PROBABILITIES_AND_RATIOS_-_W438922.md",
         "url": "https://drive.google.com/file/d/1s85hBn3VcNF_aoYqn2n6GAQUnIFFz77G/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-126",
+      "id": "batanero-122",
       "title": "Prospective High School Teachers’ Didactic-Mathematical Knowledge of the Sampling Distribution of the Mean",
       "titlePortuguese": "",
       "year": 2023,
@@ -10521,10 +10656,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2023_-_Conocimiento_didactico-matematico_sobre_la_distribucion_de_la_media_muestral_de_profesorado_d.md",
+        "url": "https://drive.google.com/file/d/1SKes4QAGoU0BKpqRLckh48SrXJd8bnXR/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-127",
+      "id": "batanero-123",
       "title": "Prospective Secondary School Teachers' Didactic-Mathematical Knowledge of Statistical Inference",
       "titlePortuguese": "",
       "year": 2023,
@@ -10658,10 +10798,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2023_-_Conocimientos_didactico-matematicos_de_profesores_de_educacion_secundaria_en_formacion_sobre_.md",
+        "url": "https://drive.google.com/file/d/1-ILrHucwrqV8O19Oi0b7LzY6WiQN98IQ/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-128",
+      "id": "batanero-124",
       "title": "Costa Rican students’ proportional reasoning and comparing probabilities in spinners",
       "titlePortuguese": "",
       "year": 2023,
@@ -10762,11 +10907,11 @@
         "title": "2023_-_Costa_Rican_students__proportional_reasoning_and_comparing_probabilities_in_spinners_-_W43884.md",
         "url": "https://drive.google.com/file/d/1Vsk7B3HydsF4ufOfCaUb17OleSAmLJSC/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-129",
+      "id": "batanero-125",
       "title": "Didactic Suitability in Teacher Education: Analysis of Teaching Statistics Through Projects",
       "titlePortuguese": "",
       "year": 2023,
@@ -10906,10 +11051,15 @@
         "Brazil"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2023_-_Idoneidade_didatica_na_formacao_de_professores_analise_do_ensino_de_estatistica_por_meio_de_p.md",
+        "url": "https://drive.google.com/file/d/1D2zPinznzxspFMLcexhZDma6zAQ_ERwF/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-130",
+      "id": "batanero-126",
       "title": "Prospective secondary school teachers’ knowledge of sampling distribution properties",
       "titlePortuguese": "",
       "year": 2023,
@@ -11005,11 +11155,11 @@
         "title": "2023_-_Prospective_secondary_school_teachers__knowledge_of_sampling_distribution_properties_-_W43626.md",
         "url": "https://drive.google.com/file/d/1Cs8gJXFM4a26XL5L2zaGoNVO6AVkIwQf/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-131",
+      "id": "batanero-127",
       "title": "Teaching and learning of probability",
       "titlePortuguese": "",
       "year": 2023,
@@ -11151,11 +11301,11 @@
         "title": "2023_-_Teaching_and_learning_of_probability_-_W4385580512.md",
         "url": "https://drive.google.com/file/d/1ErRWbezChwqAId7VBcXwq6kTl2hbEynQ/view?usp=drivesdk",
         "label": "Arquivo no Drive",
-        "matchScore": 0.99
+        "matchScore": 1
       }
     },
     {
-      "id": "batanero-132",
+      "id": "batanero-128",
       "title": "An Instrument to Assess Understanding of Statistical Tables in Secondary Education",
       "titlePortuguese": "",
       "year": 2023,
@@ -11228,10 +11378,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2023_-_Un_instrumento_para_evaluar_la_comprension_de_tablas_estadisticas_en_educacion_secundaria_-_W.md",
+        "url": "https://drive.google.com/file/d/1POxBgluSiVR8xkjGRvq_0WeATW6mzIUm/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-133",
+      "id": "batanero-129",
       "title": "Probabilistic Language of Prospective Childhood Education Teachers",
       "titlePortuguese": "",
       "year": 2024,
@@ -11318,10 +11473,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2024_-_El_lenguaje_probabilistico_de_profesores_de_Educacion_Infantil_en_formacion_-_W4405860599.md",
+        "url": "https://drive.google.com/file/d/1F7_cLaoamWPB4IdqcOxU2E9migYu1-ZL/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-134",
+      "id": "batanero-130",
       "title": "University Students' Choice of a Hypothesis Test",
       "titlePortuguese": "",
       "year": 2024,
@@ -11388,10 +11548,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2024_-_Eleccion_de_un_contraste_de_hipotesis_por_estudiantes_universitarios_-_W4401216271.md",
+        "url": "https://drive.google.com/file/d/19keAonaumD-SSDq4HZFDql_YmkPTfThO/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-135",
+      "id": "batanero-131",
       "title": "Guidelines to analyze the epistemic and cognitive suitability of statistical tables lessons in textbooks",
       "titlePortuguese": "",
       "year": 2024,
@@ -11568,10 +11733,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2024_-_Guia_para_el_analisis_de_la_idoneidad_epistemica_y_cognitiva_de_lecciones_sobre_tablas_estadi.md",
+        "url": "https://drive.google.com/file/d/1O_tQFWvnlF-aFxNfe-cZQSur3CTEwhi4/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-136",
+      "id": "batanero-132",
       "title": "Probabilistic literacy and reasoning of prospective secondary school teachers when interpreting media news",
       "titlePortuguese": "",
       "year": 2024,
@@ -11657,10 +11827,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2024_-_Probabilistic_literacy_and_reasoning_of_prospective_secondary_school_teachers_when_interpreti.md",
+        "url": "https://drive.google.com/file/d/1aFBdUf_mpt5Z7MR6xJ9ApjINHlL66lUU/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-137",
+      "id": "batanero-133",
       "title": "Relating the construction of sample spaces and proportional reasoning in Costa Rican students",
       "titlePortuguese": "",
       "year": 2024,
@@ -11743,10 +11918,15 @@
         "Costa Rica"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2024_-_Relacion_entre_la_construccion_de_espacios_muestrales_y_el_razonamiento_proporcional_de_estud.md",
+        "url": "https://drive.google.com/file/d/1IUY8tGdIAAzw4dOlDPnC8-bKl-Vdlt0c/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-138",
+      "id": "batanero-134",
       "title": "Didactic-mathematical knowledge of prospective primary school teachers about the arithmetic mean",
       "titlePortuguese": "",
       "year": 2025,
@@ -11829,7 +12009,7 @@
       }
     },
     {
-      "id": "batanero-139",
+      "id": "batanero-135",
       "title": "Prospective primary school teachers’ mathematical knowledge of sampling",
       "titlePortuguese": "",
       "year": 2025,
@@ -11923,7 +12103,7 @@
       }
     },
     {
-      "id": "batanero-140",
+      "id": "batanero-136",
       "title": "Prospective Teachers’ Didactic-Mathematical Knowledge when Posing Probability Tasks Based on the News",
       "titlePortuguese": "",
       "year": 2025,
@@ -12015,7 +12195,7 @@
       }
     },
     {
-      "id": "batanero-141",
+      "id": "batanero-137",
       "title": "Characterisation of the reading levels of information presented by Chilean secondary students in tasks with statistical tables",
       "titlePortuguese": "",
       "year": 2026,
@@ -12097,10 +12277,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2026_-_Caracterizacion_de_los_niveles_de_lectura_de_la_informacion_presentada_en_tablas_estadisticas.md",
+        "url": "https://drive.google.com/file/d/1qt2lgGKjOvOpswOhk-ZWOVx4caFG7QB8/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-142",
+      "id": "batanero-138",
       "title": "Prospective teachers’ competence in solving, posing, and algebraic reasoning of statistical table problems",
       "titlePortuguese": "",
       "year": 2026,
@@ -12191,10 +12376,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2026_-_Competencia_de_las_futuras_personas_docentes_en_resolucion__creacion_y_razonamiento_algebraic.md",
+        "url": "https://drive.google.com/file/d/1mv1-7rLcOlpk9-yZTy9rxY5bTSyQTSpM/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-143",
+      "id": "batanero-139",
       "title": "Didactic-Mathematical Knowledge of Prospective Early Childhood Education Teachers: The Case of Probability",
       "titlePortuguese": "",
       "year": 2026,
@@ -12275,10 +12465,15 @@
         "Chile"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2026_-_Conocimiento_Didactico-Matematico_de_Futuras_Maestras_de_Educacion_Infantil_El_Caso_de_la_Pro.md",
+        "url": "https://drive.google.com/file/d/1NUlsSTqZi6ScTx4fetOR_6f_ilia-WAK/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-144",
+      "id": "batanero-140",
       "title": "The structure of the probability section in Spanish textbooks for compulsory secondary education",
       "titlePortuguese": "",
       "year": 2026,
@@ -12364,10 +12559,15 @@
         "Spain"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2026_-_La_estructura_del_tema_de_probabilidad_en_los_libros_de_texto_espanoles_de_educacion_secundar.md",
+        "url": "https://drive.google.com/file/d/1uQTnb7cmWf0GWcA3poFEz6_boyqYABnF/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-145",
+      "id": "batanero-141",
       "title": "Prospective Teachers’ Algebraic Reasoning",
       "titlePortuguese": "",
       "year": 2025,
@@ -12458,32 +12658,28 @@
       }
     },
     {
-      "id": "batanero-146",
+      "id": "batanero-142",
       "title": "Pre-Service Teachers’ Mathematical Knowledge for Teaching Probability Using a Frequentist Approach",
       "titlePortuguese": "",
       "year": 2014,
       "authors": [
         "Gómez E.",
         "Batanero C.",
-        "Contreras J.M.",
-        "Díaz C."
+        "Contreras J.M."
       ],
       "authorFullNames": [
         "Gómez, Emilse",
         "Batanero, Carmen",
-        "Contreras, José Miguel",
-        "Díaz, Carmen"
+        "Contreras, José Miguel"
       ],
       "affiliations": [
         "Universidad Nacional de Colombia, Bogotá, Colombia",
-        "Universidad de Granada, Granada, Spain",
-        "Universidad de Huelva, Huelva, Spain"
+        "Universidad de Granada, Granada, Spain"
       ],
       "authorsWithAffiliations": [
         "Gómez, Emilse, Universidad Nacional de Colombia, Bogotá, Colombia",
         "Batanero, Carmen, Universidad de Granada, Granada, Spain",
-        "Contreras, José Miguel, Universidad de Granada, Granada, Spain",
-        "Díaz, Carmen, Universidad de Huelva, Huelva, Spain"
+        "Contreras, José Miguel, Universidad de Granada, Granada, Spain"
       ],
       "sourceTitle": "Bolema - Boletim de Educação Matemática",
       "citations": null,
@@ -12547,7 +12743,7 @@
       }
     },
     {
-      "id": "batanero-147",
+      "id": "batanero-143",
       "title": "Secondary School Students’ Understanding of the Expected Value and Variability of the Sample Proportion",
       "titlePortuguese": "",
       "year": 2018,
@@ -12631,7 +12827,7 @@
       }
     },
     {
-      "id": "batanero-148",
+      "id": "batanero-144",
       "title": "Performance on Conditional Probability and Joint Probability of Prospective Elementary School Teachers",
       "titlePortuguese": "",
       "year": 2014,
@@ -12706,10 +12902,15 @@
         "Portugal"
       ],
       "dataQualityNote": "",
-      "drive": null
+      "drive": {
+        "title": "2019_-_Desempenho_em_probabilidade_condicionada_e_probabilidade_conjunta_de_futuros_professores_do_e.md",
+        "url": "https://drive.google.com/file/d/1i7U6HNAxMtov8MyIXp5aasr-3tpD52Z-/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
     },
     {
-      "id": "batanero-149",
+      "id": "batanero-145",
       "title": "Prospective secondary school teachers’ knowledge of correlation and regression",
       "titlePortuguese": "",
       "year": 2019,
@@ -12793,7 +12994,7 @@
       }
     },
     {
-      "id": "batanero-150",
+      "id": "batanero-146",
       "title": "Didactic-mathematical knowledge of prospective primary school teachers to teach probability",
       "titlePortuguese": "",
       "year": 2025,
@@ -12878,6 +13079,109 @@
       "drive": {
         "title": "2025_-_Conocimiento_Didactico-Matematico_de_Profesores_de_Educacion_Primaria_en_Formacion_para_Ensen.md",
         "url": "https://drive.google.com/file/d/1pGe47AZRFmrilq9qRrcwU62JHFpE1DbE/view?usp=drivesdk",
+        "label": "Arquivo no Drive",
+        "matchScore": 1
+      }
+    },
+    {
+      "id": "batanero-147",
+      "title": "Research on the perception and learning of correlation and regression",
+      "titlePortuguese": "",
+      "year": 2016,
+      "authors": [
+        "Gea M.M.",
+        "Batanero C.",
+        "López-Martín M.M.",
+        "Arteaga P."
+      ],
+      "authorFullNames": [
+        "Gea, María Magdalena",
+        "Batanero, Carmen",
+        "López-Martín, María del Mar",
+        "Arteaga, Pedro"
+      ],
+      "affiliations": [
+        "Universidad de Granada, Granada, Spain"
+      ],
+      "authorsWithAffiliations": [
+        "Gea, María Magdalena, Universidad de Granada, Granada, Spain",
+        "Batanero, Carmen, Universidad de Granada, Granada, Spain",
+        "López-Martín, María del Mar, Universidad de Granada, Granada, Spain",
+        "Arteaga, Pedro, Universidad de Granada, Granada, Spain"
+      ],
+      "sourceTitle": "BEIO - Boletín de Estadística e Investigación Operativa",
+      "citations": null,
+      "doi": "",
+      "link": "",
+      "abstract": "In this paper we present a summary of psychological and didactic research focused on the perception and learning of correlation and regression, Firstly, this research is situated within the wider research on covariational reasoning and the steps needed in solving a covariational task are summarised. Secondly, we describe the intuitive strategies used in estimating correlation and the associated biases. We then analyse research dealing with teaching experiences, analyses of textbooks and teacher' knowledge. We finish with some suggestions to improve the teaching of correlation and regression that may be used by the teachers when organizing the teaching of this topic.",
+      "authorKeywords": [
+        "Correlation and regression",
+        "Strategies",
+        "Misconceptions",
+        "Learning"
+      ],
+      "indexKeywords": [],
+      "references": [
+        "Alloy, L.B. y Tabachnik, N. (1984). Assessment of covariation by humans and animals: The joint influence of prior expectations and current situa- tional information. Psychological Review, 91(1), 112-149.",
+        "Barbancho, A.G. (1973). Estadística elemental moderna. Barcelona: Ariel.",
+        "Batanero, C., Burrill, G. y Reading, C. (2011). Teaching statistics in school mathematics-challenges for teaching and teacher education: A Joint ICMI/IASE study. New York: Springer.",
+        "Batanero, C., Estepa, A. y Godino, J.D. (1997). Evolution of students' understanding of statistical association in a computer based teaching en- vironment. En J. B. Garfield y G. Burrill, (Eds.), Research on the role of technology in teaching and learning statistics. IASE Round Table Con- ference papers (pp. 191-205). Voorburg, The Netherlands: Internacional Statistical Institute.",
+        "Batanero, C., Estepa, A., Godino, J.D. y Green, D.R. (1996). Intuitive strategies and preconceptions about association in contingency tables. Jour- nal for Research in Mathematics Education, 27, 151-169.",
+        "Batanero. C., Cañadas, G., Contreras, J.M. y Gea, M. (2015). Under- standing of contingency tables: A synthesis of educational research. BEIO, 31(3), 288-315. Sociedad de Estadística e Investigación Operativa.",
+        "Batanero, C., Gea M. M., Díaz, C. y Cañadas, G. R. (2014). Building high school pre-service teachers knowledge to teach correlation and regression. En K. Makar (Ed.), Proceedings of the Ninth International Conference on Teaching Statistics (pp. 1-6). Flagsta\u001b, AZ: International Statistical Insti- tute. 19",
+        "Batanero, C., Godino, J. D., y Estepa, A. (1998). Building the meaning of statistical association through data analysis activities (Research Forum). En A. Olivier y K. Newstead, (Eds.), Proceedings of the 22nd Conference of the Internacional Group for the Psychology of Mathematics Education, (pp. 221-236). Stellembosch, South Africa: Universidad de Stellenbosh.",
+        "Beyth-Marrom, R. (1982). Perception of correlation reexamined. Memory and cognition, 10(6), 511-519.",
+        "Burrill, G. y Biehler, R. (2011). Fundamental statistical ideas in the school curriculum and in Training teachers. En C. Batanero, G. Burrill y C. Read- ing (Eds.), Teaching statistics in school mathematics. Challenges for teaching and teacher education - A joint ICMI/IASE Study (pp. 57-69). Dor- drecht: Springer.",
+        "Cañadas, G. (2012). Comprensión intuitiva y aprendizaje formal de las tablas de contingencia en estudiantes de psicología. Tesis doctoral. Univer- sidad de Granada",
+        "Cañadas, G., Batanero, C., Contreras, J.M. y Arteaga, P. (2011). Estrate- gias en el estudio de la asociación en tablas de contingencia por estudiantes de psicología. Educación Matemática, 23(2), 5-32.",
+        "Castro-Sotos, A. E., Vanhoof, S., Van Den Noortgate, W. y Onghena, P. (2009). The transitivity misconception of Pearson's correlation coe\u001ecient. Statistics Education Research Journal, 8(2), 33-55.",
+        "Chapman, L.J. y Chapman, J.P. (1967). Genesis of popular but erroneous psychodiagnostic observations. Journal of Abnormal Psychology, 72(3), 193-204.",
+        "Chapman, L.J. y Chapman, J.P. (1969). Illusory correlation as an obstacle to the use of valid psychodiagnostic signs. Journal of Abnormal Psychology, 74(3), 271-280.",
+        "Common Core State Standards Initiative, CCSSI (2010). Common Core State Standards for Mathematics. Washington, DC: National Governors Association for Best Practices and the Council of Chief State School O\u001e- cers.",
+        "Contreras, J.M., Batanero, C., Cañadas, G. y Gea, M.M. (2012). La paradoja de Simpson. Suma, 71, 27-34.",
+        "Cordero, F. y Flores, R. (2007). El uso de las gráficas en el discurso matemático escolar. Un estudio socioepistemológico en el nivel básico a través de los libros de texto. Revista Latinoamericana de Matemática Ed- ucativa, 10(1), 7-38. 20",
+        "Crocker, J. (1981). Judgment of covariation by social perceivers. Psycho- logical Bulletin, 90(2), 272-292.",
+        "Duval, R. (1993). Semiosis et noesis. Lecturas en Didáctica de la Matemática. Escuela Francesa. México: Sección de Matemática Educativa del CINVESTAV-IPN.",
+        "Engel, J. y Sedlmeier, P. (2011). Correlation and regression in the train- ing of teachers. En C. Batanero, G. Burrill y C. Reading (Eds.), Teaching statistics in school mathematics-challenges for teaching and teacher educa- tion: A Joint ICMI/IASE study (pp, 247-258). New York: Springer.",
+        "Estepa, A. (1994). Concepciones iniciales sobre la asociación estadística y su evolución como consecuencia de una enseñanza basada en el uso de ordenadores. Tesis doctoral. Universidad de Granada.",
+        "Estepa, A. (2004). Investigación en educación estadística. La asociación estadística. En R. Luengo (Ed.). Líneas de investigación en Educación Matemática, (pp. 227-255). Badajoz: Servicio de Publicaciones. Univer- sidad de Extremadura.",
+        "Erlick, D.E. y Mills, R.G. (1967). Perceptual quantification of condicional dependency, Journal of Experimental Psychology, 73(1), 9-14.",
+        "Estepa, A. (2008). Interpretación de los diagramas de dispersión por estu- diantes de Bachillerato. Enseñanza de las Ciencias, 26(2), 257-270.",
+        "Estepa, A. y Batanero, C. (1996). Judgments of correlation in scatter plots: Students' intuitive strategies and preconceptions. Hiroshima Journal of Mathematics Education, 4, 25-41.",
+        "Estepa, A. y Sánchez-Cobo, F.T. (1998). Correlation and regresión in sec- ondary school text books. En Pereira-Mendoza, L., Seu, L., Wee, T. y Wong, W. (Eds), Proceedings of the Fifth Internacional Conference on Teaching of Statistics (pp. 671-676). Voorburg, The Netherlands: Inter- nacional Statistical Institute.",
+        "Estepa, A., Batanero, C. y Sánchez-Cobo, F.T. (1999). Students' intuitive strategies in judging association when comparing two samples. Hiroshima Journal of Mathematics Education, 7, 17-30.",
+        "Falk, R. (1986). Conditional probabilities: insights and di\u001eculties. En R. Davidson y J. Swift (Eds.), Proceedings of the Second International Con- ference on Teaching Statistics. (pp. 292 \u0015 297). Victoria, Canada: Interna- tional Statistical Institute. 21",
+        "Franklin, C., Kader. G., Mewborn, D., Moreno, J., Peck, R., Perry, M., & Schea\u001ber, R. (2007). Guidelines for assessment and instruction in statistics education (GAISE) report: A Pre-K-12 curriculum frame- work. Alexandria. VA: American Statistical Association. Recuperado de: www.amstat.org/Education/gaise/.",
+        "Gea, M. M., Batanero, C., Arteaga, P. y Cañadas, G.R. (2013). Justi- ficaciones en el tema de correlación y regresión en textos españoles de Bachillerato. EM TEIA - Revista de Educaçao Matemática e Tecnológica Iberoamericana, 4(2), 1 - 19",
+        "Gea, M.M., Batanero, C., Cañadas, G.R. y Contreras, J.M. (2014). Los problemas de correlación y regresión en los libros de texto españoles de bachillerato. Perspectivas da Educaçao Matematica, 6(12), 9-23.",
+        "Gea, M.M., Batanero, C., Arteaga, P., Cañadas, G.R. y Contreras, J. M. (2014). Análisis del lenguaje sobre la correlación y regresión en libros de texto de bachillerato. Suma, 76, 47-45.",
+        "Herbel, B.A. (2007). From intended curriculum to written curriculum: Ex- amining the\" voice\" of a mathematics textbook. Journal for Research in Mathematics Education, 38(4), 344-369.",
+        "Hilbert, M. (2012). Toward a synthesis of cognitive biases: How noisy infor- mation processing can bias human decision making. Psychological Bulletin, 138(2), 211\u0015237.",
+        "Lavalle, A.L., Micheli, E.B. y Rubio, N. (2006). Análisis didáctico de re- gresión y correlación para la enseñanza media. Revista Latinoamericana de Investigación en Matemática Educativa, 9(3), 383-406.",
+        "McKenzie, C.R.M., y Mikkelsen, L.A. (2007). A Bayesian view of covaria- tion assessment. Cognitive Psychology, 54(1), 33-61.",
+        "Moore, D.S. (1995). Estadística aplicada básica. Barcelona: Antoni Bosch",
+        "Moritz, J. (2004). Reasoning about covariation. En D. Ben-Zvi y J. Garfield (Eds.), The challenge of developing statistical literacy, reasoning and think- ing (pp. 221-255). Dordrecht: Kluwer.",
+        "Pérez Echeverría, M.P. (1990). Psicología del razonamiento probabilístico. Madrid: Ediciones de la Universidad Autónoma de Madrid.",
+        "Reys, B.J., Reys, R.E. y Chavez, O. (2004). Why mathematics textbooks matter. Educational Leadership, 61(5), 61\u001566. 22",
+        "Sánchez-Cobo, F.T. (1999). Significado de la correlación y regresión para los estudiantes universitarios. Tesis doctoral. Universidad de Granada.",
+        "Sánchez-Cobo, F.T., Estepa, A. y Batanero, C. (2000). Un estudio experi- mental de la estimación de la correlación a partir de diferentes representa- ciones. Enseñanza de las Ciencias, 18(2), 297-310.",
+        "Shaughnessy, J.M. (1992). Research in probability and statistic: Reflections and directions. En D. A. Grouws (Ed.), Handbook of research on mathemat- ics teaching and learning (pp. 465-494). New York: Macmillan Publishing Company.",
+        "Shaughnessy, J.M. (2007). Research on statistics learning and reasoning. En F. Lester (Ed.), Second handbook of research on mathematics teaching and learning. Greenwich, CT: Information Age Publishing y NCTM.",
+        "Shaughnessy, J.M., Garfield, J. y Greer, B. (1996). Data handling. En A. J. Bishop, K. Clements, C. Keitel, J. Kilpatrick, y C. Laborde (Eds.), International handbook of mathematics education (Vol. 1, pp. 205-237). Dordrecht: Kluwer.",
+        "Tversky, A. y Kahneman, D. (1974). Judgment under uncertainty: heuris- tics and biases. Science, 185, 1124-1131.",
+        "Zieffer, A.S. (2006). A longitudinal investigation of the development of col- lege students' reasoning about bivariate data during an introductory statis- tics course. Tesis doctoral. Universidad de Minnesota."
+      ],
+      "language": "",
+      "documentType": "Article",
+      "openAccess": "",
+      "countryFirstAuthor": "Spain",
+      "countries": [
+        "Spain"
+      ],
+      "dataQualityNote": "",
+      "drive": {
+        "title": "2016_-_Research_on_the_perception_and_learning_of_correlation_and_regression_-_W3014614242.md",
+        "url": "https://drive.google.com/file/d/1Z5gypmHHiu8t7YpXOhtWBI4AsTsEeMEo/view?usp=drivesdk",
         "label": "Arquivo no Drive",
         "matchScore": 1
       }

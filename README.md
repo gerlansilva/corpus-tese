@@ -1,6 +1,6 @@
 # Corpus de Educação Estatística
 
-Site estático para consulta pública do corpus de análise da tese, organizado em duas áreas: **Celi Espasandin Lopes** e **Carmen Batanero**. Esta versão reúne 204 artigos: 54 da Celi e 150 da Batanero.
+Site estático para consulta pública do corpus de análise da tese, organizado em duas áreas: **Celi Espasandin Lopes** e **Carmen Batanero**. Esta versão reúne 201 artigos: 54 da Celi e 147 da Batanero. Todos os registros possuem link individual para o respectivo arquivo no Google Drive.
 
 ## Conteúdo do projeto
 
@@ -17,7 +17,7 @@ O site não usa framework, banco de dados ou etapa de compilação. Todos os dad
 ## Publicar com GitHub e Cloudflare Pages
 
 1. Crie um repositório no GitHub e envie todos os arquivos desta pasta para a raiz do repositório.
-   - Envie também a pasta `data` completa. O arquivo `data/batanero.js` contém os 150 registros exibidos na segunda aba.
+   - Envie também a pasta `data` completa. O arquivo `data/batanero.js` contém os 147 registros exibidos na segunda aba.
 2. No Cloudflare Dashboard, abra **Workers & Pages → Create → Pages → Connect to Git**.
 3. Escolha o repositório e use estas configurações:
    - **Framework preset:** None;
