@@ -8,8 +8,8 @@
       2026
     ],
     "driveFiles": 54,
-    "updated": "2026-09-24",
-    "sourceFile": "dados_scopus_completo.txt",
+    "updated": "2026-09-29",
+    "sourceFile": "celi_artigos_revistas_revisado.csv",
     "rootDriveFolder": "https://drive.google.com/drive/u/1/folders/1Uoo__hF1pQZLnjTbGXhtgmLQYPRkWO_Z",
     "driveFolder": "https://drive.google.com/drive/folders/1NnnJaJWZ50ekHwBLvjfpeUwnaRTneLCU",
     "fields": [
@@ -19,7 +19,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -28,7 +28,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -37,7 +37,7 @@
         "category": "Autoria e afiliação",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -46,7 +46,7 @@
         "category": "Conteúdo",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -55,7 +55,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -64,7 +64,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -73,7 +73,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -127,7 +127,7 @@
         "category": "Impacto",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -145,7 +145,7 @@
         "category": "Identificação e acesso",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -154,7 +154,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -163,7 +163,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -172,7 +172,7 @@
         "category": "Conteúdo",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -181,7 +181,7 @@
         "category": "Conteúdo",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -190,7 +190,7 @@
         "category": "Conteúdo",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -199,7 +199,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -208,7 +208,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -217,7 +217,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -226,7 +226,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -235,7 +235,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -244,7 +244,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -253,7 +253,7 @@
         "category": "Outros",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -262,7 +262,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -271,7 +271,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -280,7 +280,7 @@
         "category": "Conteúdo",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -289,7 +289,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -298,7 +298,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -307,7 +307,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -316,7 +316,7 @@
         "category": "Publicação",
         "populated": 34,
         "total": 54,
-        "coverage": 63.0,
+        "coverage": 63,
         "status": "presente"
       },
       {
@@ -325,7 +325,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -334,7 +334,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -343,7 +343,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -352,7 +352,7 @@
         "category": "Outros",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -370,7 +370,7 @@
         "category": "Publicação",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -379,7 +379,7 @@
         "category": "Publicação",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -388,7 +388,7 @@
         "category": "Identificação e acesso",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -397,7 +397,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -406,7 +406,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -415,7 +415,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -424,7 +424,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -442,7 +442,7 @@
         "category": "Publicação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -451,7 +451,7 @@
         "category": "Identificação e acesso",
         "populated": 0,
         "total": 54,
-        "coverage": 0.0,
+        "coverage": 0,
         "status": "sem dados"
       },
       {
@@ -460,7 +460,7 @@
         "category": "Conteúdo",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -469,7 +469,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -478,7 +478,7 @@
         "category": "Autoria e afiliação",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -487,7 +487,7 @@
         "category": "Impacto",
         "populated": 54,
         "total": 54,
-        "coverage": 100.0,
+        "coverage": 100,
         "status": "presente"
       },
       {
@@ -583,7 +583,7 @@
         "title": "2008 - O ensino da estatistica e da probabilidade na educacao basica e a formacao dos professores - W1971322795.pdf",
         "url": "https://drive.google.com/file/d/1piQnEk-Oz1_Bv5-1NCSOLySxumHAIuYB/view?usp=drivesdk",
         "size": 84763,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E.",
@@ -648,7 +648,8 @@
       "titlePortuguese": "O Processo da Avaliação no Ensino e na Aprendizagem de Matemática",
       "year": 2009,
       "authors": [
-        "Mondoni, M.H.A., Lopes, C.E."
+        "Mondoni, M.H.A.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Mondoni, Maria Helena de Assis",
@@ -717,7 +718,7 @@
         "title": "2009 - O Processo da Avaliacao no Ensino e na Aprendizagem de Matematica - W1495492532.pdf",
         "url": "https://drive.google.com/file/d/1S9uwkOFgzIGWuDf-HLbF2HH6q09OtiQZ/view?usp=drivesdk",
         "size": 200896,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Mondoni, M.H.A., Lopes, C.E.",
@@ -870,7 +871,7 @@
         "title": "2012 - A EDUCACAO ESTOCASTICA NA INFANCIA - W1593560078.pdf",
         "url": "https://drive.google.com/file/d/18P_1ZgE_sCfGNRxWmYK97XeLBz0I8Skx/view?usp=drivesdk",
         "size": 217044,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E.",
@@ -935,7 +936,8 @@
       "titlePortuguese": "COMBINANDO ROUPAS E VESTINDO BONECOS: IDEIAS DE COMBINATÓRIA NO DESENVOLVIMENTO PROFISSIONAL DE UMA EDUCADORA DA INFÂNCIA",
       "year": 2012,
       "authors": [
-        "Souza, A.C., Lopes, C.E."
+        "Souza, A.C.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Souza, Antônio Carlos de",
@@ -1008,7 +1010,7 @@
         "title": "2012 - COMBINANDO ROUPAS E VESTINDO BONECOS IDEIAS DE COMBINATORIA NO DESENVOLVIMENTO PROFISSIONAL DE UMA EDUCADORA DA INFANCIA - W1905244546.pdf",
         "url": "https://drive.google.com/file/d/1JzRWpv3TWcArTyLX2vJQAzcy3-3qqLNQ/view?usp=drivesdk",
         "size": 320284,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, A.C., Lopes, C.E.",
@@ -1073,7 +1075,8 @@
       "titlePortuguese": "Modelagem Matemática: um ambiente de aprendizagem para a implementação da Educação Estatística no Ensino Médio",
       "year": 2012,
       "authors": [
-        "Mendonça, L.O., Lopes, C.E."
+        "Mendonça, L.O.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Mendonça, Luzinete de Oliveira",
@@ -1084,7 +1087,7 @@
         "Universidade Cruzeiro do Sul, Brazil"
       ],
       "authorsWithAffiliations": [
-        "Mendonça, L.O. (Rede Estadual de São Paulo, Brazil)",
+        "Mendonça, L.O.O.O. (Rede Estadual de São Paulo, Brazil)",
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)"
       ],
       "sourceTitle": "Bolema",
@@ -1152,7 +1155,7 @@
         "title": "2012 - Modelagem Matematica um ambiente de aprendizagem para a implementacao da Educacao Estatistica no Ensino Medio - W7120798798.pdf",
         "url": "https://drive.google.com/file/d/1KnyF8HvQLT009NDnJp_GGn5ZVa3Dj3ee/view?usp=drivesdk",
         "size": 1401890,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Mendonça, L.O., Lopes, C.E.",
@@ -1171,7 +1174,7 @@
         "DOI": "",
         "Link": "https://www.periodicos.rc.biblioteca.unesp.br/index.php/bolema/article/view/5290",
         "Affiliations": "Rede Estadual de São Paulo, Brazil; Universidade Cruzeiro do Sul, Brazil",
-        "Authors with affiliations": "Mendonça, L.O. (Rede Estadual de São Paulo, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Mendonça, L.O.O.O. (Rede Estadual de São Paulo, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "Resumo O presente trabalho apresenta uma pesquisa de mestrado, implementada no Ensino Médio com o objetivo de viabilizar a Educação Estatística. Tal projeto teve como cenário um ambiente de aprendizagem na perspectiva da Modelagem Matemática, no qual o aluno assumiu papel ativo na construção do conhecimento, vivenciando uma atividade investigativa sobre temas de seu interesse. Tal projeto objetivou verificar as possíveis contribuições da Modelagem Matemática para a Educação Estatística no nível médio e foi realizado em duas turmas de terceiro ano de uma escola pública. A análise do desempenho dos grupos foi feita com base nos materiais elaborados pelos alunos, em gravações de áudio e vídeo e na observação da professora-investigadora responsável pela implementação do projeto. Os resultados encontrados evidenciaram que o ambiente de Modelagem pode contribuir para a Educação Estatística, já que essa vivência se mostrou propícia para o desenvolvimento do raciocínio estatístico. Palavras-chave: Educação Estatística. Ambiente de modelagem matemática. Ensino Médio. Mathematical Modeling: a learning environment for the implementation of Statistics Education in High School Abstract This paper presents research implemented in high school in order to enable statistics education. The project was set in a learning environment based on mathematical modeling, in which the student took an active role in constructing knowledge and researching topics of interest. This project aims to assess the possible contributions of mathematical modeling for statistics education in high school and was conducted with two public high school classes. Analysis of the classes’ performance was based on materials prepared by students, in audio and video, and observation of the teacher-investigator responsible for project implementation. The results showed that the modeling environment can contribute to the statistics education since this experience proved to be conducive to the development of statistical reasoning. Keywords: Statistics Education. Environmental mathematical modeling. High School.",
         "Author Keywords": "Statistics Education; Environmental mathematical modeling; High School; Statistical reasoning",
         "Index Keywords": "Set (abstract data type); School system; Research methodology",
@@ -1217,7 +1220,9 @@
       "titlePortuguese": "Modelagem matemática gerando a educação estocástica de futuros economistas",
       "year": 2012,
       "authors": [
-        "Lopes, C.E., Carvalho, F.D., Mendonça, L."
+        "Lopes, C.E.",
+        "Carvalho, F.D.",
+        "Mendonça, L.O."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -1230,7 +1235,7 @@
       "authorsWithAffiliations": [
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
         "Carvalho, F.D. (Universidade Cruzeiro do Sul, Brazil)",
-        "Mendonça, L. (Universidade Cruzeiro do Sul, Brazil)"
+        "Mendonça, L.O.O. (Universidade Cruzeiro do Sul, Brazil)"
       ],
       "sourceTitle": "Acta Scientiae",
       "volume": "14",
@@ -1290,10 +1295,10 @@
         "title": "2012 - Modelagem matematica gerando a educacao estocastica de futuros economistas - W2412570592.pdf",
         "url": "https://drive.google.com/file/d/1CE3g6vv8DjoD60EuCx8ajwRQsT4vLJFd/view?usp=drivesdk",
         "size": 387308,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
-        "Authors": "Lopes, C.E., Carvalho, F.D., Mendonça, L.",
+        "Authors": "Lopes, C.E., Carvalho, F.D., Mendonça, L.O.",
         "Author full names": "Lopes, Celi Espasandin; Carvalho, Fernando Dalbão; Mendonça, Luzinete de Oliveira",
         "Author(s) ID": "",
         "Title": "Mathematical Modeling Stochastic Generating Education Futures Economists",
@@ -1309,7 +1314,7 @@
         "DOI": "",
         "Link": "https://www.drugsandalcohol.ie/28064/1/Adult%20Cautioning%20final%20for%20publication.pdf",
         "Affiliations": "Universidade Cruzeiro do Sul, Brazil",
-        "Authors with affiliations": "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Carvalho, F.D. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L. (Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Carvalho, F.D. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O.O. (Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "Este artigo se refere à parte de uma tese de doutorado que tem por objetivo investigar como um ambiente de aprendizagem de modelagem matemática contribui para a aquisição de conhecimento do pensamento estocástico de futuros economistas. Trata-se de uma pesquisa-ação porque, além de pesquisar e analisar o tema proposto, pretende-se apresentar uma proposta metodológica para o ensino da disciplina de estatística econômica. Apresenta-se a análise de um primeiro episódio em que se utilizou a modelagem matemática para os alunos do quinto semestre do curso de Ciências Econômicas investigarem o comportamento dos preços da gasolina nos postos de abastecimento de uma determinada região da cidade de São Paulo. Os resultados evidenciaram que os alunos mobilizaram conhecimentos matemáticos e estatísticos para realizarem a análise da problemática e, nesse movimento, adquiriram novos conhecimentos estocásticos e econômicos que lhes permitiram conclusões fundamentadas sobre determinado mercado.",
         "Author Keywords": "Stochastic education; Mathematical modeling; Economics",
         "Index Keywords": "Humanities; Philosophy",
@@ -1355,7 +1360,8 @@
       "titlePortuguese": "O Uso de Simuladores e a Tecnologia no Ensino da Estocástica",
       "year": 2012,
       "authors": [
-        "Souza, L.O., Lopes, C.E."
+        "Souza, L.O.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Souza, Leandro de Oliveira",
@@ -1428,7 +1434,7 @@
         "title": "2012 - O Uso de Simuladores e a Tecnologia no Ensino da Estocastica - W7120754747.pdf",
         "url": "https://drive.google.com/file/d/1ZM5jIhDkNpDUuVP44VaA7CDxD0Yr7mhb/view?usp=drivesdk",
         "size": 697317,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, L.O., Lopes, C.E.",
@@ -1493,7 +1499,8 @@
       "titlePortuguese": "A prática docente em estocástica, revelada por professoras que ensinam matemática nos anos iniciais do ensino fundamental",
       "year": 2013,
       "authors": [
-        "Oliveira, D., Lopes, C.E."
+        "Oliveira, D.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Oliveira, Débora de",
@@ -1583,7 +1590,7 @@
         "title": "2013 - A pratica docente em estocastica, revelada por professoras que ensinam matematica nos anos iniciais do ensino fundamental - W2337972255.pdf",
         "url": "https://drive.google.com/file/d/1jdGJQ41GOzRYiwOf_ZH-A8ciTJYDnS6t/view?usp=drivesdk",
         "size": 680260,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Oliveira, D., Lopes, C.E.",
@@ -1648,7 +1655,9 @@
       "titlePortuguese": "Educação estatística em um ambiente de modelagem matemática nas aulas do ensino médio",
       "year": 2013,
       "authors": [
-        "Mendonça, L.O., Lopes, C.E., Soares, E."
+        "Mendonça, L.O.",
+        "Lopes, C.E.",
+        "Soares, E."
       ],
       "authorFullNames": [
         "Mendonça, Luzinete de Oliveira",
@@ -1664,7 +1673,7 @@
         "Hospital Estadual Centra, Brazil"
       ],
       "authorsWithAffiliations": [
-        "Mendonça, L.O. (Universidade de Sorocaba, Brazil)",
+        "Mendonça, L.O.O.O. (Universidade de Sorocaba, Brazil)",
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
         "Soares, E. (Ação Educativa, Brazil",
         "Municipality of Medellín, Brazil",
@@ -1723,7 +1732,7 @@
         "title": "2013 - Educacao estatistica em um ambiente de modelagem matematica nas aulas do ensino medio - W1709596922.pdf",
         "url": "https://drive.google.com/file/d/18Rbb4eqUnWt-9qXS-32IbFFX6OkQO0rt/view?usp=drivesdk",
         "size": 263986,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Mendonça, L.O., Lopes, C.E., Soares, E.",
@@ -1742,7 +1751,7 @@
         "DOI": "10.24933/horizontes.v31i1.14",
         "Link": "https://revistahorizontes.usf.edu.br/horizontes/article/download/14/16",
         "Affiliations": "Universidade de Sorocaba, Brazil; Universidade Cruzeiro do Sul, Brazil; Ação Educativa, Brazil; Municipality of Medellín, Brazil; Sociedade Brasileira de Educação Matemática, Brazil; Hospital Estadual Centra, Brazil",
-        "Authors with affiliations": "Mendonça, L.O. (Universidade de Sorocaba, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Soares, E. (Ação Educativa, Brazil; Municipality of Medellín, Brazil; Sociedade Brasileira de Educação Matemática, Brazil; Hospital Estadual Centra, Brazil)",
+        "Authors with affiliations": "Mendonça, L.O.O.O. (Universidade de Sorocaba, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Soares, E. (Ação Educativa, Brazil; Municipality of Medellín, Brazil; Sociedade Brasileira de Educação Matemática, Brazil; Hospital Estadual Centra, Brazil)",
         "Abstract": "This paper derives from a research conducted in 2008, when we seek to observe the development of students in an environment of mathematical modeling in the implementation of Education Statistics in High School. We take as the object of analysis the development of students from two classes of third year of a state school in São Paulo. It is a qualitative study with focus on understanding the construction of students' statistical knowledge, and data analysis starts from the emerging categories of data collected in the project development, considering the objectives set out at each stage. The observed results give evidence that the investigative environment is conducive to motivate students to participate actively in the construction of the concepts inherent in statistics education.",
         "Author Keywords": "Environment mathematical modeling; Education Statistics; High School",
         "Index Keywords": "Humanities; Philosophy",
@@ -1854,7 +1863,7 @@
         "title": "2013 - Educacao estatistica no curso de licenciatura em matematica - W1974592351.pdf",
         "url": "https://drive.google.com/file/d/1_dRpehqWYBcYD7MX7EXiDqE63LdR-NyY/view?usp=drivesdk",
         "size": 498659,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E.",
@@ -1919,7 +1928,10 @@
       "titlePortuguese": "O ENSINO DE ESTATÍSTICA E PROBABILIDADE NA EDUCAÇÃO BÁSICA: ATIVIDADES E PROJETOS GERADOS A PARTIR DE PESQUISAS DE MESTRADO PROFISSIONAL",
       "year": 2013,
       "authors": [
-        "Souza, A.C., Souza, L.O., Mendonça, L.O., Lopes, C.E."
+        "Souza, A.C.",
+        "Souza, L.O.",
+        "Mendonça, L.O.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Souza, Antônio Carlos de",
@@ -1934,7 +1946,7 @@
       "authorsWithAffiliations": [
         "Souza, A.C. (Universidade Braz Cubas, Brazil)",
         "Souza, L.O. (Universidade Cruzeiro do Sul, Brazil)",
-        "Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil)",
+        "Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil)",
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)"
       ],
       "sourceTitle": "Vidya",
@@ -2013,7 +2025,7 @@
         "DOI": "",
         "Link": "https://periodicos.ufn.edu.br/index.php/VIDYA/article/view/245/222",
         "Affiliations": "Universidade Braz Cubas, Brazil; Universidade Cruzeiro do Sul, Brazil",
-        "Authors with affiliations": "Souza, A.C. (Universidade Braz Cubas, Brazil); Souza, L.O. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Souza, A.C. (Universidade Braz Cubas, Brazil); Souza, L.O. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "The proposition of this paper is to promote reflections and discussions about activities and projects of statistics and probability, which were developed as products of research in three dissertations, to three levels of education (Elementary School, Junior High and High School). It was analyzed the potential of teaching approaches and cognitive process carried by the students while they were learning statistics. The elementary school project involved some children between 5 and 6 years old who did not read yet, and it aimed to analyze how they understood, drew, collected and organized charts. The activity for Junior High School involved 13 years old students in a case study which investigated the following problem: How technological resources can be helpful to build new knowledge of Stochastic? The last project, applied to High School, was characterized by a case study in which students’ development was observed through statistical projects in an environment of Mathematical Modeling.",
         "Author Keywords": "Statistical Activities; Stochastic; Elementary School",
         "Index Keywords": "Humanities; Philosophy",
@@ -2124,7 +2136,7 @@
         "title": "2014 - As Narrativas de Duas Professoras em seus Processos de Desenvolvimento Profissional em Educacao Estatistica - W2001983347.pdf",
         "url": "https://drive.google.com/file/d/18XRYri1SyRD7sxyFW9mcXmrebQ5Mu6s2/view?usp=drivesdk",
         "size": 226878,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E.",
@@ -2189,10 +2201,11 @@
       "titlePortuguese": "Contribuições da Educação Estatística para a Formação de Engenheiros de Produção",
       "year": 2014,
       "authors": [
-        "Silva Junior, G.B., Lopes, C.E."
+        "Silva Junior, G.B.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
-        "Geraldo Bull da Silva",
+        "Silva Junior, Geraldo Bull da",
         "Lopes, Celi Espasandin"
       ],
       "affiliations": [
@@ -2249,11 +2262,11 @@
         "title": "2014 - Contribuicoes da Educacao Estatistica para a Formacao de Engenheiros de Producao - W1839115573.pdf",
         "url": "https://drive.google.com/file/d/1bIouaQBBmmETDk1Bk2T0oaPzzZgrdcmD/view?usp=drivesdk",
         "size": 2613671,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Silva Junior, G.B., Lopes, C.E.",
-        "Author full names": "Geraldo Bull da Silva; Lopes, Celi Espasandin",
+        "Author full names": "Silva Junior, Geraldo Bull da; Lopes, Celi Espasandin",
         "Author(s) ID": "",
         "Title": "Contributions of Statistics Education to the Training of Production Engineers",
         "Year": "2014",
@@ -2314,7 +2327,9 @@
       "titlePortuguese": "Narrativa de aula de uma professora sobre a investigação estatística",
       "year": 2014,
       "authors": [
-        "Grando, R.C., Nacarato, A.M., Lopes, C.E."
+        "Grando, R.C.",
+        "Nacarato, A.M.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Grando, Regina Célia",
@@ -2390,7 +2405,7 @@
         "title": "2014 - Narrativa de aula de uma professora sobre a investigacao estatistica - W1970359012.pdf",
         "url": "https://drive.google.com/file/d/1NceQ15ilQzXdIlnfEp29gYwxKbcNhCF-/view?usp=drivesdk",
         "size": 348867,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Grando, R.C., Nacarato, A.M., Lopes, C.E.",
@@ -2455,7 +2470,9 @@
       "titlePortuguese": "PROFESSIONAL DEVELOPMENT OF MATHEMATICS TEACHERS IMPLEMENTING PROBABILISTIC SIMULATIONS IN ELEMENTARY SCHOOL CLASSROOMS",
       "year": 2014,
       "authors": [
-        "Souza, L.O., Lopes, C.E., Mendonça, L.O."
+        "Souza, L.O.",
+        "Lopes, C.E.",
+        "Mendonça, L.O."
       ],
       "authorFullNames": [
         "Souza, Leandro de Oliveira",
@@ -2469,7 +2486,7 @@
       "authorsWithAffiliations": [
         "Souza, L.O. (Universidade Federal do Amazonas, Brazil)",
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
-        "Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil)"
+        "Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil)"
       ],
       "sourceTitle": "Statistics Education Research Journal",
       "volume": "13",
@@ -2543,7 +2560,7 @@
         "title": "2014 - PROFESSIONAL DEVELOPMENT OF MATHEMATICS TEACHERS IMPLEMENTING PROBABILISTIC SIMULATIONS IN ELEMENTARY SCHOOL CLASSROOMS - W2188904093.pdf",
         "url": "https://drive.google.com/file/d/1tFY_jI1z44hQP6Refw3XN4rJ897U124A/view?usp=drivesdk",
         "size": 181513,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, L.O., Lopes, C.E., Mendonça, L.O.",
@@ -2562,7 +2579,7 @@
         "DOI": "10.52041/serj.v13i2.282",
         "Link": "https://iase-web.org/ojs/SERJ/article/download/282/182",
         "Affiliations": "Universidade Federal do Amazonas, Brazil; Universidade Cruzeiro do Sul, Brazil",
-        "Authors with affiliations": "Souza, L.O. (Universidade Federal do Amazonas, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Souza, L.O. (Universidade Federal do Amazonas, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "The inclusion of statistics and probability in the mathematics curriculum has always generated challenges to mathematics teachers of elementary schools. This article discusses activities that promote the professional development of such teachers. We present part of a doctoral research study of 16 teachers in which we discuss two case studies of teachers who planned teaching activities focusing on probabilistic simulations. Results demonstrated that the joint elaboration and discussion, within an educational space marked by collaboration, afforded teachers greater security when addressing the subject, and allowed them to develop new knowledge and ideas on teaching and learning statistics and probability.",
         "Author Keywords": "Statistics education research; Lesson planning; Investigative activities; Case studies; Pedagogical beliefs; Pedagogical practices",
         "Index Keywords": "Mathematics education; Professional development; Curriculum; Cognitively Guided Instruction; Faculty development; Probabilistic logic; Teacher education; Inclusion (mineral); Reform mathematics; Teaching method; Connected Mathematics; Psychology; Pedagogy; Mathematics; Statistics",
@@ -2608,7 +2625,9 @@
       "titlePortuguese": "STOCHASTIC EDUCATION IN CHILDHOOD: EXAMINING THE LEARNING OF TEACHERS AND STUDENTS",
       "year": 2014,
       "authors": [
-        "Souza, A.C., Lopes, C.E., Oliveira, D."
+        "Souza, A.C.",
+        "Lopes, C.E.",
+        "Oliveira, D."
       ],
       "authorFullNames": [
         "Souza, Antônio Carlos de",
@@ -2713,7 +2732,7 @@
         "title": "2014 - STOCHASTIC EDUCATION IN CHILDHOOD EXAMINING THE LEARNING OF TEACHERS AND STUDENTS - W2184459156.pdf",
         "url": "https://drive.google.com/file/d/1ZroonVkiMhupEECuFhj6Pxma0pfiwmB4/view?usp=drivesdk",
         "size": 523162,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, A.C., Lopes, C.E., Oliveira, D.",
@@ -2778,7 +2797,9 @@
       "titlePortuguese": "COLLABORATIVE PROFESSIONAL DEVELOPMENT FOR STATISTICS TEACHING: A CASE STUDY OF TWO MIDDLE-SCHOOL MATHEMATICS TEACHERS",
       "year": 2015,
       "authors": [
-        "Souza, L.O., Lopes, C.E., Pfannkuch, M."
+        "Souza, L.O.",
+        "Lopes, C.E.",
+        "Pfannkuch, M."
       ],
       "authorFullNames": [
         "Souza, Leandro de Oliveira",
@@ -2861,7 +2882,7 @@
         "title": "2015 - COLLABORATIVE PROFESSIONAL DEVELOPMENT FOR STATISTICS TEACHING A CASE STUDY OF TWO MIDDLE-SCHOOL MATHEMATICS TEACHERS - W2248429477.pdf",
         "url": "https://drive.google.com/file/d/1J_QMA8ZuBmBDxuW-BEwBHwGKzUS5oYI_/view?usp=drivesdk",
         "size": 383799,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, L.O., Lopes, C.E., Pfannkuch, M.",
@@ -2926,7 +2947,9 @@
       "titlePortuguese": "Os delineamentos metodológicos nas investigações brasileiras em Educação Estatística",
       "year": 2015,
       "authors": [
-        "Souza, L.O., Lopes, C.E., Souza, A.C."
+        "Souza, L.O.",
+        "Lopes, C.E.",
+        "Souza, A.C."
       ],
       "authorFullNames": [
         "Souza, Leandro de Oliveira",
@@ -2999,7 +3022,7 @@
         "title": "2015 - Os delineamentos metodologicos nas investigacoes brasileiras em Educacao Estatistica - W2526035390.pdf",
         "url": "https://drive.google.com/file/d/1Fkk5vsZgSIO2DoUHs890_swS3oegZlkS/view?usp=drivesdk",
         "size": 466671,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, L.O., Lopes, C.E., Souza, A.C.",
@@ -3064,7 +3087,8 @@
       "titlePortuguese": "PLANEJAMENTO DE ATIVIDADES DE MODELAGEM MATEMÁTICA: Um caminho possível",
       "year": 2015,
       "authors": [
-        "Mendonça, L.O., Lopes, C.E."
+        "Mendonça, L.O.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Mendonça, Luzinete de Oliveira",
@@ -3075,7 +3099,7 @@
         "Universidade Cruzeiro do Sul, Brazil"
       ],
       "authorsWithAffiliations": [
-        "Mendonça, L.O. (Universidade Estadual de Londrina, Brazil)",
+        "Mendonça, L.O.O.O. (Universidade Estadual de Londrina, Brazil)",
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)"
       ],
       "sourceTitle": "Em Teia - Revista de Educação Matemática e Tecnológica Ibero-Americana",
@@ -3133,7 +3157,7 @@
         "title": "2015 - PLANEJAMENTO DE ATIVIDADES DE MODELAGEM MATEMATICA Um caminho possivel - W2176350764.pdf",
         "url": "https://drive.google.com/file/d/1JpKF2KjxHKNFitfJHzfNwhoDRiAZY_EU/view?usp=drivesdk",
         "size": 340416,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Mendonça, L.O., Lopes, C.E.",
@@ -3152,7 +3176,7 @@
         "DOI": "10.36397/emteia.v6i1.2262",
         "Link": "http://funes.uniandes.edu.co/31979/1/Mendon%C3%A7a2015Planejamento.pdf",
         "Affiliations": "Universidade Estadual de Londrina, Brazil; Universidade Cruzeiro do Sul, Brazil",
-        "Authors with affiliations": "Mendonça, L.O. (Universidade Estadual de Londrina, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Mendonça, L.O.O.O. (Universidade Estadual de Londrina, Brazil); Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "This work, which is of a qualitative nature, seeks understandings about the planning of activities from the perspective of modeling, considering the importance of this action for the teacher to include this educational perspective in their practice. It will analyze and discuss, through the observation of the presence of some principles, activities developed by three teachers who are members of a collaborative group that takes mathematical modeling as the center of discussion in order to implement Statistics Education. The results show that the developed activities depend on educational intervention to contemplate the epistemological assumptions of mathematical modeling, which in the case of Statistics Education require specific reasoning characteristic of random phenomena.",
         "Author Keywords": "Planning activities; Mathematical modeling; Statistics Education; Teachers Training; Collaborative Group",
         "Index Keywords": "Humanities; Philosophy",
@@ -3198,10 +3222,11 @@
       "titlePortuguese": "REPRESENTAÇÕES GRÁFICAS E VARIÁVEIS ESTATÍSTICAS: REFLEXÕES PARA A FORMAÇÃO DE ENGENHEIROS DE PRODUÇÃO",
       "year": 2015,
       "authors": [
-        "Silva Junior, G.B., Lopes, C.E."
+        "Silva Junior, G.B.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
-        "Geraldo Bull da Silva",
+        "Silva Junior, Geraldo Bull da",
         "Lopes, Celi Espasandin"
       ],
       "affiliations": [
@@ -3259,11 +3284,11 @@
         "title": "2015 - REPRESENTACOES GRAFICAS E VARIAVEIS ESTATISTICAS REFLEXOES PARA A FORMACAO DE ENGENHEIROS DE PRODUCAO - W2339995394.pdf",
         "url": "https://drive.google.com/file/d/1lO0BbGDfWI1d93ETpJ90eJFINuwYmo82/view?usp=drivesdk",
         "size": 123803,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Silva Junior, G.B., Lopes, C.E.",
-        "Author full names": "Geraldo Bull da Silva; Lopes, Celi Espasandin",
+        "Author full names": "Silva Junior, Geraldo Bull da; Lopes, Celi Espasandin",
         "Author(s) ID": "",
         "Title": "Graphical representations and statistics variables: reflections on the formation of production engineers",
         "Year": "2015",
@@ -3324,7 +3349,8 @@
       "titlePortuguese": "Aspectos filosóficos, psicológicos e políticos no estudo da Probabilidade e da Estatística na Educação Básica Philosofical, phisicological and political aspects in study of probability and statistics in Elementary, Middle and High School",
       "year": 2016,
       "authors": [
-        "Lopes, C.E., Souza, L.O."
+        "Lopes, C.E.",
+        "Souza, L.O."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -3460,10 +3486,11 @@
       "titlePortuguese": "O Papel da Estatística na Formação do Engenheiro de Produção",
       "year": 2016,
       "authors": [
-        "Silva Junior, G.B., Lopes, C.E."
+        "Silva Junior, G.B.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
-        "Geraldo Bull da Silva",
+        "Silva Junior, Geraldo Bull da",
         "Lopes, Celi Espasandin"
       ],
       "affiliations": [
@@ -3524,11 +3551,11 @@
         "title": "2016 - O Papel da Estatistica na Formacao do Engenheiro de Producao - W2557101214.pdf",
         "url": "https://drive.google.com/file/d/13YWKqrLQjjUsyHTKf8-jqxAoJNrRY6MY/view?usp=drivesdk",
         "size": 463858,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Silva Junior, G.B., Lopes, C.E.",
-        "Author full names": "Geraldo Bull da Silva; Lopes, Celi Espasandin",
+        "Author full names": "Silva Junior, Geraldo Bull da; Lopes, Celi Espasandin",
         "Author(s) ID": "",
         "Title": "The Role of Statistics in the Vocational Training of a Production Engineer",
         "Year": "2016",
@@ -3589,7 +3616,8 @@
       "titlePortuguese": "PROSPECTIVAS PARA O ESTUDO DA PROBABILIDADE E DA ESTATÍSTICA NO ENSINO FUNDAMENTAL",
       "year": 2016,
       "authors": [
-        "Lopes, C.E., Mendonça, L.O."
+        "Lopes, C.E.",
+        "Mendonça, L.O."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -3600,7 +3628,7 @@
       ],
       "authorsWithAffiliations": [
         "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil)",
-        "Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil)"
+        "Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil)"
       ],
       "sourceTitle": "Vidya",
       "volume": "36",
@@ -3655,7 +3683,7 @@
         "title": "2016 - PROSPECTIVAS PARA O ESTUDO DA PROBABILIDADE E DA ESTATISTICA NO ENSINO FUNDAMENTAL - W2623536044.pdf",
         "url": "https://drive.google.com/file/d/1FNuAEyjETdcLrL_OrwdYJc8PhCdC9Cg7/view?usp=drivesdk",
         "size": 553230,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Mendonça, L.O.",
@@ -3674,7 +3702,7 @@
         "DOI": "",
         "Link": "https://periodicos.ufn.edu.br/index.php/VIDYA/article/download/1814/1741",
         "Affiliations": "Universidade Cruzeiro do Sul, Brazil",
-        "Authors with affiliations": "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Lopes, C.E. (Universidade Cruzeiro do Sul, Brazil); Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "This paper aims to encompass a discussion of philosophical and psychological aspects related to probability and statistics in order to provide indicators on the development of the study of these topics throughout the elementary and middle school. There is a lack of guidelines regarding the development of probabilistic and statistical reasoning throughout schooling in Brazil. We conducted a review literature that presents subsidies for this study and a read of some curricular documents that would enable the expansion of the discussions. The analytical process on these references and documents was interpretative. There are convergences in the multiple readings about curriculum documents to point indicators on the concepts and probabilistic and statistical procedures that may be considered by teachers in activities to prepare for their classes and in future elaborations of curriculum mathematics.",
         "Author Keywords": "Statistics Education; Mathematics curriculum; Probability and Statistics; Elementary school; Middle school",
         "Index Keywords": "Philosophy; Humanities; Mathematics",
@@ -3720,7 +3748,8 @@
       "titlePortuguese": "As aprendizagens geradas num grupo colaborativo de professores durante um estudo sobre modelagem matemática na Educação Estatística",
       "year": 2019,
       "authors": [
-        "Mendonça, L.O., Lopes, C.E."
+        "Mendonça, L.O.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Mendonça, Luzinete de Oliveira",
@@ -3731,7 +3760,7 @@
         "Universidade Cidade de São Paulo, Brazil"
       ],
       "authorsWithAffiliations": [
-        "Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil)",
+        "Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil)",
         "Lopes, C.E. (Universidade Cidade de São Paulo, Brazil",
         "Universidade Cruzeiro do Sul, Brazil)"
       ],
@@ -3815,7 +3844,7 @@
         "DOI": "10.48489/quadrante.22942",
         "Link": "http://revistas.rcaap.pt/index.php/quadrante/article/view/22942",
         "Affiliations": "Universidade Cruzeiro do Sul, Brazil; Universidade Cidade de São Paulo, Brazil",
-        "Authors with affiliations": "Mendonça, L.O. (Universidade Cruzeiro do Sul, Brazil); Lopes, C.E. (Universidade Cidade de São Paulo, Brazil; Universidade Cruzeiro do Sul, Brazil)",
+        "Authors with affiliations": "Mendonça, L.O.O.O. (Universidade Cruzeiro do Sul, Brazil); Lopes, C.E. (Universidade Cidade de São Paulo, Brazil; Universidade Cruzeiro do Sul, Brazil)",
         "Abstract": "The purpose of this study is to ponder over the opportunities of teacher learning generated in an environment of collaborative work to discuss about mathematical modeling and Statistics Education. Mathematical modeling is considered as a pedagogical perspective and it is sought to answer the question: how do the actions experienced in a training process on mathematical modeling and Statistical Education favor teacher learning? It is a qualitative research, in which it has taken for analysis and reflection the involvement of some teachers in the experience of some actions regarding the use of mathematical modeling to include Statistical Education in Basic Education. The results reaffirm the potentiality of the actions proposed in the literature to provide conditions for teacher learning when the training process is guided by the interests of teachers. However, the relevance of a space of development with a collaborative characteristic is evidenced so that they are actually involved in the process.",
         "Author Keywords": "Statistics Education; mathematical modeling; teacher training; collaborative group; teacher learning",
         "Index Keywords": "Perspective (graphical); Psychology; Relevance (law); Mathematics education; Reflection (computer programming); Process (computing); Pedagogy; Computer science; Artificial intelligence; Political science",
@@ -3861,7 +3890,8 @@
       "titlePortuguese": "Mapeamento do uso do geoGebra no ensino de estatística",
       "year": 2019,
       "authors": [
-        "Tavares, F.G., Lopes, C.E."
+        "Tavares, F.G.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Tavares, Fernando Gonzales",
@@ -3932,7 +3962,7 @@
         "title": "2019 - Mapeamento do uso do geoGebra no ensino de estatistica - W2976596570.pdf",
         "url": "https://drive.google.com/file/d/12X0EKhDGXvZmMg4Xqxa2K9rhsCSd83y2/view?usp=drivesdk",
         "size": 610733,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Tavares, F.G., Lopes, C.E.",
@@ -3997,7 +4027,8 @@
       "titlePortuguese": "Mapeamento dos trabalhos publicados no GT 12 do SIPEM",
       "year": 2019,
       "authors": [
-        "Scarlassari, N.T., Lopes, C.E."
+        "Scarlassari, N.T.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Scarlassari, Nathalia Tornisiello",
@@ -4060,7 +4091,7 @@
         "title": "2019 - Mapeamento dos trabalhos publicados no GT 12 do SIPEM - W2975349491.pdf",
         "url": "https://drive.google.com/file/d/1vS9G4g_ErcmewbWaDAX10WIE2Wf_OWSM/view?usp=drivesdk",
         "size": 462273,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Scarlassari, N.T., Lopes, C.E.",
@@ -4125,7 +4156,9 @@
       "titlePortuguese": "Um cenário das pesquisas em Educação Estatística no XII ENEM",
       "year": 2019,
       "authors": [
-        "Barbosa, G.C., Santos, S.S., Lopes, C.E."
+        "Barbosa, G.C.",
+        "Santos, S.S.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Barbosa, Geovane Carlos",
@@ -4192,7 +4225,7 @@
         "title": "2019 - Um cenario das pesquisas em Educacao Estatistica no XII ENEM - W2995366928.pdf",
         "url": "https://drive.google.com/file/d/1MutIJMQl8Y_I3HxZSbYTdNLYTBNGFVbP/view?usp=drivesdk",
         "size": 342820,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Barbosa, G.C., Santos, S.S., Lopes, C.E.",
@@ -4257,7 +4290,8 @@
       "titlePortuguese": "A insubordinação criativa e o processo dialógico na Educação Estatística na infância",
       "year": 2020,
       "authors": [
-        "Corrêa, S.A., Lopes, C.E."
+        "Corrêa, S.A.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Corrêa, Solange Aparecida",
@@ -4320,7 +4354,7 @@
         "title": "2020 - A insubordinacao criativa e o processo dialogico na Educacao Estatistica na infancia - W3122374529.pdf",
         "url": "https://drive.google.com/file/d/15KQo0QasyfDc3BsXFUzcnxJ-v2YkGJl-/view?usp=drivesdk",
         "size": 447560,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Corrêa, S.A., Lopes, C.E.",
@@ -4385,7 +4419,8 @@
       "titlePortuguese": "A relação dialógico-comunicativa gerada pela insubordinação criativa na educação estatística de crianças",
       "year": 2020,
       "authors": [
-        "Corrêa, S.A., Lopes, C.E."
+        "Corrêa, S.A.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Corrêa, Solange Aparecida",
@@ -4461,7 +4496,7 @@
         "title": "2020 - A relacao dialogico-comunicativa gerada pela insubordinacao criativa na educacao estatistica de criancas - W3123992519.pdf",
         "url": "https://drive.google.com/file/d/1FJJnbL0LGorcJXy484MQdZd2yaIi_Iwo/view?usp=drivesdk",
         "size": 1063575,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Corrêa, S.A., Lopes, C.E.",
@@ -4526,7 +4561,9 @@
       "titlePortuguese": "CREATIVE INSUBORDINATION IN STATISTICS TEACHING: POSSIBILITIES TO GO BEYOND STATISTICAL LITERACY",
       "year": 2020,
       "authors": [
-        "Souza, L.O., Lopes, C.E., Fitzallen, N."
+        "Souza, L.O.",
+        "Lopes, C.E.",
+        "Fitzallen, N."
       ],
       "authorFullNames": [
         "Souza, Leandro de Oliveira",
@@ -4607,7 +4644,7 @@
         "title": "2020 - CREATIVE INSUBORDINATION IN STATISTICS TEACHING POSSIBILITIES TO GO BEYOND STATISTICAL LITERACY - W3045050642.pdf",
         "url": "https://drive.google.com/file/d/12zIa0yoBoo92m5qvw6i61j4s-dS6R0QU/view?usp=drivesdk",
         "size": 480307,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, L.O., Lopes, C.E., Fitzallen, N.",
@@ -4672,7 +4709,8 @@
       "titlePortuguese": "Creative insubordination of teachers proposing statistics and probability problems to children",
       "year": 2020,
       "authors": [
-        "Grando, R.C., Lopes, C.E."
+        "Grando, R.C.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Grando, Regina Célia",
@@ -4745,7 +4783,7 @@
         "title": "2020 - Creative insubordination of teachers proposing statistics and probability problems to children - W3030706048.pdf",
         "url": "https://drive.google.com/file/d/1E9NrEcy8bCjTQZt9j_sfEmf6x62BULfe/view?usp=drivesdk",
         "size": 1688805,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Grando, R.C., Lopes, C.E.",
@@ -4810,7 +4848,8 @@
       "titlePortuguese": "Diálogos insubordinados criativamente na formação de professores e na Educação Estatística",
       "year": 2020,
       "authors": [
-        "Lopes, C.E., Ferreira, F.A."
+        "Lopes, C.E.",
+        "Ferreira, F.A."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -4877,7 +4916,7 @@
         "title": "2020 - Dialogos insubordinados criativamente na formacao de professores e na Educacao Estatistica - W3125654798.pdf",
         "url": "https://drive.google.com/file/d/1WQIO_UlT5FyBOG4JEovEFn_R8sxYuX18/view?usp=drivesdk",
         "size": 172119,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Ferreira, F.A.",
@@ -4942,7 +4981,8 @@
       "titlePortuguese": "Estudo ampliado da associação entre variáveis qualitativas e quantitativas, de forma insubordinada, com o uso do Geogebra",
       "year": 2020,
       "authors": [
-        "Tavares, F.G., Lopes, C.E."
+        "Tavares, F.G.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Tavares, Fernando Gonzales",
@@ -5008,7 +5048,7 @@
         "title": "2020 - Estudo ampliado da associacao entre variaveis qualitativas e quantitativas, de forma insubordinada, com o uso do Geogebra - W3112214897.pdf",
         "url": "https://drive.google.com/file/d/1nj54KSmVZVT20ZUkKfZTvh2UG3TJOcLF/view?usp=drivesdk",
         "size": 486170,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Tavares, F.G., Lopes, C.E.",
@@ -5073,7 +5113,8 @@
       "titlePortuguese": "Investigação Estatística nas Aulas de Matemática",
       "year": 2020,
       "authors": [
-        "Lopes, C.E., Socha, R.R."
+        "Lopes, C.E.",
+        "Socha, R.R."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -5140,7 +5181,7 @@
         "title": "2020 - Investigacao Estatistica nas Aulas de Matematica - W3020925404.pdf",
         "url": "https://drive.google.com/file/d/1LgHkYYgqGkpNejP5RtwWg3WxVgNu9GWf/view?usp=drivesdk",
         "size": 355392,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Socha, R.R.",
@@ -5205,7 +5246,9 @@
       "titlePortuguese": "Trajetórias e Perspectivas da Educação Estatística a partir dos trabalhos apresentados no SIPEM Trajectories and Perspectives of Statistical Education from the works presented in the SIPEM",
       "year": 2020,
       "authors": [
-        "Santos, S.S., Barbosa, G.C., Lopes, C.E."
+        "Santos, S.S.",
+        "Barbosa, G.C.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Santos, Sidney Silva",
@@ -5336,7 +5379,8 @@
       "titlePortuguese": "Agency and criticality in statistics teaching practices: the account of a teacher",
       "year": 2021,
       "authors": [
-        "Lopes, C.E., Scarlassari, N.T."
+        "Lopes, C.E.",
+        "Scarlassari, N.T."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -5414,7 +5458,7 @@
         "title": "2021 - Agency and criticality in statistics teaching practices the account of a teacher - W4200309983.pdf",
         "url": "https://drive.google.com/file/d/16V8uuetabxJihfEgDUCRaoIk0K-12kTQ/view?usp=drivesdk",
         "size": 511409,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Scarlassari, N.T.",
@@ -5479,7 +5523,10 @@
       "titlePortuguese": "Análise de Trajetórias de Professores que Ensinam Probabilidade e Estatística com Auxílio do Software IRAMUTEQ",
       "year": 2021,
       "authors": [
-        "Barbosa, G.C., Santos, S.S., Tinti, D.S., Lopes, C.E."
+        "Barbosa, G.C.",
+        "Santos, S.S.",
+        "Tinti, D.S.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Barbosa, Geovane Carlos",
@@ -5552,7 +5599,7 @@
         "title": "2021 - Analise de Trajetorias de Professores que Ensinam Probabilidade e Estatistica com Auxilio do Software IRAMUTEQ - W3129108784.pdf",
         "url": "https://drive.google.com/file/d/1d_zchF05bwytfuLBYlsFBvX3WxrXGDxV/view?usp=drivesdk",
         "size": 899232,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Barbosa, G.C., Santos, S.S., Tinti, D.S., Lopes, C.E.",
@@ -5617,7 +5664,8 @@
       "titlePortuguese": "Conhecimentos de professores de Matemática ao ensinarem Estatística",
       "year": 2021,
       "authors": [
-        "Souza, J.R., Lopes, C.E."
+        "Souza, J.R.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Souza, José Roberto de",
@@ -5680,7 +5728,7 @@
         "title": "2021 - Conhecimentos de professores de Matematica ao ensinarem Estatistica - W3174910564.pdf",
         "url": "https://drive.google.com/file/d/1JsGoFkc7uCL8rW2IQWSAax-N2irp6Omo/view?usp=drivesdk",
         "size": 469170,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Souza, J.R., Lopes, C.E.",
@@ -5745,7 +5793,9 @@
       "titlePortuguese": "LEITURA E INTERPRETAÇÃO DE GRÁFICOS ESTATÍSTICOS: UMA ANÁLISE SOBRE O ENTENDIMENTO DE ALUNOS DE UM 9.º ANO / READING AND INTERPRETATION OF STATISTICAL GRAPHS: AN ANALYSIS OF THE UNDERSTANDING OF 9TH GRADE STUDENTS",
       "year": 2021,
       "authors": [
-        "Santos, S.S., Barbosa, G.C., Lopes, C.E."
+        "Santos, S.S.",
+        "Barbosa, G.C.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Santos, Sidney Silva",
@@ -5879,10 +5929,11 @@
       "titlePortuguese": "Mapeamento de pesquisas brasileiras sobre o Letramento Estatístico, Probabilístico e Estocástico, realizadas no período de 2015 a 2020",
       "year": 2021,
       "authors": [
-        "Toledo, S.E.R.G.O., Lopes, C.E."
+        "Toledo, S.E.R.G.O.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
-        "Toledo, Sezilia Olmo de",
+        "Toledo, Sezília Elizabete Rodrigues Garcia Olmo de",
         "Lopes, Celi Espasandin"
       ],
       "affiliations": [
@@ -5947,7 +5998,7 @@
       },
       "raw": {
         "Authors": "Toledo, S.E.R.G.O., Lopes, C.E.",
-        "Author full names": "Toledo, Sezilia Olmo de; Lopes, Celi Espasandin",
+        "Author full names": "Toledo, Sezília Elizabete Rodrigues Garcia Olmo de; Lopes, Celi Espasandin",
         "Author(s) ID": "",
         "Title": "Mapping of Brazilian Research on Statistical Probabilistic and Stochastic Literacy Carried Out in Elementary and Middle School Classrooms with Students from 2015 to 2020",
         "Year": "2021",
@@ -6008,7 +6059,8 @@
       "titlePortuguese": "OVERVIEW OF BRAZILIAN RESEARCH ON STATISTICS EDUCATION INVOLVING TEACHERS: METHODOLOGICAL PATHS AND TRAINING CONTEXTS",
       "year": 2021,
       "authors": [
-        "Tinti, D.S., Lopes, C.E."
+        "Tinti, D.S.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Tinti, Douglas da Silva",
@@ -6087,7 +6139,7 @@
         "title": "2021 - OVERVIEW OF BRAZILIAN RESEARCH ON STATISTICS EDUCATION INVOLVING TEACHERS METHODOLOGICAL PATHS AND TRAINING CONTEXTS - W4205866407.pdf",
         "url": "https://drive.google.com/file/d/1ChQe3FtiqPycTuHpRoLbgI__53Kkfz9n/view?usp=drivesdk",
         "size": 249253,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Tinti, D.S., Lopes, C.E.",
@@ -6152,7 +6204,9 @@
       "titlePortuguese": "A formação docente na pesquisa (auto)biográfica: estado do conhecimento no CIPA 2018",
       "year": 2023,
       "authors": [
-        "Corrêa, S.A., Lopes, C.E., Santos, M.E.K.L."
+        "Corrêa, S.A.",
+        "Lopes, C.E.",
+        "Santos, M.E.K.L."
       ],
       "authorFullNames": [
         "Corrêa, Solange Aparecida",
@@ -6222,7 +6276,7 @@
         "title": "2023 - A formacao docente na pesquisa (auto)biografica estado do conhecimento no CIPA 2018 - W4318068714.pdf",
         "url": "https://drive.google.com/file/d/1w5fzgTHbW1c80-cOB47mZl95JPMMLz5Y/view?usp=drivesdk",
         "size": 574299,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Corrêa, S.A., Lopes, C.E., Santos, M.E.K.L.",
@@ -6287,12 +6341,14 @@
       "titlePortuguese": "DEVELOPMENT OF A STATISTICAL RESEARCH PROJECT IN CHILDHOOD: INTERFACES WITH LIFE SCIENCES",
       "year": 2023,
       "authors": [
-        "Lopes, C.E., Augusto, A.F.C., Toledo, S.E.R.G.O."
+        "Lopes, C.E.",
+        "Augusto, A.F.C.",
+        "Toledo, S.E.R.G.O."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
         "Augusto, Adriana Franco de Camargo",
-        "Toledo, Sezilia Olmo de"
+        "Toledo, Sezília Elizabete Rodrigues Garcia Olmo de"
       ],
       "affiliations": [
         "Universidade Estadual de Campinas (UNICAMP), Brazil",
@@ -6371,11 +6427,11 @@
         "title": "2023 - DEVELOPMENT OF A STATISTICAL RESEARCH PROJECT IN CHILDHOOD INTERFACES WITH LIFE SCIENCES - W4385418284.pdf",
         "url": "https://drive.google.com/file/d/14vefD2U7Qv74aghfYVRd73pF_9PF4E1M/view?usp=drivesdk",
         "size": 587876,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Augusto, A.F.C., Toledo, S.E.R.G.O.",
-        "Author full names": "Lopes, Celi Espasandin; Augusto, Adriana Franco de Camargo; Toledo, Sezilia Olmo de",
+        "Author full names": "Lopes, Celi Espasandin; Augusto, Adriana Franco de Camargo; Toledo, Sezília Elizabete Rodrigues Garcia Olmo de",
         "Author(s) ID": "",
         "Title": "THE DEVELOPMENT OF A STATISTICAL RESEARCH PROJECT IN CHILDHOOD: INTERFACES WITH LIFE SCIENCES",
         "Year": "2023",
@@ -6436,7 +6492,8 @@
       "titlePortuguese": "Educação estatística propulsora da criatividade e da criticidade na infância",
       "year": 2023,
       "authors": [
-        "Lopes, C.E., Corrêa, S.A."
+        "Lopes, C.E.",
+        "Corrêa, S.A."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -6504,7 +6561,7 @@
         "title": "2023 - Educacao estatistica propulsora da criatividade e da criticidade na infancia - W4390922315.pdf",
         "url": "https://drive.google.com/file/d/1NBsBEJndDLRh7HOGmHrigUjTf7uIq0eX/view?usp=drivesdk",
         "size": 980368,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Corrêa, S.A.",
@@ -6569,7 +6626,9 @@
       "titlePortuguese": "Mapeamento das teses e dissertações sobre a formação do professor de matemática: um olhar para a produção na educação estatística",
       "year": 2023,
       "authors": [
-        "Barbosa, G.C., Lopes, C.E., Santos, S.S."
+        "Barbosa, G.C.",
+        "Lopes, C.E.",
+        "Santos, S.S."
       ],
       "authorFullNames": [
         "Barbosa, Geovane Carlos",
@@ -6644,7 +6703,7 @@
         "title": "2023 - Mapeamento das teses e dissertacoes sobre a formacao do professor de matematica um olhar para a producao na educacao estatistica - W4390221691.pdf",
         "url": "https://drive.google.com/file/d/1xV_ZbV1AdwUl4rsGr4UmoKmRpywX9ohn/view?usp=drivesdk",
         "size": 824788,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Barbosa, G.C., Lopes, C.E., Santos, S.S.",
@@ -6709,7 +6768,8 @@
       "titlePortuguese": "Uma análise subversivamente responsável de orientações metodológicas de algumas diretrizes curriculares para Educação Estatística",
       "year": 2023,
       "authors": [
-        "Lopes, C.E., Grando, R.C."
+        "Lopes, C.E.",
+        "Grando, R.C."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -6779,7 +6839,7 @@
         "title": "2023 - Uma analise subversivamente responsavel de orientacoes metodologicas de algumas diretrizes curriculares para Educacao Estatistica - W4390939408.pdf",
         "url": "https://drive.google.com/file/d/1TPFcb5kX3yMV0TdJ8qJpdp6KkSM0jU8B/view?usp=drivesdk",
         "size": 239232,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Grando, R.C.",
@@ -6844,18 +6904,19 @@
       "titlePortuguese": "Desenvolvimento profissional de professores em direção a uma prática educativo-crítica em Educação Estatística",
       "year": 2024,
       "authors": [
-        "Lopes, C.E., Pozutto, S."
+        "Lopes, C.E.",
+        "Pozzuto, S.L."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
-        "Solange Loureiro Pozzuto"
+        "Pozzuto, Solange Loureiro"
       ],
       "affiliations": [
         "Pontifícia Universidade Católica de Campinas, Brazil"
       ],
       "authorsWithAffiliations": [
         "Lopes, C.E. (Pontifícia Universidade Católica de Campinas, Brazil)",
-        "Pozutto, S. (Pontifícia Universidade Católica de Campinas, Brazil)"
+        "Pozzuto, S.L. (Pontifícia Universidade Católica de Campinas, Brazil)"
       ],
       "sourceTitle": "REMat: Revista de Educação Matemática",
       "volume": "22",
@@ -6911,11 +6972,11 @@
         "title": "2024 - Desenvolvimento profissional de professores em direcao a uma pratica educativo-critica em Educacao Estatistica - W4401213170.pdf",
         "url": "https://drive.google.com/file/d/1_o4kGK6jtyG52hjiyfzJ99HyYAeZv97q/view?usp=drivesdk",
         "size": 347428,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
-        "Authors": "Lopes, C.E., Pozutto, S.",
-        "Author full names": "Lopes, Celi Espasandin; Solange Loureiro Pozzuto",
+        "Authors": "Lopes, C.E., Pozzuto, S.L.",
+        "Author full names": "Lopes, Celi Espasandin; Pozzuto, Solange Loureiro",
         "Author(s) ID": "",
         "Title": "Professional development of teachers towards an educational-critical practice in Statistical Education",
         "Year": "2024",
@@ -6930,7 +6991,7 @@
         "DOI": "10.37001/remat25269062v22id408",
         "Link": "https://www.revistasbemsp.com.br/index.php/REMat-SP/article/download/408/592",
         "Affiliations": "Pontifícia Universidade Católica de Campinas, Brazil",
-        "Authors with affiliations": "Lopes, C.E. (Pontifícia Universidade Católica de Campinas, Brazil); Pozutto, S. (Pontifícia Universidade Católica de Campinas, Brazil)",
+        "Authors with affiliations": "Lopes, C.E. (Pontifícia Universidade Católica de Campinas, Brazil); Pozzuto, S.L. (Pontifícia Universidade Católica de Campinas, Brazil)",
         "Abstract": "This paper aims to present an excerpt from the research that analyzed the professional development of teachers who participate in a study group of the Mathematics component of a Municipal Education Network in a city in the interior of the state of São Paulo and teach statistics in the final years of Elementary School. The work dynamics of this study group are based on theoretical and methodological discussions about teaching statistics and probability based on the socialization and reflection of the participants teaching practices. Research was carried out with (auto)biographical narratives which are considered as education and self-education practices promoting the reflective process of teachers and their repercussions on the processes of constitution of subjectivity and social insertion. The construction of data occurred through the oral and written narratives of two teachers about their professional trajectories their professional development processes and their teaching practices when developing statistics and probability activities with students in the final years of Elementary School. Light is shed on the dialogues established with the Freirean perspective in a reflective analytical movement which highlights relevant aspects for thinking about continuous teacher training towards an educational-critical practice in statistics education.",
         "Author Keywords": "Professional Development; Elementary School; Statistical Education; (Auto)biographical research; Paulo Freire",
         "Index Keywords": "Political science; Philosophy",
@@ -6976,7 +7037,9 @@
       "titlePortuguese": "Narrativas de professores de matemática que ensinam probabilidade e estatística e seus processos de desenvolvimento profissional",
       "year": 2024,
       "authors": [
-        "Barbosa, G.C., Lopes, C.E., Santos, S.S."
+        "Barbosa, G.C.",
+        "Lopes, C.E.",
+        "Santos, S.S."
       ],
       "authorFullNames": [
         "Barbosa, Geovane Carlos",
@@ -7050,7 +7113,7 @@
         "title": "2024 - Narrativas de professores de matematica que ensinam probabilidade e estatistica e seus processos de desenvolvimento profissional - W4400177845.pdf",
         "url": "https://drive.google.com/file/d/1lL0xlpfwzVR3eLewSFFIC7fT3yvofxQL/view?usp=drivesdk",
         "size": 594507,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Barbosa, G.C., Lopes, C.E., Santos, S.S.",
@@ -7115,7 +7178,9 @@
       "titlePortuguese": "Recomendações curriculares para o ensino e aprendizagem da estatística e probabilidade na Austrália, Brasil e Portugal",
       "year": 2024,
       "authors": [
-        "Lopes, C.E., Almeida, J.L.D., Santos, A.K.E."
+        "Lopes, C.E.",
+        "Almeida, J.L.D.",
+        "Santos, A.K.E."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -7182,7 +7247,7 @@
         "title": "2024 - Recomendacoes curriculares para o ensino e aprendizagem da estatistica e probabilidade na Australia, Brasil e Portugal - W4407396150.pdf",
         "url": "https://drive.google.com/file/d/11_IWizR3hKnG1atNQCOAV9KDt23Dl82C/view?usp=drivesdk",
         "size": 761189,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Almeida, J.L.D., Santos, A.K.E.",
@@ -7247,10 +7312,11 @@
       "titlePortuguese": "UMA VISÃO DA FORMAÇÃO ESTOCÁSTICA DOS PROFESSORES DE MATEMÁTICA NO ESTADO DO TOCANTINS",
       "year": 2025,
       "authors": [
-        "Paula, F.V., Lopes, C.E."
+        "Paula, F.V.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
-        "Paula, Felipe Campolina Soares de",
+        "Paula, Fernanda Vital de",
         "Lopes, Celi Espasandin"
       ],
       "affiliations": [
@@ -7312,11 +7378,11 @@
         "title": "2024 - UMA VISAO DA FORMACAO ESTOCASTICA DOS PROFESSORES DE MATEMATICA NO ESTADO DO TOCANTINS - W4408389117.pdf",
         "url": "https://drive.google.com/file/d/1xuCuJWMH0ftaPAThgtUFCV7mtJGDFvFz/view?usp=drivesdk",
         "size": 1033425,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Paula, F.V., Lopes, C.E.",
-        "Author full names": "Paula, Felipe Campolina Soares de; Lopes, Celi Espasandin",
+        "Author full names": "Paula, Fernanda Vital de; Lopes, Celi Espasandin",
         "Author(s) ID": "",
         "Title": "A VIEW OF THE STOCHASTIC TRAINING OF MATHEMATICS TEACHERS IN THE STATE OF TOCANTINS",
         "Year": "2025",
@@ -7377,7 +7443,8 @@
       "titlePortuguese": "Actividades pedagógicas en educación estadística, narradas por profesores de matemáticas",
       "year": 2025,
       "authors": [
-        "Lopes, C.E., Grando, R.C."
+        "Lopes, C.E.",
+        "Grando, R.C."
       ],
       "authorFullNames": [
         "Lopes, Celi Espasandin",
@@ -7443,7 +7510,7 @@
         "title": "2025 - Actividades pedagogicas en educacion estadistica, narradas por profesores de matematicas - W4412723608.pdf",
         "url": "https://drive.google.com/file/d/1ZmfhbXScB8DmK1i9pq2kkpoHOsxOQbwF/view?usp=drivesdk",
         "size": 564631,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Lopes, C.E., Grando, R.C.",
@@ -7508,7 +7575,8 @@
       "titlePortuguese": "Formação continuada a distância: narrativas videobiografadas de uma professora que ensina estatística nos anos finais do ensino fundamental",
       "year": 2025,
       "authors": [
-        "Santos, S.S., Lopes, C.E."
+        "Santos, S.S.",
+        "Lopes, C.E."
       ],
       "authorFullNames": [
         "Santos, Sidney Silva",
@@ -7637,7 +7705,9 @@
       "titlePortuguese": "Perspectives and evidence of the identity of the statistical educator",
       "year": 2026,
       "authors": [
-        "Barbosa, G.C., Lopes, C.E., Santos, S.S."
+        "Barbosa, G.C.",
+        "Lopes, C.E.",
+        "Santos, S.S."
       ],
       "authorFullNames": [
         "Barbosa, Geovane Carlos",
@@ -7714,7 +7784,7 @@
         "title": "2026 - Perspectives and evidence of the identity of the statistical educator - W7164822158.pdf",
         "url": "https://drive.google.com/file/d/1nfMvLNRPrY5KNC1-5IsgR-9YquN3WycY/view?usp=drivesdk",
         "size": 611443,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Barbosa, G.C., Lopes, C.E., Santos, S.S.",
@@ -7779,7 +7849,9 @@
       "titlePortuguese": "Prática e agência docente em educação estatística",
       "year": 2026,
       "authors": [
-        "Scarlassari, N.T., Lopes, C.E., Aguiar, S.R."
+        "Scarlassari, N.T.",
+        "Lopes, C.E.",
+        "Aguiar, S.R."
       ],
       "authorFullNames": [
         "Scarlassari, Nathalia Tornisiello",
@@ -7854,7 +7926,7 @@
         "title": "2026 - Pratica e agencia docente em educacao estatistica - W7167357929.pdf",
         "url": "https://drive.google.com/file/d/1ua4GZZENJIvlPUq29ms8Zipje_Vcc1_9/view?usp=drivesdk",
         "size": 758424,
-        "matchScore": 1.0
+        "matchScore": 1
       },
       "raw": {
         "Authors": "Scarlassari, N.T., Lopes, C.E., Aguiar, S.R.",

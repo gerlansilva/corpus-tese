@@ -33,7 +33,7 @@ Os arquivos `data/celi.json` e `data/batanero.json` mantêm as versões legívei
 
 ## Metadados
 
-O conjunto da Celi possui 54 campos, dos quais 35 têm pelo menos um valor. O conjunto da Batanero possui 15 campos presentes: autores, nomes completos, título, ano, periódico, DOI, afiliações, autores com afiliações, resumo, palavras-chave, referências, país, citações, conferência do registro e situação das palavras-chave. Na coleção da Batanero, 74 artigos têm DOI, 145 têm contagem de citações e 149 informam país.
+O conjunto da Celi possui 54 campos, dos quais 35 têm pelo menos um valor. O conjunto da Batanero possui 15 campos presentes: autores, nomes completos, título, ano, periódico, DOI, afiliações, autores com afiliações, resumo, palavras-chave, referências, país, citações, conferência do registro e situação das palavras-chave. Na coleção da Batanero, 76 artigos têm DOI, 141 têm contagem de citações e 146 informam país.
 
 ## Uso local
 
