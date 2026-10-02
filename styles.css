@@ -85,8 +85,14 @@ a { color: inherit; }
 .details-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .7rem 1.4rem; }
 .details-grid p { margin: .2rem 0; color: #44504d; text-align: justify; }
 .detail-label { display: block; color: var(--muted); font-size: .63rem; text-transform: uppercase; letter-spacing: .06em; }
-.references-list { max-height: 210px; overflow: auto; margin-bottom: 0; padding-left: 1.2rem; }
-.references-list li { margin: .32rem 0; }
+.references-list {
+  max-height: min(65vh, 680px);
+  overflow: auto;
+  scrollbar-gutter: stable;
+  margin-bottom: 0;
+  padding: .2rem 1rem .2rem 1.55rem;
+}
+.references-list li { margin: .45rem 0; line-height: 1.55; }
 
 .pagination { display: flex; flex-wrap: wrap; justify-content: center; gap: .35rem; margin-top: 1.5rem; }
 .page-button { border: 1px solid var(--line); background: #fff; border-radius: 7px; min-width: 34px; height: 34px; color: var(--muted); font-size: .75rem; cursor: pointer; }
@@ -118,6 +124,7 @@ footer { border-top: 1px solid var(--line); padding: 1.5rem clamp(1rem, 5vw, 4re
   .filters, .filters.filters-two { grid-template-columns: 1fr; }
   .record-actions { align-items: flex-start; flex-direction: column; }
   .details-grid, .metadata-groups { grid-template-columns: 1fr; }
+  .references-list { max-height: 55vh; padding-right: .55rem; }
   .results-head { align-items: flex-start; }
   .results-head > div { flex-direction: column; gap: .3rem; text-align: right; }
   footer { flex-direction: column; gap: .25rem; }
