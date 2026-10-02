@@ -1,6 +1,6 @@
 # Corpus de Educação Estatística
 
-Site estático para consulta pública do corpus de análise da tese, organizado em duas áreas: **Celi Espasandin Lopes** e **Carmen Batanero**. Esta versão reúne 201 artigos: 54 da Celi e 147 da Batanero. Todos os registros possuem link individual para o respectivo arquivo no Google Drive.
+Site estático para consulta pública do corpus de análise da tese, organizado em duas áreas: **Celi Espasandin Lopes** e **Carmen Batanero**. Esta versão reúne 200 artigos: 53 da Celi e 147 da Batanero. Todos os registros possuem link individual para o respectivo arquivo no Google Drive.
 
 ## Conteúdo do projeto
 
@@ -9,7 +9,7 @@ Site estático para consulta pública do corpus de análise da tese, organizado 
 - `app.js` — busca, filtros, paginação, visualizações e exportação CSV;
 - `data/celi.js` e `data/celi.json` — corpus da Celi;
 - `data/batanero.js` e `data/batanero.json` — corpus da Batanero;
-- `data/drive-files.json` — referências dos 54 PDFs no Google Drive;
+- `data/drive-files.json` — referências dos 53 PDFs da Celi no Google Drive;
 - `_headers` — cabeçalhos de segurança e cache para Cloudflare Pages.
 
 O site não usa framework, banco de dados ou etapa de compilação. Todos os dados são carregados no navegador.
@@ -33,7 +33,7 @@ Os arquivos `data/celi.json` e `data/batanero.json` mantêm as versões legívei
 
 ## Metadados
 
-O conjunto da Celi possui 54 campos, dos quais 35 têm pelo menos um valor. O conjunto da Batanero possui 15 campos presentes: autores, nomes completos, título, ano, periódico, DOI, afiliações, autores com afiliações, resumo, palavras-chave, referências, país, citações, conferência do registro e situação das palavras-chave. Na coleção da Batanero, 76 artigos têm DOI, 141 têm contagem de citações e 146 informam país.
+O conjunto da Celi reúne **1.358 referências padronizadas** e o da Batanero, **4.139**, todas preparadas para leitura no VOSviewer. Na coleção da Celi, os 53 registros têm resumo, palavras-chave, citações e link do Drive; 43 têm DOI. Na coleção da Batanero, os 147 registros têm resumo, palavras-chave e link do Drive; 76 têm DOI, 141 têm contagem de citações e 146 informam o país do primeiro autor.
 
 ## Uso local
 
